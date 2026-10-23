@@ -1,0 +1,129 @@
+{
+ "no": 2,
+ "source": {
+  "title": "Dream Labs raises $90M and launches Dream API",
+  "url": "https://www.therobotreport.com/dream-labs-raises-90m-and-launches-dream-api/",
+  "outlet": "The Robot Report"
+ },
+ "facts": [
+  {
+   "ko": "9천만 달러",
+   "quote": "it has raised $90 million in seed funding"
+  },
+  {
+   "ko": "500만 대",
+   "quote": "Factories worldwide run a record 5 million industrial robots"
+  },
+  {
+   "ko": "약 2천~1만 달러",
+   "quote": "robots today that cost between about $2,000 and $10,000"
+  },
+  {
+   "ko": "2천 달러",
+   "quote": "which sells $2,000 bimanual robot arms"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "처음 보는 로봇도<br>움직인다는<br><em>AI 두뇌</em>",
+   "sub": [
+    "드림 랩스, 시드 투자 9천만 달러 받고 Dream API 공개"
+   ],
+   "glyph": "DREAM",
+   "lead": false
+  },
+  {
+   "h1": "무슨 일?",
+   "rows": [
+    [
+     "누가",
+     "드림 랩스 (Dream Labs)"
+    ],
+    [
+     "어디서",
+     "미국 샌프란시스코 스타트업"
+    ],
+    [
+     "언제",
+     "이번 주 발표"
+    ],
+    [
+     "무엇을",
+     "시드 9천만 달러 · API 공개"
+    ]
+   ],
+   "glyph": "SEED"
+  },
+  {
+   "h1": "드림 랩스는<br>어떤 회사?",
+   "sub": [
+    "투자사 B캐피털은 이 팀이 엔비디아에서<br><em>로봇 학습</em>의 굵직한 연구를 했다고 소개합니다.",
+    "공동 창업자 조엘 장(Joel Jang)이 CEO를 맡고 있습니다."
+   ],
+   "glyph": "LAB",
+   "photo_query": "bimanual robot arm"
+  },
+  {
+   "h1": "Dream-1은<br>이렇게 움직인다",
+   "rows": [
+    [
+     "학습",
+     "사람이 일상 일을 하는 영상"
+    ],
+    [
+     "판단",
+     "다음 장면을 예측해 동작 결정"
+    ],
+    [
+     "입력",
+     "카메라 영상 + 영어 지시문"
+    ],
+    [
+     "출력",
+     "로봇 모터 명령"
+    ]
+   ],
+   "glyph": "API"
+  },
+  {
+   "h1": "공장 로봇 <em>500만 대</em>,<br>대부분<br>한 가지 일만",
+   "sub": [
+    "로봇 한 대에 일 하나를 가르치는 데 전문가가 몇 달씩 걸린다고 회사는 설명합니다.",
+    "새 일이나 새 기계면 처음부터 다시 해야 하는 경우가 많습니다."
+   ],
+   "glyph": "5M"
+  },
+  {
+   "h1": "다음은<br><em>바퀴 로봇</em>과 손",
+   "rows": [
+    [
+     "지금",
+     "탁자 위 물건 옮기기·빨래 개기"
+    ],
+    [
+     "다음",
+     "바퀴 달린 이동 로봇·정교한 손"
+    ],
+    [
+     "투자금",
+     "주로 컴퓨팅 자원에 사용"
+    ],
+    [
+     "파트너",
+     "하드웨어 업체 20곳 이상"
+    ]
+   ],
+   "glyph": "NEXT"
+  },
+  {
+   "h1": "렌터카를 타도<br>운전은<br>다시 안 배운다",
+   "sub": [
+    "조엘 장 CEO의 말: 새 로봇도 <em>몇 달이 아니라 몇 분</em> 만에<br>쓸모 있는 일을 하게 됩니다.",
+    "출처 The Robot Report · 링크는 캡션에"
+   ],
+   "glyph": "DREAM"
+  }
+ ],
+ "caption_ig": "처음 보는 로봇도 움직인다는 AI 두뇌가 나왔습니다 🤖\n\n샌프란시스코 스타트업 드림 랩스(Dream Labs)가 시드 투자 9천만 달러를 받고 Dream API를 공개했습니다. 로봇 카메라 영상과 영어 지시문을 넣으면 모터 명령으로 바꿔 주는 서비스로, 회사는 처음 보는 로봇에도 쓸 수 있다고 설명합니다.\n\n핵심 모델 Dream-1은 사람이 일상 일을 하는 영상으로 학습해 다음 장면을 예측하고 로봇의 동작을 정합니다. 지금은 약 2천~1만 달러대 로봇에서 탁자 위 물건 옮기기·빨래 개기 같은 일을 하고, 바퀴 달린 이동 로봇과 정교한 손도 지원할 계획입니다. 투자는 B캐피털과 킨드레드 벤처스가 주도했습니다.\n\n원문: https://www.therobotreport.com/dream-labs-raises-90m-and-launches-dream-api/\n\n— AI가 해외 로봇 뉴스를 매일 아침 한국어로 요약합니다. 틀린 곳은 댓글로 알려 주세요.\n\n#피지컬AI #로봇파운데이션모델 #로봇 #로봇팔 #드림랩스 #스타트업투자",
+ "caption_threads": "처음 보는 로봇도 움직인다는 AI 두뇌가 나왔다.\n\n샌프란시스코 스타트업 드림 랩스가 시드 9천만 달러 투자를 받고 Dream API 공개. 카메라 영상 + 영어 지시문을 넣으면 모터 명령으로 바꿔 준다고.\n\n모델 Dream-1은 사람이 일하는 영상으로 학습. 지금은 약 2천~1만 달러대 로봇으로 물건 옮기기·빨래 개기, 다음은 이동 로봇과 정교한 손.\n\n원문 The Robot Report (AI 요약)"
+}
