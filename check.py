@@ -92,8 +92,8 @@ def check(day):
         errs.append(f"인스타 캡션 {len(ig)}자 (1~2200)")
     if not th or len(th) > 500:
         errs.append(f"스레드 캡션 {len(th)}자 (1~500)")
-    if url not in ig:
-        errs.append("인스타 캡션에 원문 링크 없음")
+    if url in ig or url in th or re.search(r"(?m)^원문", ig + "\n" + th):
+        errs.append("캡션에 원문 링크·«원문» 줄이 있음 (STYLE.md 5절: 넣지 않는다)")
 
     if os.path.exists(os.path.join(day, "overflow.txt")):
         errs.append("렌더링 글 넘침: " + io.open(os.path.join(day, "overflow.txt"), encoding="utf-8").read())
