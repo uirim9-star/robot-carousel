@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+data/local.log
+slides/*/cards.html
+slides/*/source.txt

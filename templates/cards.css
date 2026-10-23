@@ -1,0 +1,25 @@
+/* 창업기자단 EP04 카드뉴스(2026-10-13 최종본) 디자인을 그대로 옮긴 것 */
+:root{--ink:#fff;--sub:rgba(255,255,255,.86);--dim:rgba(255,255,255,.62);--accent:#F5C451}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#111;font-family:Pretendard,"Malgun Gothic",sans-serif;-webkit-font-smoothing:antialiased;word-break:keep-all}
+.card{position:relative;width:1080px;height:1350px;overflow:hidden;color:var(--ink);margin-bottom:40px;
+  background-color:#1c1f1d}
+.bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:grayscale(.3) brightness(.82) contrast(1.04)}
+.pc{position:absolute;right:80px;bottom:120px;font-size:22px;color:rgba(255,255,255,.5)}
+.glyph{position:absolute;right:-40px;top:120px;font-weight:900;font-size:520px;line-height:.9;letter-spacing:-.05em;
+  color:transparent;-webkit-text-stroke:3px rgba(255,255,255,.13);white-space:nowrap}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 32%,rgba(0,0,0,.6) 58%,rgba(0,0,0,.9) 100%)}
+.pill{position:absolute;top:70px;right:70px;background:rgba(40,40,40,.72);color:#fff;font-size:38px;font-weight:500;
+  padding:14px 30px;border-radius:44px;letter-spacing:.02em}
+.tag{position:absolute;top:78px;left:80px;font-size:30px;font-weight:700;color:var(--dim);letter-spacing:.04em}
+.body{position:absolute;left:80px;right:80px;bottom:170px}
+h1{font-size:118px;font-weight:800;line-height:1.08;letter-spacing:-.045em}
+h1.s{font-size:96px}
+h1 em,.sub em{font-style:normal;color:var(--accent)}
+.sub{margin-top:34px;font-size:44px;font-weight:500;color:var(--sub);letter-spacing:-.02em;line-height:1.4}
+.sub.lead{font-size:60px;font-weight:700;color:#fff}
+.list{margin-top:42px;display:grid;gap:22px}
+.row{display:flex;gap:26px;align-items:baseline;font-size:44px;font-weight:600;color:var(--sub);letter-spacing:-.02em;line-height:1.35}
+.row b{flex:0 0 250px;color:#fff;font-weight:800}
+.credit{position:absolute;left:0;right:0;bottom:44px;text-align:center;font-size:30px;color:var(--dim);letter-spacing:.02em}
+.rule{position:absolute;left:0;right:0;bottom:104px;height:2px;background:rgba(255,255,255,.28)}

@@ -1,0 +1,108 @@
+{
+ "no": 1,
+ "source": {
+  "title": "AGCO to deploy Agility Digit humanoid in Kansas factory",
+  "url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/",
+  "outlet": "The Robot Report"
+ },
+ "facts": [
+  {
+   "ko": "2026년 4분기",
+   "quote": "expected to close in the fourth quarter of 2026"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "트랙터 공장에<br><em>휴머노이드</em>가<br>들어간다",
+   "sub": [
+    "농기계 회사 AGCO, 애질리티 Digit 도입 계약"
+   ],
+   "glyph": "AGCO",
+   "photo_query": "Agility Robotics Digit robot",
+   "lead": false
+  },
+  {
+   "h1": "무슨 일?",
+   "rows": [
+    [
+     "누가",
+     "AGCO × 애질리티 로보틱스"
+    ],
+    [
+     "어디서",
+     "미국 캔자스 헤스턴 공장"
+    ],
+    [
+     "언제",
+     "2027년 시범 시작"
+    ]
+   ],
+   "glyph": "2027"
+  },
+  {
+   "h1": "AGCO는<br>어떤 회사?",
+   "sub": [
+    "펜트·매시퍼거슨·발트라를 가진<br>세계적인 <em>농기계·정밀농업</em> 회사입니다."
+   ],
+   "glyph": "Fendt",
+   "photo_query": "Fendt Vario tractor",
+   "photo": "photos/6009c38e23.jpg",
+   "credit": "사진 Ermell · CC BY-SA 4.0"
+  },
+  {
+   "h1": "Digit이<br>맡는 일",
+   "rows": [
+    [
+     "부품",
+     "분류하고 쌓기"
+    ],
+    [
+     "토트",
+     "보관 위치에 놓기"
+    ],
+    [
+     "목표",
+     "반복·위험 작업 덜기"
+    ]
+   ],
+   "glyph": "TOTE"
+  },
+  {
+   "h1": "고객이<br><em>늘고 있다</em>",
+   "sub": [
+    "토요타, GXO 물류, 셰플러에 이어 AGCO까지.",
+    "공장 설비를 크게 안 바꾸고 붙이는 게 강점입니다."
+   ],
+   "glyph": "+1"
+  },
+  {
+   "h1": "애질리티는<br><em>상장</em>을 앞뒀다",
+   "rows": [
+    [
+     "지난달",
+     "새 버전 Digit 5 공개"
+    ],
+    [
+     "상장",
+     "2026년 4분기 나스닥 예정"
+    ],
+    [
+     "티커",
+     "AGLT"
+    ]
+   ],
+   "glyph": "AGLT",
+   "size": "s"
+  },
+  {
+   "h1": "한국 공장엔<br>언제 올까?",
+   "sub": [
+    "AGCO의 말: 휴머노이드는 <em>사람 중심의 복잡한 공정</em>을<br>자동화할 열쇠.",
+    "출처 The Robot Report · 링크는 캡션에"
+   ],
+   "glyph": "KR"
+  }
+ ],
+ "caption_ig": "트랙터 공장에 휴머노이드가 들어갑니다 🤖\n\n농기계 회사 AGCO(펜트·매시퍼거슨·발트라)가 애질리티 로보틱스의 휴머노이드 Digit을 캔자스 헤스턴 공장에 들이기로 계약했습니다. 시범 운영은 2027년에 시작합니다.\n\nDigit은 부품을 분류해 쌓고, 토트를 보관 위치에 놓는 일부터 맡습니다. 토요타·GXO·셰플러에 이어 고객이 하나 더 늘었고, 애질리티는 2026년 4분기 나스닥 상장(AGLT)을 앞두고 있습니다.\n\n원문: https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/\n\n— AI가 해외 로봇 뉴스를 매일 아침 한국어로 요약합니다. 틀린 곳은 댓글로 알려 주세요.\n\n#휴머노이드 #피지컬AI #로봇 #애질리티 #Digit #스마트팩토리",
+ "caption_threads": "트랙터 공장에 휴머노이드가 들어간다.\n\n농기계 회사 AGCO가 애질리티 Digit을 캔자스 공장에 도입, 2027년 시범 시작. 맡는 일은 부품 분류·적재, 토트 배치.\n\n토요타·GXO·셰플러 다음 고객. 애질리티는 2026년 4분기 나스닥 상장 예정.\n\n원문 The Robot Report (AI 요약)"
+}
