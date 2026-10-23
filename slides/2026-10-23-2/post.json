@@ -1,0 +1,110 @@
+{
+ "no": 3,
+ "source": {
+  "title": "Tesla starts Optimus robot production in California as profit falls 43%",
+  "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+  "outlet": "TechCrunch"
+ },
+ "meta": {
+  "topic": "휴머노이드",
+  "hook": "숫자 대비",
+  "photo_cover": false
+ },
+ "facts": [
+  {
+   "ko": "주당 2만 대",
+   "quote": "Tesla will be able to make 20,000 of them per week by the end of 2027"
+  },
+  {
+   "ko": "7억 8,700만 달러",
+   "quote": "The company reported $787 million in net income, a 43% drop"
+  },
+  {
+   "ko": "13억 7천만 달러",
+   "quote": "when it earned $1.37 billion"
+  },
+  {
+   "ko": "280억 4천만 달러",
+   "quote": "third-quarter revenue was $28.04 billion"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "이익은 43% 줄었는데<br>테슬라는 <em>로봇 라인</em>을<br>돌리기 시작했다",
+   "sub": [
+    "테슬라, 프리몬트 공장에서 휴머노이드 옵티머스(Optimus) 생산 시작"
+   ],
+   "glyph": "-43%",
+   "size": "s"
+  },
+  {
+   "h1": "목표는 <em>주당 2만 대</em>,<br>지금은 '초기 생산'",
+   "sub": [
+    "머스크(Elon Musk)가 실적 발표 통화에서 2027년 말 목표로 꺼낸 숫자입니다.",
+    "다만 본인도 증산은 느리고 '다소 울퉁불퉁할 것'이라고 했어요. 완전히 새로운 제품이라서요."
+   ],
+   "glyph": "20K",
+   "size": "s"
+  },
+  {
+   "h1": "전기차 만들던 자리에<br><em>로봇 라인</em>이 섰다",
+   "sub": [
+    "캘리포니아 프리몬트 공장, 원래 전기차를 만들던 생산 공간입니다.",
+    "테슬라는 주주 서한에 '이 라인에서 나오는 로봇이 우리가 만든 첫 양산 품질 로봇'이라고 썼어요."
+   ],
+   "glyph": "FRMT",
+   "photo_query": "Tesla Fremont Factory",
+   "size": "s",
+   "photo": "photos/42ec9a4994.jpg",
+   "credit": "사진 Steve Jurvetson · CC BY 2.0"
+  },
+  {
+   "h1": "시제품이 아니라<br><em>상용 제품</em>이라고 했다",
+   "sub": [
+    "'현재 옵티머스 제조 공정이 상용 제품에 맞는다는 걸 증명했다'는 게 회사 설명입니다.",
+    "하드웨어와 제조 공정은 계속 고쳐 나간다고 덧붙였죠."
+   ],
+   "glyph": "Q3",
+   "size": "s"
+  },
+  {
+   "h1": "한 달 만에<br><em>닳으면</em> 안 된다",
+   "sub": [
+    "머스크가 꼽은 남은 숙제입니다. 안전하고, 믿을 만하고, 오래 버티는 로봇이어야 한다는 거죠.",
+    "정해지지 않은 일까지 맡기려면 AI 쪽 일도 '꽤 많이' 남았다고 했어요."
+   ],
+   "glyph": "AI",
+   "size": "s"
+  },
+  {
+   "h1": "로봇·AI에 쓴 돈이<br><em>이익</em>을 깎았다",
+   "rows": [
+    [
+     "순이익",
+     "7억 8,700만 달러 (43% 감소)"
+    ],
+    [
+     "1년 전",
+     "13억 7천만 달러"
+    ],
+    [
+     "매출",
+     "280억 4천만 달러, 제자리"
+    ]
+   ],
+   "glyph": "Q3",
+   "size": "s"
+  },
+  {
+   "h1": "이제 볼 건<br><em>주당 2만 대</em>가<br>정말 나오느냐",
+   "sub": [
+    "이번 분기 테슬라는 큰 판돈을 건 회사다운 성적표를 냈습니다.",
+    "출처 TechCrunch · 링크는 캡션에"
+   ],
+   "glyph": "2027",
+   "size": "s"
+  }
+ ],
+ "caption_ig": "이익은 43% 줄었는데, 테슬라는 로봇 라인을 돌리기 시작했다\n\n테슬라가 캘리포니아 프리몬트 공장, 전기차를 만들던 자리에서 휴머노이드 옵티머스(Optimus) 생산을 시작했습니다. 주주 서한에는 '이 라인에서 나오는 로봇이 우리가 만든 첫 양산 품질 로봇'이라고 적었어요.\n\n머스크는 2027년 말까지 주당 2만 대를 만들겠다고 했습니다. 다만 지금은 '초기 생산'이고, 증산은 느리고 다소 울퉁불퉁할 거라고 스스로 말했죠. 안전·내구성 설계와 AI 쪽 일도 아직 많이 남았다고요.\n\n같은 분기 순이익은 7억 8,700만 달러로 1년 전보다 43% 줄었습니다. 매출은 280억 4천만 달러로 제자리였고, 로봇·AI 지출이 이익을 크게 깎았습니다.\n\n원문: https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/\n\n#휴머노이드 #테슬라 #옵티머스 #피지컬AI #로봇 #테슬라실적",
+ "caption_threads": "이익은 43% 줄었는데, 테슬라는 로봇 라인을 돌리기 시작했다\n\n순이익 7억 8,700만 달러, 1년 전보다 43% 감소. 매출은 280억 4천만 달러로 제자리. 로봇·AI 지출이 이익을 깎았다.\n\n그 사이 프리몬트 공장의 옛 전기차 생산 공간에서 옵티머스 양산 품질 로봇이 나오기 시작했다. 머스크의 목표는 2027년 말 주당 2만 대. 본인도 증산은 느리고 울퉁불퉁할 거라고 했다.\n\n원문 TechCrunch"
+}
