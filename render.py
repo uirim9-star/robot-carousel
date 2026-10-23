@@ -20,12 +20,12 @@ def rich(s):
 
 def card(c, i, n, no):
     bg = (f'<div class="bg" style="background-image:url({c["photo"]});background-position:{c.get("pos", "center")}"></div>'
-          if c.get("photo") else f'<div class="glyph">{html.escape(c.get("glyph", ""))}</div>')
+          if c.get("photo") else "")  # 사진이 없으면 장식 없이 바탕색만 (외곽선 숫자 배경은 2026-10-23 본인 지시로 없앰)
     tag = f'<span class="tag">{html.escape(CFG["tag"])} {no}</span>' if i == 1 else ""
     sub = "".join(f'<p class="sub{" lead" if j == 0 and c.get("lead") else ""}">{rich(s)}</p>'
                   for j, s in enumerate(c.get("sub", [])))
     rows = "".join(f'<div class="row"><b>{rich(k)}</b><span>{rich(v)}</span></div>' for k, v in c.get("rows", []))
-    return f"""<section class="card">{bg}<div class="shade"></div>
+    return f"""<section class="card{'' if c.get('photo') else ' plain'}">{bg}<div class="shade"></div>
   <div class="body"><h1 class="{c.get('size', '')}">{rich(c['h1'])}</h1>{sub}{f'<div class="list">{rows}</div>' if rows else ''}</div>
   {tag}<span class="pill">{i}/{n}</span><div class="rule"></div>
   {f'<span class="pc">{html.escape(c["credit"])}</span>' if c.get("credit") else ''}

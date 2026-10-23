@@ -15,6 +15,9 @@ FEEDS = {
     "ieee-spectrum": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
     "techcrunch": "https://techcrunch.com/category/robotics/feed/",
     "robohub": "https://robohub.org/feed/",
+    # 자영업·중소기업 갈래 (식당·소매 현장의 자동화 기술)
+    "restaurant-dive": "https://www.restaurantdive.com/feeds/topic/technology/",
+    "retail-dive": "https://www.retaildive.com/feeds/topic/technology/",
 }
 
 

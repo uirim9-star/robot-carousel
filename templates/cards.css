@@ -6,8 +6,7 @@ body{background:#111;font-family:Pretendard,"Malgun Gothic",sans-serif;-webkit-f
   background-color:#1c1f1d}
 .bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:grayscale(.3) brightness(.82) contrast(1.04)}
 .pc{position:absolute;right:80px;bottom:120px;font-size:22px;color:rgba(255,255,255,.5)}
-.glyph{position:absolute;right:-40px;top:120px;font-weight:900;font-size:520px;line-height:.9;letter-spacing:-.05em;
-  color:transparent;-webkit-text-stroke:3px rgba(255,255,255,.13);white-space:nowrap}
+.card.plain .body{bottom:auto;top:50%;transform:translateY(-50%)}
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 32%,rgba(0,0,0,.6) 58%,rgba(0,0,0,.9) 100%)}
 .pill{position:absolute;top:70px;right:70px;background:rgba(40,40,40,.72);color:#fff;font-size:38px;font-weight:500;
   padding:14px 30px;border-radius:44px;letter-spacing:.02em}

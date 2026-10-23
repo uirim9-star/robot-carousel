@@ -29,10 +29,39 @@ def find(query):
     return None, None
 
 
+STOCK = re.compile(r"getty|shutterstock|associated press|\bAP\b|reuters|alamy|bloomberg", re.I)
+
+
+def press(day, post):
+    """기사 대표 사진(og:image)을 표지에 쓴다. 단, 원문이 «Source: <회사>»로 밝힌 회사 제공 사진일 때만.
+    게티·AP·로이터 같은 통신사·스톡 사진은 쓰지 않는다. config.json의 press_photo가 true일 때만 돈다."""
+    src = io.open(os.path.join(day, "source.txt"), encoding="utf-8").read()
+    m = re.search(r"\|\s*Source:\s*([^\n|]{2,40})", src)
+    if not m or STOCK.search(m.group(1)):
+        return print("표지: 회사 제공 사진 표기가 없거나 통신사·스톡 사진 → 건너뜀")
+    page = get(post["source"]["url"]).decode("utf-8", "replace")
+    og = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', page) \
+        or re.search(r'<meta[^>]+content="([^"]+)"[^>]+property="og:image"', page)
+    if not og or STOCK.search(og.group(1)):
+        return print("표지: 대표 사진 없음 또는 스톡 사진 → 건너뜀")
+    url = og.group(1).replace("&amp;", "&")
+    name = f"photos/{hashlib.md5(url.encode()).hexdigest()[:10]}.jpg"
+    with open(os.path.join(day, name), "wb") as f:
+        f.write(get(url))
+    post["cards"][0]["photo"], post["cards"][0]["credit"] = name, f"사진 {m.group(1).strip()}"
+    print(f"표지: 회사 제공 사진 ({m.group(1).strip()})")
+
+
 def main(day):
     path = os.path.join(day, "post.json")
     post = json.load(io.open(path, encoding="utf-8"))
     os.makedirs(os.path.join(day, "photos"), exist_ok=True)
+    cfg = json.load(io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json"), encoding="utf-8"))
+    if cfg.get("press_photo") and not post["cards"][0].get("photo"):
+        try:
+            press(day, post)
+        except Exception as e:
+            print(f"표지 사진 실패: {e}")
     cache = {}
     for i, card in enumerate(post["cards"], 1):
         q = card.get("photo_query")
