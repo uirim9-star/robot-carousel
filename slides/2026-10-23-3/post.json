@@ -1,0 +1,127 @@
+{
+ "no": 4,
+ "source": {
+  "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+  "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+  "outlet": "TechCrunch"
+ },
+ "meta": {
+  "topic": "모델·소프트웨어",
+  "hook": "원인→결과",
+  "photo_cover": false
+ },
+ "facts": [
+  {
+   "ko": "14억 5천만 달러",
+   "quote": "values it at $1.45 billion post-money"
+  },
+  {
+   "ko": "1억 5천만 달러",
+   "quote": "closed an $150 million Series A round"
+  },
+  {
+   "ko": "시간당 약 1,500개 (1kg 이하)",
+   "quote": "It can pick up about 1,500 objects that weigh up to 1 kg in an hour"
+  },
+  {
+   "ko": "약 600개",
+   "quote": "compared to about 600 for a human"
+  },
+  {
+   "ko": "95% 넘게",
+   "quote": "reliably picks up objects more than 95% of the time"
+  },
+  {
+   "ko": "5~10년 전",
+   "quote": "reliable legged locomotion five to 10 years ago"
+  },
+  {
+   "ko": "마지막 1밀리미터",
+   "quote": "close this last millimeter problem"
+  },
+  {
+   "ko": "1년 내내",
+   "quote": "it needs to run without breaking for an entire year"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "로봇이 <em>힘</em>을 느끼자,<br>라즈베리가<br>안 터졌다",
+   "sub": [
+    "MIT 교수와 딥마인드 출신이 세운 에카 로보틱스(Eka Robotics), 기업가치 14억 5천만 달러"
+   ],
+   "glyph": "$1.45B",
+   "size": "s"
+  },
+  {
+   "h1": "한 연구자는 이 로봇에게<br><em>라즈베리</em>를 건넸습니다",
+   "sub": [
+    "최전선 AI 연구소에서 로봇을 만드는 사람이요. 그래서 이름은 밝히지 않았습니다.",
+    "말랑해서 조금만 세게 쥐어도 터지는 과일이죠. 다들 한 번쯤 터뜨려 보셨을 거예요."
+   ],
+   "glyph": "BERRY",
+   "size": "s"
+  },
+  {
+   "h1": "달려들던 로봇이<br><em>딱 맞춰</em> 멈췄다는 것",
+   "sub": [
+    "“크고 무거운 로봇이 제 팔 쪽으로 달려오다가, 딱 맞춰 속도를 줄이고 아주 살살 건드리더라고요. 지금도 그 느낌이 몸에 남아 있어요.”",
+    "다리 달린 로봇이 처음 제대로 걷던 5~10년 전, 그때만큼 벅찼다고 해요."
+   ],
+   "glyph": "TOUCH",
+   "size": "s"
+  },
+  {
+   "h1": "사람은 시간당 600개,<br>이 로봇은 <em>1,500개</em>",
+   "rows": [
+    [
+     "로봇",
+     "시간당 약 1,500개 (1kg 이하)"
+    ],
+    [
+     "사람",
+     "시간당 약 600개"
+    ],
+    [
+     "성공률",
+     "95% 넘게 (회사 설명)"
+    ]
+   ],
+   "sub": [
+    "“알고리즘이 로봇을 안 부술 거라고 꽤 믿나 봐요. 여기까지 오면서 몇 대나 부쉈을까요?”"
+   ],
+   "glyph": "1500",
+   "size": "s"
+  },
+  {
+   "h1": "마지막 1밀리미터는<br>눈이 아니라 <em>힘</em>으로",
+   "sub": [
+    "“눈은 물건이 대충 어디 있는지만 알려 줘요. 진짜로 쥐고 더듬는 건 힘으로 하거든요.”",
+    "에카를 세운 MIT 아그라왈(Pulkit Agrawal) 교수의 말입니다.",
+    "흔한 로봇 AI가 '보고·알아듣고·움직이는' 모델이면, 에카는 '보고·힘을 느끼고·움직이는' 모델이에요."
+   ],
+   "glyph": "FORCE",
+   "size": "s"
+  },
+  {
+   "h1": "사람 시범 영상 말고<br><em>시뮬레이터</em>에서 배웠다",
+   "sub": [
+    "사람이 몇 시간씩 찍은 시범 영상에 기대는 대신, 물리 시뮬레이터에서 강화학습을 돌렸습니다. 몇 분이면 로봇 경험 수천 시간이 쌓인다고 해요.",
+    "“사람 시범에 갇히지 않고, 로봇이 그걸 넘어설 수 있어요.” 일리노이대 하우저(Kris Hauser) 교수의 말이에요."
+   ],
+   "glyph": "SIM",
+   "size": "s"
+  },
+  {
+   "h1": "접시를 어디 둘지는<br>머리가 알아도,<br><em>안 깨고 집는 건</em> 손이다",
+   "sub": [
+    "에카는 그 '손'부터 만들고 있습니다. 다음 고비는 실제 조립 라인에서 1년 내내 안 멈추는 것.",
+    "출처 TechCrunch"
+   ],
+   "glyph": "HAND",
+   "size": "s"
+  }
+ ],
+ "caption_ig": "로봇이 힘을 느끼자, 라즈베리가 안 터졌다\n\n한 로봇 연구자는 에카 로보틱스(Eka Robotics)의 로봇에게 라즈베리를 건넸습니다. 크고 무거운 로봇이 자기 팔 쪽으로 달려오다가 딱 맞춰 속도를 줄이고, 아주 살살 건드렸다고 해요. 그 느낌이 아직 몸에 남아 있다고요.\n\n비결은 눈이 아니라 힘입니다. 눈은 물건이 대충 어디 있는지만 알려 주고, 마지막 1밀리미터는 힘으로 잡는다는 것. 이 로봇은 1kg 이하 물건을 시간당 약 1,500개 집습니다. 사람은 약 600개예요.\n\nMIT 교수와 딥마인드 출신이 세운 이 회사는 시리즈 A로 1억 5천만 달러를 받았고, 기업가치는 14억 5천만 달러가 됐습니다.\n\n#피지컬AI #로봇 #로봇손 #로봇파운데이션모델 #에카로보틱스 #로봇스타트업",
+ "caption_threads": "로봇이 힘을 느끼자, 라즈베리가 안 터졌다\n\n사람은 시간당 약 600개, 에카 로보틱스의 로봇 팔은 약 1,500개를 집는다. 성공률은 95% 넘게(회사 설명). 시리즈 A 1억 5천만 달러, 기업가치 14억 5천만 달러.\n\n로봇은 아직 물건 집기를 잘 못한다. 에카는 '보는 것'보다 '힘'에 걸었다. 눈은 대충 어디 있는지만 알려 주고, 마지막 1밀리미터는 힘으로 잡는다는 것. 남은 숙제는 실제 조립 라인에서 1년 내내 안 멈추는 것."
+}
