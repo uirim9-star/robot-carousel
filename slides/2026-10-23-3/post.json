@@ -8,7 +8,7 @@
  "meta": {
   "topic": "모델·소프트웨어",
   "hook": "원인→결과",
-  "photo_cover": false
+  "photo_cover": true
  },
  "facts": [
   {
@@ -51,7 +51,9 @@
     "MIT 교수와 딥마인드 출신이 세운 에카 로보틱스(Eka Robotics), 기업가치 14억 5천만 달러"
    ],
    "glyph": "$1.45B",
-   "size": "s"
+   "size": "s",
+   "photo": "photos/182c9b8e29.jpg",
+   "credit": "사진 Eka Robotics"
   },
   {
    "h1": "한 연구자는 이 로봇에게<br><em>라즈베리</em>를 건넸습니다",

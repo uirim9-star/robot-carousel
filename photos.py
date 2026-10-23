@@ -36,10 +36,12 @@ def press(day, post):
     """기사 대표 사진(og:image)을 표지에 쓴다. 단, 원문이 «Source: <회사>»로 밝힌 회사 제공 사진일 때만.
     게티·AP·로이터 같은 통신사·스톡 사진은 쓰지 않는다. config.json의 press_photo가 true일 때만 돈다."""
     src = io.open(os.path.join(day, "source.txt"), encoding="utf-8").read()
-    m = re.search(r"\|\s*Source:\s*([^\n|]{2,40})", src)
+    page = get(post["source"]["url"]).decode("utf-8", "replace")
+    # 사진 출처 표기: The Robot Report는 «| Source: 회사», TechCrunch는 «Image Credits: 회사»
+    m = re.search(r"\|\s*Source:\s*([^\n|]{2,40})", src) \
+        or re.search(r"Image Credits:?\s*(?:</[^>]+>\s*)*([^<]{2,40})", page)
     if not m or STOCK.search(m.group(1)):
         return print("표지: 회사 제공 사진 표기가 없거나 통신사·스톡 사진 → 건너뜀")
-    page = get(post["source"]["url"]).decode("utf-8", "replace")
     og = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', page) \
         or re.search(r'<meta[^>]+content="([^"]+)"[^>]+property="og:image"', page)
     if not og or STOCK.search(og.group(1)):
