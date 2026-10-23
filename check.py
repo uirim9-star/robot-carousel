@@ -17,6 +17,7 @@ import io, json, os, re, sys
 LIMITS = {"h1": 40, "sub": 90, "row": 40}
 BANNED = ["최초", "혁명", "충격", "역대급", "미쳤", "소름", "무조건", "100%", "AI 요약", "AI가 요약"]
 IMG = (1080, 1350)
+REPORT_VERBS = ["밝혔", "설명했", "발표했", "전했", "에 따르면", "것으로 알려", "예정이다", "주목된다"]
 META = {"topic": ["휴머노이드", "모델·소프트웨어", "투자·상장", "공장·물류 도입", "자영업·중소기업", "기타"],
         "hook": ["왜", "숫자 대비", "원인→결과", "유행어 해설", "인물+주장", "결론"],  # STYLE.md 제목 공식 A~E (결론은 No.1 이전 방식)
         "photo_cover": [True, False]}
@@ -88,6 +89,18 @@ def check(day):
                 errs.append(f"{where}에 과장어 «{w}»")
 
     ig, th = post.get("caption_ig", ""), post.get("caption_threads", "")
+
+    # 말투 (STYLE.md 4절): 기사체를 기계적으로 걸러 낸다
+    prose = " ".join(plain(s) for c in cards for s in c.get("sub", []) if not s.startswith("출처")) + " " + ig + " " + th
+    ends = re.findall(r"([가-힣])[.?](?=\s|$|”|\")", prose)
+    if ends and sum(e == "요" for e in ends) / len(ends) < 0.5:
+        errs.append(f"말투: «~요»로 끝나는 문장이 {sum(e == '요' for e in ends)}/{len(ends)} — 절반 이상이어야 함 (기사체)")
+    for w in REPORT_VERBS:
+        if w in prose:
+            errs.append(f"말투: 보도 동사 «{w}»")
+    last = " ".join(plain(s) for s in cards[-1].get("sub", []) + [cards[-1].get("h1", "")]) if cards else ""
+    if "?" not in last + ig:
+        errs.append("말투: 마지막 장이나 인스타 캡션에 독자에게 묻는 문장이 없음")
     if not ig or len(ig) > 2200:
         errs.append(f"인스타 캡션 {len(ig)}자 (1~2200)")
     if not th or len(th) > 500:
