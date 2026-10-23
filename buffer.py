@@ -24,12 +24,14 @@ def gql(query, **variables):
 
 
 def channels():
-    """{'instagram': 채널id, 'threads': 채널id} — 조직이 여럿이면 처음 찾은 것."""
+    """{'instagram': 채널id, 'threads': 채널id}. config.json의 channels에 적힌 계정 이름만 쓴다 —
+    같은 Buffer에 다른 용도의 계정(vibe_bizmaker 등)이 함께 연결돼 있어서다."""
+    want = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json"), encoding="utf-8"))["channels"]
     out = {}
     for org in gql("query { account { organizations { id } } }")["account"]["organizations"]:
         for c in gql("query($o: OrganizationId!) { channels(input: {organizationId: $o}) { id name service } }",
                      o=org["id"])["channels"]:
-            if c["service"] in SERVICES:
+            if c["service"] in SERVICES and c["name"] == want.get(c["service"]):
                 out.setdefault(c["service"], c["id"])
     return out
 
@@ -37,9 +39,9 @@ def channels():
 def create(channel_id, service, text, urls):
     """이미지 여러 장 = 캐러셀. 바로 발행(shareNow)한다 — 예약은 Actions의 cron이 맡는다."""
     inp = {"channelId": channel_id, "text": text, "mode": "shareNow", "schedulingType": "automatic",
-           "assets": [{"image": {"url": u}} for u in urls]}
-    if service == "instagram":
-        inp["metadata"] = {"instagram": {"type": "carousel", "shouldShareToFeed": True}}
+           "needsApproval": False, "assets": [{"image": {"url": u}} for u in urls]}
+    if service == "instagram":  # AI가 쓴 글이라 인스타 «AI 정보» 표시를 켠다
+        inp["metadata"] = {"instagram": {"type": "carousel", "shouldShareToFeed": True, "isAiGenerated": True}}
     d = gql("""mutation($i: CreatePostInput!) { createPost(input: $i) {
               ... on PostActionSuccess { post { id } }
               ... on MutationError { message } } }""", i=inp)["createPost"]

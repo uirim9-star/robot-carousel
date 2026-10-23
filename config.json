@@ -2,5 +2,9 @@
  "brand": "오늘의 로봇",
  "credit": "「오늘의 로봇」 매일 아침 해외 로봇 뉴스",
  "tag": "오늘의 로봇 · No.",
- "accent": "#F5C451"
+ "accent": "#F5C451",
+ "channels": {
+  "instagram": "haruleading",
+  "threads": "haruleading"
+ }
 }
