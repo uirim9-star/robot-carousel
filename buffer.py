@@ -37,11 +37,12 @@ def channels():
 
 
 def create(channel_id, service, text, urls):
-    """이미지 여러 장 = 캐러셀. 바로 발행(shareNow)한다 — 예약은 Actions의 cron이 맡는다."""
+    """이미지 여러 장 = 캐러셀(인스타는 type을 post로 두면 여러 장이 캐러셀이 된다 — carousel 값은 거부됨).
+    바로 발행(shareNow)한다 — 예약은 Actions의 cron이 맡는다."""
     inp = {"channelId": channel_id, "text": text, "mode": "shareNow", "schedulingType": "automatic",
            "needsApproval": False, "assets": [{"image": {"url": u}} for u in urls]}
     if service == "instagram":  # AI가 쓴 글이라 인스타 «AI 정보» 표시를 켠다
-        inp["metadata"] = {"instagram": {"type": "carousel", "shouldShareToFeed": True, "isAiGenerated": True}}
+        inp["metadata"] = {"instagram": {"type": "post", "shouldShareToFeed": True, "isAiGenerated": True}}
     d = gql("""mutation($i: CreatePostInput!) { createPost(input: $i) {
               ... on PostActionSuccess { post { id } }
               ... on MutationError { message } } }""", i=inp)["createPost"]

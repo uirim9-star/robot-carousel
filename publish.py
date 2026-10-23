@@ -107,7 +107,7 @@ def post(dry=False):
                 errors.append(f"{service}: {e}")
         if not result and not errors:
             errors.append("Buffer에 인스타·스레드 채널이 없다")
-    for label, env, fn, text in (("instagram", "IG_ACCESS_TOKEN", instagram, meta["caption_ig"]),
+    for label, env, fn, text in () if os.environ.get("BUFFER_API_KEY") else (("instagram", "IG_ACCESS_TOKEN", instagram, meta["caption_ig"]),
                                  ("threads", "THREADS_ACCESS_TOKEN", threads, meta["caption_threads"])):
         if not os.environ.get(env):
             print(f"{env} 없음 — {label} 건너뜀")
