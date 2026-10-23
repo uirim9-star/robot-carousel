@@ -5,6 +5,8 @@ python check.py slides/2026-10-23   # 통과면 exit 0, 아니면 이유를 출�
 post.json 형식:
 {
  "no": 1, "source": {"title", "url", "outlet"},
+ "meta": {"topic": "휴머노이드", "hook": "결론", "photo_cover": false},   # 가능한 값은 META
+
  "facts": [{"ko": "9천만 달러", "quote": "raised $90 million"}],   # 카드의 숫자마다 원문 문장 근거
  "cards": [{"h1", "sub": [...], "rows": [[k, v]], "glyph", "photo_query", "photo", "credit", "pos", "lead", "size"}],
  "caption_ig": "...", "caption_threads": "..."
@@ -15,6 +17,9 @@ import io, json, os, re, sys
 LIMITS = {"h1": 40, "sub": 90, "row": 40}
 BANNED = ["최초", "혁명", "충격", "역대급", "미쳤", "소름", "무조건", "100%"]
 IMG = (1080, 1350)
+META = {"topic": ["휴머노이드", "모델·소프트웨어", "투자·상장", "공장·물류 도입", "기타"],
+        "hook": ["결론", "숫자", "질문"],
+        "photo_cover": [True, False]}
 
 
 def norm(s):
@@ -43,6 +48,10 @@ def check(day):
     url = post.get("source", {}).get("url", "")
     if not url or url not in io.open(src_path, encoding="utf-8").readline():
         errs.append("source.url이 source.txt의 원문 주소와 다름")
+    meta = post.get("meta", {})  # review.py가 무엇이 먹혔는지 묶어 보는 꼬리표
+    for k, ok in META.items():
+        if meta.get(k) not in ok:
+            errs.append(f"meta.{k}={meta.get(k)!r} (가능: {', '.join(map(str, ok))})")
     cards = post.get("cards", [])
     if not 5 <= len(cards) <= 10:
         errs.append(f"카드 {len(cards)}장 (5~10장이어야 함)")

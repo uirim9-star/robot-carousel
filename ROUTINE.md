@@ -4,6 +4,15 @@
 작업 폴더는 이 저장소다. 바깥 파일은 건드리지 않는다. `D` = `slides/<오늘 날짜 YYYY-MM-DD>`.
 
 1. `git pull --rebase`를 실행한다. 그리고 `python tokens.py --sync`를 실행한다. 토큰이 없다고 나오면 그냥 넘어간다.
+1-1. **피드백을 읽는다.** `python review.py`를 실행한 뒤 `data/review.md`와 `LESSONS.md`를 읽는다. 오늘 쓸 글은 LESSONS의 규칙과 «이번 주 실험»을 따른다.
+   - **정정 요청 후보가 있으면** 그 날짜의 `slides/<날짜>/source.txt`와 대조해 판정한다. 판정 결과는 `data/corrections.md`에 한 줄로 덧붙인다(«댓글 id · 맞음/틀림 · 근거 문장»).
+   - 처리한 댓글 id는 `data/fixed.txt`에 적는다.
+   - 실제로 틀렸으면 `LESSONS.md` «정정 기록»에 실수 유형을 한 줄 적는다. 그다음 글부터 같은 실수를 피한다.
+   - 댓글에 답글을 다는 일은 하지 않는다. 정정 게시는 사람이 판단한다.
+1-2. **월요일이면** `LESSONS.md`를 고친다.
+   - review.md에서 묶음별(topic·hook·photo_cover) 차이를 본다. **n≥5이고 평균 차이가 30% 이상**인 것만 «규칙»으로 올린다. 표본 부족은 규칙으로 쓰지 않는다.
+   - 지난주 실험 결과를 «규칙»에 반영하거나 버린다. 새 실험 변수를 하나 고른다(예: 카드 장수 6 vs 8, 주제, 캡션 첫 줄 형식).
+   - 이번 주에 무엇을 바꿨는지 `data/weekly.md` 맨 위에 5줄 이내로 남긴다. 사람이 읽는 주간 보고다.
 2. `D/post.json`이 이미 있고 `python check.py D`가 통과하면 7단계로 건너뛴다.
 3. `python collect.py`를 실행한다. 이어서 `python collect.py --fresh`로 후보를 본다. 후보가 없으면 `--fresh 96`으로 넓힌다. 그래도 없으면 7단계로 간다.
 4. 기사 1건을 고른다. 우선순위는 다음과 같다.
@@ -15,6 +24,8 @@
    **`D/source.txt`를 끝까지 읽는다. 원문에 없는 내용은 쓰지 않는다.**
 5. `D/post.json`을 쓴다. 형식은 `check.py` 맨 위 설명을 따르고, 예시는 `slides/2026-10-23/post.json`이다.
    - `no`: 기존 `slides/*/post.json`의 가장 큰 `no` + 1
+   - `meta`: `topic`·`hook`·`photo_cover`를 정직하게 단다(가능한 값은 `check.py`의 META). 피드백이 이 꼬리표로 묶여 계산된다.
+     - `photo_cover`는 사진을 빼고 나면 실제 표지 상태에 맞게 고친다.
    - 카드는 7장으로, 이 순서를 따른다.
      ① 표지: 결론 한 문장, 핵심 단어 1~2개만 `<em>`
      ② 무슨 일: `rows`에 누가·어디서·언제
@@ -43,7 +54,7 @@
      - 글자가 사진에 묻혀 안 읽힌다.
    - 사진을 뺐으면 render와 check를 다시 돌린다.
    - check 실패는 두 번까지 고친다. 그래도 실패하면 `D/SKIP.txt`에 이유를 적고 끝낸다(발행되지 않는다).
-7. `git add -A slides data` → 커밋한다(`local: YYYY-MM-DD`) → `git push`.
+7. `git add -A slides data LESSONS.md` → 커밋한다(`local: YYYY-MM-DD`) → `git push`.
 8. 마지막에 결과를 출력한다(data/local.log에 남는다).
    - 첫 줄: 결론 한 문장 (예: «No.3 AGCO×Digit 7장 준비, 내일 08:00 발행 대기»)
    - 그 아래 3줄 이내: 근거(원문 URL, D 경로, 커밋 해시)

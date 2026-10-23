@@ -113,6 +113,29 @@ def post(dry=False):
         sys.exit("\n".join(errors))
 
 
+def comments(ig, th, meta, day):
+    """댓글·답글을 data/comments.jsonl에 새 것만 적는다. 정정 요청을 review.py가 골라낸다.
+    권한(instagram_business_manage_comments, threads_read_replies)이 없으면 조용히 건너뛴다."""
+    path = os.path.join(HERE, "data", "comments.jsonl")
+    seen = set()
+    if os.path.exists(path):
+        seen = {json.loads(l)["id"] for l in io.open(path, encoding="utf-8") if l.strip()}
+    new = []
+    for on, token, base, mid, edge in (("instagram", ig, IG, meta.get("instagram"), "comments"),
+                                       ("threads", th, TH, meta.get("threads"), "replies")):
+        if not (token and mid):
+            continue
+        try:
+            for c in call(base, token, "GET", f"{mid}/{edge}", fields="id,text,timestamp,username").get("data", []):
+                if c["id"] not in seen:
+                    new.append({"day": day, "on": on, **c})
+        except Exception as e:
+            print(f"{day} {on} 댓글 조회 실패: {e}")
+    with io.open(path, "a", encoding="utf-8", newline="\n") as f:
+        for c in new:
+            f.write(json.dumps(c, ensure_ascii=False) + "\n")
+
+
 def insights():
     out = os.path.join(HERE, "data", "stats.jsonl")
     now = datetime.datetime.now(KST).isoformat(timespec="seconds")
@@ -129,6 +152,7 @@ def insights():
                 rows.append({"at": now, "day": day, "on": "threads", **{m["name"]: m["values"][0]["value"] for m in d["data"]}})
         except Exception as e:
             print(f"{day} 성과 조회 실패: {e}")
+        comments(ig, th, meta, day)
     try:
         if ig:
             rows.append({"at": now, "on": "instagram", "followers": call(IG, ig, "GET", "me", fields="followers_count")["followers_count"]})
