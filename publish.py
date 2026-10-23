@@ -4,7 +4,7 @@ python publish.py             # 발행 (하루 1건 한도)
 python publish.py --dry       # 무엇을 어떤 주소로 올릴지만 출력
 python publish.py --insights  # 발행한 글의 성과를 data/stats.jsonl에 적는다
 
-토큰은 환경변수에서만 읽는다: IG_ACCESS_TOKEN, THREADS_ACCESS_TOKEN. 둘 중 있는 쪽만 올린다.
+토큰은 환경변수에서만 읽는다. BUFFER_API_KEY가 있으면 Buffer로(buffer.py), 없으면 IG_ACCESS_TOKEN·THREADS_ACCESS_TOKEN으로 Meta API에 직접 올린다.
 인스타는 공개 URL의 JPEG만 받으므로, 이미지는 이 공개 저장소의 raw 주소로 넘긴다.
 """
 import datetime, glob, io, json, os, sys, time, urllib.error, urllib.parse, urllib.request
@@ -96,6 +96,17 @@ def post(dry=False):
     if dry:
         return print(f"[dry] {name} · {len(urls)}장\n" + "\n".join(urls) + "\n\n" + meta["caption_threads"])
     result, errors = {}, []
+    if os.environ.get("BUFFER_API_KEY"):  # Buffer 경로가 있으면 그쪽으로만 올린다
+        import buffer
+        caps = {"instagram": meta["caption_ig"], "threads": meta["caption_threads"]}
+        for service, cid in buffer.channels().items():
+            try:
+                result[f"buffer_{service}"] = buffer.create(cid, service, caps[service], urls)
+                print(f"{service} 발행(Buffer): {result[f'buffer_{service}']}")
+            except Exception as e:
+                errors.append(f"{service}: {e}")
+        if not result and not errors:
+            errors.append("Buffer에 인스타·스레드 채널이 없다")
     for label, env, fn, text in (("instagram", "IG_ACCESS_TOKEN", instagram, meta["caption_ig"]),
                                  ("threads", "THREADS_ACCESS_TOKEN", threads, meta["caption_threads"])):
         if not os.environ.get(env):
@@ -153,6 +164,14 @@ def insights():
         except Exception as e:
             print(f"{day} 성과 조회 실패: {e}")
         comments(ig, th, meta, day)
+        if os.environ.get("BUFFER_API_KEY"):
+            import buffer
+            for k, pid in meta.items():
+                if k.startswith("buffer_"):
+                    try:
+                        rows.append({"at": now, "day": day, "on": k[7:], **buffer.metrics(pid)})
+                    except Exception as e:
+                        print(f"{day} Buffer 성과 조회 실패: {e}")
     try:
         if ig:
             rows.append({"at": now, "on": "instagram", "followers": call(IG, ig, "GET", "me", fields="followers_count")["followers_count"]})
