@@ -11,8 +11,9 @@ SERVICES = ("instagram", "threads")
 
 
 def gql(query, **variables):
+    key = os.environ["BUFFER_API_KEY"].strip("﻿ \r\n")  # 시크릿이 BOM 붙은 채 등록돼 헤더 인코딩에서 죽었다(10/24·25)
     req = urllib.request.Request(API, data=json.dumps({"query": query, "variables": variables}).encode(), headers={
-        "Authorization": f"Bearer {os.environ['BUFFER_API_KEY']}", "Content-Type": "application/json"})
+        "Authorization": f"Bearer {key}", "Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=60) as r:
             d = json.loads(r.read())
