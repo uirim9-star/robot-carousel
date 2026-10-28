@@ -18,6 +18,8 @@ LIMITS = {"h1": 40, "sub": 90, "row": 40}
 BANNED = ["최초", "혁명", "충격", "역대급", "미쳤", "소름", "무조건", "100%", "AI 요약", "AI가 요약"]
 IMG = (1080, 1350)
 REPORT_VERBS = ["밝혔", "설명했", "발표했", "전했", "에 따르면", "것으로 알려", "예정이다", "주목된다"]
+CALQUES = ["되어진", "에 대해", "을 통해", "를 통해", "에 있어서", "때려박", "갈아끼",  # WRITING.md 2절
+           "시사하는 바", "결론적으로", "요약하면", "주목할 만", "혁신적"]
 META = {"topic": ["휴머노이드", "모델·소프트웨어", "투자·상장", "공장·물류 도입", "자영업·중소기업", "기타"],
         "hook": ["왜", "숫자 대비", "원인→결과", "유행어 해설", "인물+주장", "결론"],  # STYLE.md 제목 공식 A~E (결론은 No.1 이전 방식)
         "photo_cover": [True, False]}
@@ -87,6 +89,11 @@ def check(day):
         for w in BANNED:
             if w in t:
                 errs.append(f"{where}에 과장어 «{w}»")
+        for w in CALQUES:
+            if w in t:
+                errs.append(f"{where}에 번역투·상투구 «{w}» (WRITING.md)")
+        if "—" in t or "·" in t or re.search(r"(?<!\d)–|–(?!\d)", t):
+            errs.append(f"{where}에 em dash·가운데점·en dash (WRITING.md: 쉼표, 콜론, 괄호, «와/과»로)")
 
     ig, th = post.get("caption_ig", ""), post.get("caption_threads", "")
 
@@ -98,6 +105,10 @@ def check(day):
     for w in REPORT_VERBS:
         if w in prose:
             errs.append(f"말투: 보도 동사 «{w}»")
+    card_text = " ".join(t for where, t in texts if where.endswith("카드"))
+    for where, t in [("카드", card_text), ("인스타 캡션", ig), ("스레드 캡션", th)]:
+        if len(re.findall(r"뜻이|뜻입", plain(t))) > 2:
+            errs.append(f"말투: {where}에 «~라는 뜻이에요» 종결이 3회 이상 (WRITING.md: 2회까지)")
     last = " ".join(plain(s) for s in cards[-1].get("sub", []) + [cards[-1].get("h1", "")]) if cards else ""
     if "?" not in last + ig:
         errs.append("말투: 마지막 장이나 인스타 캡션에 독자에게 묻는 문장이 없음")
