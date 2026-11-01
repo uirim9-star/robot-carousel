@@ -153,4 +153,7 @@ if __name__ == "__main__":
         print("\n".join(errs))
         sys.exit(1)
     io.open(ok, "w", encoding="utf-8", newline="\n").write(digest(day) + "\n")
-    print("통과")
+    # 사진 경고 (2026-11-01): 막지는 않는다. 4장 아래면 루틴이 photo_scene을 고쳐 다시 찾는다
+    cards = json.load(io.open(os.path.join(day, "post.json"), encoding="utf-8"))["cards"]
+    n = sum(1 for c in cards if c.get("photo"))
+    print("통과" + (f" (경고: 사진 {n}/{len(cards)}장, 4장 아래 → photo_scene을 고쳐 photos.py 다시)" if n < 4 else f" (사진 {n}/{len(cards)}장)"))

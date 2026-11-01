@@ -2,17 +2,34 @@
 
 python photos.py slides/2026-10-23
 
-post.json의 카드마다 "photo_query"(영어 검색어)가 있으면 사진을 받아 "photo"·"credit"을 채운다.
-맞는 사진이 없으면 비워 둔다 — 그 카드는 사진 대신 숫자 외곽선 배경으로 나간다(기자단 EP04와 같은 방식).
+사진 사다리 (2026-11-01 구의림 지시: «맞는 사진이 없으면 비우지 말고 써도 되는 가장 가까운 사진으로 채운다»)
+  1 표지: 기사 회사 제공 사진(og:image, «Source: 회사»일 때만)
+  2 "photo_query": 기사 속 그 로봇·제품·장소          → «사진 작가 · 라이선스»
+  3 "photo_scene": 같은 장면(창고, 조립 라인, 주방 등)  → «참고 사진 · 작가 · 라이선스»
+  4 주제 기본 장면 TOPIC_SCENES[meta.topic]             → «참고 사진 · …»
+  5 그래도 없으면 글만
+각 칸은 Wikimedia Commons → Openverse 순으로 찾는다. 자유 라이선스(CC0·BY·BY-SA·퍼블릭 도메인)만 받는다.
+한 캐러셀 안에서 같은 사진은 두 번 쓰지 않는다. 마지막 카드(마무리)는 채우지 않는다.
 """
 import hashlib, io, json, os, re, sys, urllib.parse
 from collect import get, strip
 
 API = "https://commons.wikimedia.org/w/api.php"
+OPENVERSE = "https://api.openverse.org/v1/images/?license=by,by-sa,cc0,pdm&page_size=20&q="  # form-judge/tools/fetch_photos.py와 같은 필터
+TOPIC_SCENES = {  # 루틴이 photo_scene을 빠뜨렸을 때의 주제 기본 장면 (check.py META topic과 같은 이름). 카드마다 돌려 쓴다
+    # 사람 얼굴이 주인공이 되기 쉬운 검색어(barista, chef, worker)와 엉뚱한 로봇(NASA rover)이 나오는 'robotics laboratory'는 뺐다 (2026-11-01 시험)
+    "휴머노이드": ["humanoid robot", "robot hand", "industrial robot arm", "robot exhibition booth"],
+    "모델·소프트웨어": ["industrial robot arm", "robot hand", "server room", "circuit board"],
+    "투자·상장": ["industrial robot arm factory", "stock exchange building", "warehouse robot", "factory production line"],
+    "공장·물류 도입": ["warehouse robot", "industrial robot assembly line", "warehouse shelves", "factory production line"],
+    "자영업·중소기업": ["restaurant kitchen interior", "serving robot restaurant", "commercial kitchen equipment", "cafe interior"],
+    "기타": ["industrial robot arm", "robot hand", "factory production line", "warehouse robot"],
+}
+STOCK_WORDS = re.compile(r"getty|shutterstock|reuters|alamy|bloomberg|associated press", re.I)
 FREE = re.compile(r"^(CC0|CC BY(-SA)? [\d.]+|Public domain)", re.I)
 
 
-def find(query):
+def wikimedia(query):
     q = urllib.parse.urlencode({
         "action": "query", "format": "json", "generator": "search", "gsrnamespace": 6, "gsrlimit": 15,
         "gsrsearch": f"{query} filetype:bitmap", "prop": "imageinfo",
@@ -25,7 +42,26 @@ def find(query):
         if not FREE.match(lic) or ii["width"] < 1000:
             continue
         artist = strip(meta.get("Artist", {}).get("value", ""))[:40] or "Wikimedia Commons"
-        return ii["thumburl"], f"사진 {artist} · {lic}"
+        yield ii["thumburl"], artist, lic
+
+
+def openverse(query):
+    for r in json.loads(get(OPENVERSE + urllib.parse.quote(query))).get("results", []):
+        if (r.get("width") or 0) < 1000 or STOCK_WORDS.search(f'{r.get("creator")} {r.get("source")}'):
+            continue
+        lic = r["license"].upper() if r["license"] in ("cc0", "pdm") else f'CC {r["license"].upper()} {r.get("license_version") or ""}'.strip()
+        yield r["url"], (r.get("creator") or "Openverse")[:40], lic
+
+
+def find(query, used=()):
+    """자유 라이선스 사진 하나. used에 있는 주소는 건너뛴다. 반환 (url, «작가 · 라이선스») 또는 (None, None)."""
+    for source in (wikimedia, openverse):
+        try:
+            for url, artist, lic in source(query):
+                if url not in used:
+                    return url, f"{artist} · {lic}"
+        except Exception as e:
+            print(f"  {source.__name__} '{query}' 검색 실패: {e}")
     return None, None
 
 
@@ -64,27 +100,43 @@ def main(day):
             press(day, post)
         except Exception as e:
             print(f"표지 사진 실패: {e}")
-    cache = {}
+    used = set()
+    topic = post.get("meta", {}).get("topic", "기타")
+    last = len(post["cards"])
     for i, card in enumerate(post["cards"], 1):
-        q = card.get("photo_query")
-        if not q or card.get("photo"):
+        if card.get("photo") or i == last:  # 이미 있거나 마무리 카드
             continue
-        if q not in cache:
-            try:
-                cache[q] = find(q)
-            except Exception as e:
-                print(f"{i}번 검색 실패: {e}")
-                cache[q] = (None, None)
-        url, credit = cache[q]
-        if not url:
-            print(f"{i}번 '{q}': 자유 라이선스 사진 없음 → 외곽선 배경")
+        ladder = [(card.get("photo_query"), "사진"), (card.get("photo_scene"), "참고 사진")]
+        scenes = TOPIC_SCENES.get(topic, TOPIC_SCENES["기타"])
+        ladder += [(scenes[(i - 1 + k) % len(scenes)], "참고 사진") for k in range(len(scenes))]  # 카드마다 다른 장면부터
+        name = None
+        for q, label in ladder:
+            if not q:
+                continue
+            for _ in range(3):  # 받기가 막힌 사진(403 등)은 건너뛰고 다음 후보
+                url, credit = find(q, used)
+                if not url:
+                    break
+                used.add(url)
+                name = f"photos/{hashlib.md5(url.encode()).hexdigest()[:10]}.jpg"
+                try:
+                    if not os.path.exists(os.path.join(day, name)):
+                        data = get(url)
+                        with open(os.path.join(day, name), "wb") as f:
+                            f.write(data)
+                    break
+                except Exception as e:
+                    print(f"  받기 실패({e}) → 다음 후보")
+                    name = None
+            if name:
+                break
+        if not name:
+            print(f"{i}번: 자유 라이선스 사진 없음 → 글만")
             continue
-        name = f"photos/{hashlib.md5(url.encode()).hexdigest()[:10]}.jpg"
-        if not os.path.exists(os.path.join(day, name)):
-            with open(os.path.join(day, name), "wb") as f:
-                f.write(get(url))
-        card["photo"], card["credit"] = name, credit
-        print(f"{i}번 '{q}': {credit}")
+        card["photo"], card["credit"] = name, f"{label} {credit}"
+        print(f"{i}번 '{q}': {label} {credit}")
+    n = sum(1 for c in post["cards"] if c.get("photo"))
+    print(f"사진 {n}/{last}장")
     with io.open(path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(post, f, ensure_ascii=False, indent=1)
 
