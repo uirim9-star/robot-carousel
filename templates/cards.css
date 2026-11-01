@@ -20,5 +20,13 @@ h1 em,.sub em{font-style:normal;color:var(--accent)}
 .list{margin-top:42px;display:grid;gap:22px}
 .row{display:flex;gap:26px;align-items:baseline;font-size:44px;font-weight:600;color:var(--sub);letter-spacing:-.02em;line-height:1.35}
 .row b{flex:0 0 250px;color:#fff;font-weight:800}
+/* 표지 (2026-11-01): 넘기던 손을 멈추게 한다. 사진을 위 62%에 흐리지 않고 깔고, 글은 그 아래에만 둔다 */
+.card.cover .bg{bottom:38%;filter:none}
+.card.cover .shade{background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 14%,rgba(0,0,0,0) 54%,#1c1f1d 62%,#1c1f1d 100%)}
+.card.cover .body{bottom:150px}
+.card.cover h1{font-size:84px}
+.card.cover h1.s{font-size:76px}
+.card.cover .sub{margin-top:22px;font-size:36px}
+.card.cover .pc{bottom:auto;top:calc(62% - 40px);right:24px;font-size:20px;color:rgba(255,255,255,.75)}
 .credit{position:absolute;left:0;right:0;bottom:44px;text-align:center;font-size:30px;color:var(--dim);letter-spacing:.02em}
 .rule{position:absolute;left:0;right:0;bottom:104px;height:2px;background:rgba(255,255,255,.28)}

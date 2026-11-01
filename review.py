@@ -5,6 +5,8 @@ python review.py          # data/review.md 생성
 점수 — 플랫폼마다 «도달 대비 얼마나 반응했나»로 잰다. 저장·공유는 알고리즘이 가장 크게 보는 신호라 3배.
   인스타: (저장×3 + 공유×3 + 댓글×2 + 좋아요) / 도달
   스레드: (리포스트×3 + 답글×2 + 좋아요) / 조회
+모세리가 밝힌 신호(머문 시간·좋아요/도달·보내기/도달)도 따로 본다 (2026-11-01). 머문 시간은 API가 주지 않아서 못 잰다.
+  인스타: 좋아요/도달, 보내기(shares)/도달 · 스레드: 좋아요/조회, 리포스트/조회
 발행 후 48시간이 안 된 글은 숫자가 덜 찼으므로 비교에서 뺀다.
 묶음(주제·훅·표지 사진)마다 평균을 내되, 글이 5건 미만이면 «표본 부족»으로 표시한다 — 그걸로 규칙을 만들지 않는다.
 """
@@ -31,6 +33,13 @@ def score(r):
     return s / base if base else 0.0
 
 
+def signals(r):
+    """(좋아요/도달, 보내기/도달). 머문 시간은 API에 없다."""
+    base = r.get("reach", 0) if r["on"] == "instagram" else r.get("views", 0)
+    send = r.get("shares", 0) if r["on"] == "instagram" else r.get("reposts", 0)
+    return (r.get("likes", 0) / base, send / base) if base else (0.0, 0.0)
+
+
 def posts():
     """발행된 글마다 post.json의 meta와 발행 시각."""
     out = {}
@@ -55,7 +64,8 @@ def main():
         if not p:
             continue
         age = (now - datetime.datetime.fromisoformat(p["posted_at"])).total_seconds() / 3600
-        rows.append({"day": day, "on": on, "score": score(r), "reach": r.get("reach", r.get("views", 0)),
+        lr, sr = signals(r)
+        rows.append({"day": day, "on": on, "score": score(r), "lr": lr, "sr": sr, "reach": r.get("reach", r.get("views", 0)),
                      "ripe": age >= 48, **p})
 
     L = [f"# 피드백 보고서 — {now:%Y-%m-%d %H:%M} KST", ""]
@@ -82,6 +92,14 @@ def main():
             L.append(f"- **{key}별**: " + " · ".join(
                 f"{g} {sum(v) / len(v):.3f} (n={len(v)}{', 표본 부족' if len(v) < MIN_N else ''})"
                 for g, v in sorted(groups.items(), key=lambda kv: -sum(kv[1]) / len(kv[1]))))
+        # 표지 사진 유무별 모세리 신호 — 표지가 손을 멈추게 하는지 본다
+        cov = defaultdict(list)
+        for r in ripe:
+            cov[str(r["meta"].get("photo_cover", "?"))].append(r)
+        if cov:
+            L.append("- **표지 사진별 신호** (좋아요/도달 · 보내기/도달, 머문 시간은 API 없음): " + " · ".join(
+                f"{g} {sum(x['lr'] for x in v) / len(v):.3f} · {sum(x['sr'] for x in v) / len(v):.4f} (n={len(v)}{', 표본 부족' if len(v) < MIN_N else ''})"
+                for g, v in cov.items()))
         L.append("")
 
     fol = defaultdict(list)

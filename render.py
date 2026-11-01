@@ -25,7 +25,8 @@ def card(c, i, n, no):
     sub = "".join(f'<p class="sub{" lead" if j == 0 and c.get("lead") else ""}">{rich(s)}</p>'
                   for j, s in enumerate(c.get("sub", [])))
     rows = "".join(f'<div class="row"><b>{rich(k)}</b><span>{rich(v)}</span></div>' for k, v in c.get("rows", []))
-    return f"""<section class="card{'' if c.get('photo') else ' plain'}">{bg}<div class="shade"></div>
+    kind = (" cover" if i == 1 else "") if c.get("photo") else " plain"  # 표지 사진은 위 62%에 가리지 않고 깐다 (2026-11-01)
+    return f"""<section class="card{kind}">{bg}<div class="shade"></div>
   <div class="body"><h1 class="{c.get('size', '')}">{rich(c['h1'])}</h1>{sub}{f'<div class="list">{rows}</div>' if rows else ''}</div>
   {tag}<span class="pill">{i}/{n}</span><div class="rule"></div>
   {f'<span class="pc">{html.escape(c["credit"])}</span>' if c.get("credit") else ''}
@@ -57,6 +58,9 @@ def main(day):
             top = el.evaluate("c => c.querySelector('.body').getBoundingClientRect().top - c.getBoundingClientRect().top")
             if top < 150:  # 태그(78px)·쪽수(70px) 줄을 침범
                 bad.append(f"{i}번 카드 글 넘침 (본문 시작 {top:.0f}px)")
+            # 표지 기준 «사진이 화면 60% 이상 보임»: 글은 위에서 810px(1350의 60%) 아래에서 시작해야 한다
+            if i == 1 and cards[0].get("photo") and top < 810:
+                bad.append(f"표지 글이 사진을 가림 (본문 시작 {top:.0f}px, 810px 이상이어야 함) → 제목·sub를 줄인다")
             el.screenshot(path=os.path.join(day, f"card_{i:02d}.jpg"), type="jpeg", quality=92)
         b.close()
     ov = os.path.join(day, "overflow.txt")
