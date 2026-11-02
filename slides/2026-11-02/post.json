@@ -1,0 +1,157 @@
+{
+ "no": 12,
+ "source": {
+  "title": "White House makes Section 232 determination regarding foreign-made robots",
+  "url": "https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "기타",
+  "hook": "왜",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "7조 1천억 달러",
+   "quote": "approximately $7.1 trillion in shipments of manufactured goods in 2024"
+  },
+  {
+   "ko": "860억 달러",
+   "quote": "the production of approximately $86 billion worth of equipment in 2024"
+  },
+  {
+   "ko": "10년",
+   "quote": "The value of such imported systems has grown over the past decade"
+  },
+  {
+   "ko": "6개월",
+   "quote": "Negotiations over the next six months with trading partners to adjust imports"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "미국은 왜 수입 로봇을<br><em>안보 위협</em>이라고<br>했을까",
+   "sub": [
+    "트럼프 대통령이 로봇과 산업기계 수입을 두고 무역 협상을 지시했어요"
+   ],
+   "size": "s",
+   "photo_query": "",
+   "photo_cover": "welding robot",
+   "photo_scene": "car factory robots",
+   "photo": "photos/cover_8495636248.jpg",
+   "credit": "참고 사진 Ptmetindoerasakti · CC BY-SA 4.0"
+  },
+  {
+   "h1": "로봇과 기계가 받치는<br>출하액 <em>7조 1천억 달러</em>",
+   "size": "s",
+   "sub": [
+    "대통령 포고문에 나온 숫자예요. 2024년 미국 제조업 출하액이 약 7조 1천억 달러였대요.",
+    "같은 해 미국에서 만든 장비만 약 860억 달러고요.",
+    "포고문 말로는 요즘 공장 공정 거의 전부에 로봇과 산업기계가 들어가요. 방위산업도 마찬가지래요.",
+    "이렇게 큰 판을 받치는 기계를 수입에 기대면 위험하다고 본 거예요."
+   ],
+   "photo_query": "industrial robot arm factory",
+   "photo_scene": "car factory robots production line",
+   "photo": "photos/4213d0b164.jpg",
+   "credit": "사진 Henrysz · CC BY 4.0"
+  },
+  {
+   "h1": "조사 결론:<br>수입이 <em>안보</em>를 해친대요",
+   "size": "s",
+   "sub": [
+    "섹션 232는 수입품이 미국 안보에 어떤 영향을 주는지 상무장관이 조사하는 절차예요.",
+    "결론은 «로봇, 산업기계, 그 부품이 너무 많이 들어와서 안보를 해칠 수 있다»였어요.",
+    "수입 로봇의 값어치는 지난 10년 동안 커졌고, 사이버 보안 위험도 같이 커졌대요.",
+    "휴머노이드, 4족 보행 로봇, 자율주행 지상 차량은 군을 직접 돕는 기술로 따로 꼽혔어요."
+   ],
+   "photo_query": "quadruped robot",
+   "photo_scene": "quadruped robot walking",
+   "photo": "photos/e260477424.jpg",
+   "credit": "사진 Tactical Technology Office, Defense Adva · Public domain"
+  },
+  {
+   "h1": "그렇다고<br>관세가 <em>바로</em> 붙진 않아요",
+   "size": "s",
+   "sub": [
+    "대통령이 지시한 건 협상이에요. 상무장관과 무역대표부가 교역 상대국과 수입을 조정하래요.",
+    "보스턴 다이내믹스(Boston Dynamics) 정책 부사장 말로는 앞으로 6개월 협상하고, 그다음에 다른 무역 조치를 검토하는 순서래요.",
+    "시장조사 회사 인터랙트 애널리시스(Interact Analysis)도 «오늘 생긴 로봇 관세로 읽으면 안 된다. 다만 방향은 분명하다»고 했어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "container port cranes",
+   "photo": "photos/e2e16c9462.jpg",
+   "credit": "참고 사진 Yair-haklai · CC BY-SA 4.0"
+  },
+  {
+   "h1": "미국은 로봇을<br><em>직접</em> 만들고 싶어 해요",
+   "size": "s",
+   "sub": [
+    "미국 안에서 로봇 생산 투자가 늘긴 했는데, 수요를 따라가지 못한대요.",
+    "화낙(FANUC), 테라다인 로보틱스, 야스카와(Yaskawa)는 이미 미국 생산을 늘리겠다고 했어요.",
+    "그래도 큰 산업 자동화 회사 대부분이 미국 밖에 있어요. 협상이 어떻게 흘러갈지는 아직 몰라요.",
+    "기사는 중국과의 경쟁을 이런 정책의 배경으로 꼽았어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "robot arms car body factory",
+   "photo": "photos/e228c35243.jpg",
+   "credit": "참고 사진 Auledas · CC BY-SA 4.0"
+  },
+  {
+   "h1": "진짜 빈 곳은<br><em>부품</em>이래요",
+   "size": "s",
+   "sub": [
+    "로봇 업계 자문가 로버트 리틀(Robert Little)이 가장 걱정하는 건 부품이래요.",
+    "센서, 액추에이터(구동 장치), 정밀 기어, 엔코더(회전 감지기) 같은 것들이요.",
+    "인터랙트 애널리시스 말로는 관세나 수입 할당이 붙으면 완성 로봇뿐 아니라 부품 값과 공급 회사 경쟁에도 영향이 갈 수 있대요.",
+    "저는 이 대목이 로봇을 사서 쓰는 쪽에 가장 가까운 이야기라고 봤어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "spur gears",
+   "photo": "photos/34e40595fa.jpg",
+   "credit": "참고 사진 Diacritica · CC BY 3.0"
+  },
+  {
+   "h1": "로봇을 사는 쪽엔<br><em>값</em>이 남은 질문이에요",
+   "size": "s",
+   "sub": [
+    "아직 관세는 없어요. 다만 협상 결과에 따라 로봇과 부품의 값, 만드는 곳이 달라질 수 있어요.",
+    "여러분 공장이나 가게에서 쓰는 로봇과 기계, 어디서 만든 건지 알고 계세요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "미국은 왜 수입 로봇을 안보 위협이라고 했을까\n\n트럼프 대통령이 로봇과 산업기계 수입이 미국 안보를 해칠 수 있다는 조사 결론을 받아들였어요. 포고문 말로는 로봇과 산업기계가 2024년 미국 제조업 출하액 약 7조 1천억 달러를 받쳐요.\n\n관세가 바로 붙는 건 아니에요. 앞으로 6개월 동안 교역 상대국과 수입을 조정하는 협상을 하고, 그다음에 다른 무역 조치를 검토한대요. 업계는 완성 로봇보다 센서, 정밀 기어 같은 부품 쪽이 더 비어 있다고 봐요.\n\n여러분이 쓰는 로봇과 기계, 어디서 만든 건지 알고 계세요? 댓글로 알려 주세요.\n\n#로봇 #산업용로봇 #무역 #관세 #로봇부품 #제조업 #미국",
+ "caption_threads": "미국은 왜 수입 로봇을 안보 위협이라고 했을까\n\n트럼프 대통령이 로봇과 산업기계 수입이 안보를 해칠 수 있다는 조사 결론을 받아들이고 무역 협상을 지시했어요. 관세가 바로 붙진 않아요. 앞으로 6개월 협상한 뒤 다른 조치를 검토한대요. 업계는 완성 로봇보다 부품 쪽이 더 비어 있다고 봐요.\n\n여러분이 쓰는 로봇과 기계, 어디서 만든 건지 알고 계세요?",
+ "cover_candidates": [
+  {
+   "photo": "photos/cover_5a440cf008.jpg",
+   "credit": "참고 사진 Phasmatisnox · CC BY 3.0",
+   "query": "welding robot"
+  },
+  {
+   "photo": "photos/cover_d2278ecf5e.jpg",
+   "credit": "참고 사진 WireCrafters · CC BY-SA 4.0",
+   "query": "welding robot"
+  },
+  {
+   "photo": "photos/cover_3a333b5fe4.jpg",
+   "credit": "참고 사진 Seabery Soluciones S.L. · CC BY-SA 4.0",
+   "query": "welding robot"
+  },
+  {
+   "photo": "photos/cover_c9ab726b08.jpg",
+   "credit": "참고 사진 KOMATSU Ltd · CC BY-SA 2.1 jp",
+   "query": "welding robot"
+  },
+  {
+   "photo": "photos/cover_8e1715bcbc.jpg",
+   "credit": "참고 사진 KOMATSU Ltd. · CC BY-SA 2.1 jp",
+   "query": "welding robot"
+  },
+  {
+   "photo": "photos/cover_8495636248.jpg",
+   "credit": "참고 사진 Ptmetindoerasakti · CC BY-SA 4.0",
+   "query": "welding robot"
+  }
+ ]
+}
