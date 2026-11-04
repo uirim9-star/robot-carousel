@@ -1,0 +1,137 @@
+{
+ "no": 13,
+ "source": {
+  "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
+  "url": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "투자·상장",
+  "hook": "왜",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "7,500만 달러",
+   "quote": "raised $75 million in Series B funding"
+  },
+  {
+   "ko": "1억 1,700만 달러",
+   "quote": "brings its total capital raised to $117 million"
+  },
+  {
+   "ko": "0원",
+   "quote": "Customers make no upfront purchase and sign no long-term contract"
+  },
+  {
+   "ko": "2배 4배 1년",
+   "quote": "twice as many of its robots are working in almost four times as many facilities as a year ago"
+  },
+  {
+   "ko": "3분의 1",
+   "quote": "Nearly a third of organizations that received Tutor robots in the past 12 months were existing customers installing more robots"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "로봇 회사는 왜<br>로봇을 팔지 않고<br><em>시급</em>을 받을까",
+   "sub": [
+    "MIT에서 나온 튜터 인텔리전스가 7,500만 달러를 투자받았어요"
+   ],
+   "size": "s",
+   "photo_query": "",
+   "photo_cover": "robot palletizing boxes",
+   "photo_scene": "robot picking warehouse",
+   "photo": "photos/cover_81ddd9d0d2.jpg",
+   "credit": "참고 사진 CollaborativePalletizer · CC BY-SA 4.0"
+  },
+  {
+   "h1": "로봇 값은 <em>0원</em>,<br>일한 만큼만 내요",
+   "size": "s",
+   "sub": [
+    "튜터 인텔리전스(Tutor Intelligence) 고객은 로봇을 사지 않아요. 미리 내는 돈도, 긴 계약도 없대요.",
+    "대신 시간당, 아니면 물건을 하나 집을 때마다 돈을 내요. 사람 일꾼에게 주듯이요.",
+    "설치와 수리는 회사가 맡고, 소프트웨어도 계속 새로 보내 준대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "conveyor belt boxes factory",
+   "photo": "photos/8f0c358534.jpg",
+   "credit": "참고 사진 Keystone View Company -- Publisher · Public domain"
+  },
+  {
+   "h1": "이번에 <em>7,500만 달러</em>를<br>더 받았어요",
+   "size": "s",
+   "sub": [
+    "2021년 MIT 인공지능 연구소(CSAIL)에서 나온 회사예요.",
+    "시리즈 B로 7,500만 달러를 받았고, 지금까지 모은 돈은 1억 1,700만 달러래요.",
+    "투자를 이끈 곳은 앤드리슨 호로위츠(Andreessen Horowitz)예요. 이 돈은 로봇 두뇌(파운데이션 모델) 학습과 로봇 생산에 쓴대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "dual arm robot picking",
+   "photo": "photos/ff978c996f.jpg",
+   "credit": "참고 사진 Victoria Lee Croasdell · CC BY-SA 4.0"
+  },
+  {
+   "h1": "로봇에겐<br><em>배울 기록</em>이 없었어요",
+   "size": "s",
+   "sub": [
+    "챗봇은 인터넷에 쌓인 글과 그림으로 말하고 코딩하는 법을 배웠어요.",
+    "회사 말로는 현실 세계엔 그런 기록이 없대요. 그래서 AI가 공장 일은 아직 크게 못 바꿨고요.",
+    "저는 이 회사가 로봇을 팔지 않고 빌려주는 이유가 여기 있다고 봤어요. 로봇이 여러 현장에서 일할수록 배울 기록이 쌓이거든요."
+   ],
+   "photo_query": "",
+   "photo_scene": "robotic gripper",
+   "photo": "photos/c8c954a3ff.jpg",
+   "credit": "참고 사진 BPLINFO · CC BY-SA 4.0"
+  },
+  {
+   "h1": "막히면<br><em>원격 선생님</em>이 도와요",
+   "size": "s",
+   "sub": [
+    "로봇은 고객 공장에서 진짜 일을 해요. 막히면 멀리 있는 사람 «튜터»가 거들어요.",
+    "그렇게 모은 현장 데이터로 모델을 다시 가르쳐요. 로봇은 일할수록 더 많은 일을 해내요.",
+    "로봇은 전부 미국에서 만들어요. 튜터는 해외에 있을 수도 있대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "remote control console operator hands",
+   "photo": "photos/f88a938c88.jpg",
+   "credit": "참고 사진 National Museum of the U.S. Navy · Public domain"
+  },
+  {
+   "h1": "로봇은 <em>2배</em>, 현장은<br>4배 가까이 늘었어요",
+   "size": "s",
+   "sub": [
+    "1년 전과 비교한 숫자예요. 시리얼, 과자, 사탕, 화장품, 장난감 같은 물건을 집고 옮겨요.",
+    "최근 12개월 동안 로봇을 받은 곳의 3분의 1 가까이는 이미 쓰던 고객이었대요. 써 보고 더 들인 거예요.",
+    "대표 말로는 «로봇을 만드는 속도가 수요를 못 따라갈 정도»래요. 2027년 말까지 계약 로봇 1,000대를 넘길 거래요."
+   ],
+   "photo_query": "",
+   "photo_scene": "food packaging robot",
+   "photo": "photos/9c88500105.jpg",
+   "credit": "참고 사진 KUKA Roboter GmbH, Bachmann · Public domain"
+  },
+  {
+   "h1": "로봇을 사지 않고<br><em>불러 쓰는</em> 방식",
+   "size": "s",
+   "sub": [
+    "대표 말로는 이 방식이 로봇을 훨씬 싸게 만들고, 더 많은 회사가 자동화를 쓰게 한대요.",
+    "여러분 일터에 시급 받는 로봇이 온다면, 어떤 일부터 맡기시겠어요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "로봇 회사는 왜 로봇을 팔지 않고 시급을 받을까\n\nMIT에서 나온 튜터 인텔리전스가 시리즈 B로 7,500만 달러를 투자받았어요. 이 회사 고객은 로봇을 사지 않아요. 시간당, 아니면 물건을 하나 집을 때마다 돈을 내요. 사람 일꾼에게 주듯이요.\n\n로봇이 막히면 멀리 있는 사람 «튜터»가 거들고, 그 현장 데이터로 로봇 두뇌를 다시 가르쳐요. 1년 사이 로봇은 2배, 로봇이 들어간 시설은 4배 가까이 늘었대요.\n\n여러분 일터에 시급 받는 로봇이 온다면, 어떤 일부터 맡기시겠어요? 댓글로 알려 주세요.\n\n#로봇 #물류로봇 #피지컬AI #로봇투자 #자동화 #스타트업 #중소기업",
+ "caption_threads": "로봇 회사는 왜 로봇을 팔지 않고 시급을 받을까\n\nMIT에서 나온 튜터 인텔리전스가 7,500만 달러를 투자받았어요. 고객은 로봇을 사지 않고 시간당, 아니면 하나 집을 때마다 돈을 내요. 미리 내는 돈도 긴 계약도 없대요. 1년 사이 로봇은 2배, 로봇이 들어간 시설은 4배 가까이 늘었어요.\n\n여러분 일터에 시급 받는 로봇이 온다면, 어떤 일부터 맡기시겠어요?",
+ "cover_candidates": [
+  {
+   "photo": "photos/cover_3bf6e87728.jpg",
+   "credit": "참고 사진 CollaborativePalletizer · CC BY-SA 4.0",
+   "query": "robot palletizing boxes"
+  },
+  {
+   "photo": "photos/cover_81ddd9d0d2.jpg",
+   "credit": "참고 사진 CollaborativePalletizer · CC BY-SA 4.0",
+   "query": "robot palletizing boxes"
+  }
+ ]
+}
