@@ -1,0 +1,151 @@
+{
+ "no": 15,
+ "source": {
+  "title": "How did Agility Robotics perform on its first day on the stock market?",
+  "url": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "투자·상장",
+  "hook": "숫자 대비",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "11.26달러",
+   "quote": "Agility started the day trading at $11.26 per share"
+  },
+  {
+   "ko": "10달러",
+   "quote": "above the initial $10 per share price used in the SPAC deal"
+  },
+  {
+   "ko": "8.40달러, 12.15달러",
+   "quote": "It hit its lowest price at $8.40, and its highest at $12.15."
+  },
+  {
+   "ko": "11.49달러",
+   "quote": "slightly above (2%) where it had started, at $11.49"
+  },
+  {
+   "ko": "5.52%",
+   "quote": "the entire Nasdaq is down 5.52% today"
+  },
+  {
+   "ko": "2025년 4월",
+   "quote": "some of their worst days since April 2025"
+  },
+  {
+   "ko": "3억 달러",
+   "quote": "it has more than $300 million in committed multiyear orders"
+  },
+  {
+   "ko": "2027년",
+   "quote": "It expects to begin Digit 5 deliveries to early-access customers in 2027."
+  },
+  {
+   "ko": "4억 6,500만 달러",
+   "quote": "will provide around $465 million in gross proceeds before expenses"
+  },
+  {
+   "ko": "1,100위안",
+   "quote": "hitting a high of 1,100 yuan ($164.46) that day"
+  },
+  {
+   "ko": "50파운드",
+   "quote": "Agility says its Digit 5 humanoids can lift up to 50 lb."
+  }
+ ],
+ "cards": [
+  {
+   "h1": "나스닥이 5.52% 빠진 날,<br>휴머노이드 주식은<br>시작가보다 <em>2%</em> 올랐다",
+   "sub": [
+    "두 발로 걷는 휴머노이드 회사 애질리티(Agility Robotics)가 상장 첫날을 버텼어요"
+   ],
+   "size": "s",
+   "photo_query": "Agility Robotics Digit",
+   "photo_cover": "humanoid robot lifting box warehouse",
+   "photo_scene": "warehouse",
+   "photo": "photos/063e671190.jpg",
+   "credit": "사진 Agility Robotics"
+  },
+  {
+   "h1": "<em>8.40달러</em>에서<br><em>12.15달러</em>까지<br>오간 첫날",
+   "size": "s",
+   "sub": [
+    "애질리티 주식(종목 코드 AGLT)은 첫날 주당 11.26달러로 거래를 시작했어요.",
+    "SPAC(기업인수목적회사) 합병 때 정한 값은 10달러였어요. 출발부터 그보다 높았죠.",
+    "그 뒤로 8.40달러까지 떨어졌다가 12.15달러까지 올랐어요. 마감은 11.49달러였고요."
+   ],
+   "photo_query": "",
+   "photo_scene": "stock market ticker screen",
+   "photo": "photos/18ad81380a.jpg",
+   "credit": "참고 사진 ehnmark · CC BY 2.0"
+  },
+  {
+   "h1": "그날 시장은<br><em>2025년 4월 이후</em><br>가장 나쁜 날 중 하루였어요",
+   "size": "s",
+   "sub": [
+    "나스닥 전체가 5.52% 빠졌어요. S&P 500은 4.36%, 다우존스는 3.44% 내렸고요.",
+    "이번 주 미국 중간선거로 상원과 하원 모두 민주당이 다수가 됐어요.",
+    "앞으로 데이터센터를 계속 지을지 투자자들이 불안해한 게 큰 이유래요."
+   ],
+   "photo_query": "",
+   "photo_scene": "stock exchange trading floor",
+   "photo": "photos/0db07503ae.jpg",
+   "credit": "참고 사진 Carol M. Highsmith · Public domain"
+  },
+  {
+   "h1": "AI 주식도<br>다른 로봇 주식도<br><em>대부분 내렸어요</em>",
+   "size": "s",
+   "sub": [
+    "엔비디아는 9.26%, AMD는 17.26%, 퀄컴은 9.49% 내렸어요.",
+    "로봇 회사도 비슷했어요. 보도 배달 로봇 Serve Robotics는 12.45% 내렸어요.",
+    "수술 로봇 Intuitive Surgical은 2.82%, 창고 자동화 Symbotic은 2.47% 빠졌어요.",
+    "그 사이에서 애질리티는 시작가보다 2% 높게 마쳤어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "stock market display board",
+   "photo": "photos/a90121889b.jpg",
+   "credit": "참고 사진 nappa · CC BY 2.0"
+  },
+  {
+   "h1": "먼저 상장한 유니트리는<br>몇 주 만에 <em>53%</em> 빠졌어요",
+   "size": "s",
+   "sub": [
+    "중국 휴머노이드 회사 유니트리(Unitree)는 상하이 증시에 있어요. 상장된 몇 안 되는 휴머노이드 회사예요.",
+    "유니트리는 150.80위안으로 시작해 첫날 1,100위안까지 올랐어요.",
+    "몇 주 뒤엔 첫날 최고가보다 53% 가까이 내려가 있었어요. 첫날 숫자만 보면 안 되는 이유예요."
+   ],
+   "photo_query": "",
+   "photo_scene": "Shanghai Stock Exchange",
+   "photo": "photos/81c038ad1c.jpg",
+   "credit": "참고 사진 Baycrest · CC BY-SA 2.5"
+  },
+  {
+   "h1": "회사가 내세우는 건<br><em>3억 달러어치 주문</em>이에요",
+   "size": "s",
+   "sub": [
+    "새 로봇 Digit 5는 최대 50파운드를 들어요. 회사 말로는 여러 해에 걸친 주문이 3억 달러 넘게 잡혀 있대요.",
+    "다만 계약 조건과 제품 사양을 맞춰야 하는 주문이에요. 첫 배송은 2027년, 먼저 신청한 고객부터래요.",
+    "이번 상장으로 비용을 빼기 전 약 4억 6,500만 달러가 들어와요."
+   ],
+   "photo_query": "Agility Robotics Digit",
+   "photo_scene": "warehouse plastic totes conveyor",
+   "photo": "photos/f86ede599b.jpg",
+   "credit": "참고 사진 Jakub Hałun · CC BY 4.0"
+  },
+  {
+   "h1": "첫날 2%보다<br><em>2027년 첫 배송</em>을 보세요",
+   "size": "s",
+   "sub": [
+    "저는 첫날 주가보다 2027년 배송이 더 중요하다고 봤어요. 3억 달러 주문이 진짜 매출이 되는지 그때 보이니까요.",
+    "유니트리처럼 첫날 숫자는 몇 주 만에 바뀌기도 해요.",
+    "여러분은 로봇 회사를 볼 때 주가와 주문 중 어느 쪽을 먼저 보시겠어요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "나스닥이 5.52% 빠진 날, 휴머노이드 주식은 시작가보다 2% 올랐다\n\n두 발로 걷는 휴머노이드 회사 애질리티(Agility Robotics)가 나스닥에 상장했어요. 첫날 11.26달러로 시작해 8.40달러와 12.15달러 사이를 오가다 11.49달러로 마쳤어요. 그날 나스닥 전체는 5.52% 빠졌고, 다른 로봇 주식도 대부분 내렸어요.\n\n회사가 내세우는 건 Digit 5 주문 3억 달러어치예요. 첫 배송은 2027년이래요. 먼저 상장한 중국 유니트리는 몇 주 만에 첫날 최고가보다 53% 가까이 내려갔어요.\n\n여러분은 로봇 회사를 볼 때 주가와 주문 중 어느 쪽을 먼저 보시겠어요? 댓글로 알려 주세요.\n\n#로봇 #휴머노이드 #애질리티로보틱스 #나스닥 #상장 #피지컬AI #로봇산업",
+ "caption_threads": "나스닥이 5.52% 빠진 날, 휴머노이드 주식은 시작가보다 2% 올랐다\n\n두 발로 걷는 휴머노이드 회사 애질리티가 나스닥에 상장했어요. 첫날 11.26달러로 시작해 11.49달러로 마쳤어요. AI 주식과 다른 로봇 주식이 대부분 내린 날이었어요. 회사가 내세우는 건 Digit 5 주문 3억 달러어치고, 첫 배송은 2027년이래요.\n\n여러분은 로봇 회사를 볼 때 주가와 주문 중 어느 쪽을 먼저 보시겠어요?"
+}
