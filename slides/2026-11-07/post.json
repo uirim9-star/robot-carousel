@@ -1,0 +1,145 @@
+{
+ "no": 16,
+ "source": {
+  "title": "Chinese regulators block SoftBank's $5.4B acquisition of ABB Robotics",
+  "url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "투자·상장",
+  "hook": "왜",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "53억 7,500만 달러",
+   "quote": "The $5.375 billion deal"
+  },
+  {
+   "ko": "1년",
+   "quote": "It has been more than a year since ABB announced"
+  },
+  {
+   "ko": "7,000명",
+   "quote": "ABB Robotics has about 7,000 employees"
+  },
+  {
+   "ko": "32%",
+   "quote": "ABB Robotics saw a 32% increase in business in China alone"
+  },
+  {
+   "ko": "2026년 3분기",
+   "quote": "In Q3 2026"
+  },
+  {
+   "ko": "90%",
+   "quote": "About 90% of its machines built for Chinese customers are manufactured locally"
+  },
+  {
+   "ko": "20억 달러",
+   "quote": "for $2 billion"
+  },
+  {
+   "ko": "4월",
+   "quote": "In April, the country prevented Meta from acquiring Manus"
+  },
+  {
+   "ko": "232",
+   "quote": "submitted a Section 232 report"
+  },
+  {
+   "ko": "4족",
+   "quote": "humanoid and quadruped robots"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "중국은 왜 일본 회사가<br>스위스 로봇 회사 사는 걸<br><em>막았을까</em>",
+   "sub": [
+    "소프트뱅크(SoftBank)의 ABB 로보틱스 인수 53억 7,500만 달러가 중국 심사에서 막혔어요"
+   ],
+   "size": "s",
+   "photo_query": "ABB Robotics industrial robot",
+   "photo_cover": "industrial robot arm welding car body factory",
+   "photo_scene": "robot assembly line factory",
+   "photo": "photos/1b5d0e0929.jpg",
+   "credit": "사진 ABB Robotics"
+  },
+  {
+   "h1": "계약한 지 <em>1년 넘게</em> 지나<br>나온 답이 «안 돼»였어요",
+   "size": "s",
+   "sub": [
+    "스위스 회사 ABB가 로봇 사업부를 일본 소프트뱅크에 팔기로 한 지 1년이 넘었어요. 값은 53억 7,500만 달러였고요.",
+    "그 거래를 중국의 외국인투자 안보심사 기구가 막았어요. 파는 쪽도 사는 쪽도 중국 회사가 아닌데요.",
+    "이유는 로봇 데이터예요. 데이터가 해외로 나가 AI 모델 학습에 쓰일까 걱정했대요."
+   ],
+   "photo_query": "ABB robot",
+   "photo_scene": "welding robots",
+   "photo": "photos/40965dc566.jpg",
+   "credit": "사진 Marc Auledas · CC BY-SA 4.0"
+  },
+  {
+   "h1": "중국이 끼어드는 이유:<br>ABB 매출의 <em>큰 몫</em>이<br>중국이에요",
+   "size": "s",
+   "sub": [
+    "ABB 로보틱스가 중국에서 받은 주문은 2024년보다 2025년에 늘었어요.",
+    "2026년 3분기엔 중국 사업만 32% 늘었고요.",
+    "ABB한테 중국은 지금 커 가는 시장이에요. 그래서 중국 심사를 피해 갈 수 없어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "Shanghai Pudong skyline",
+   "photo": "photos/6f65f7b01b.jpg",
+   "credit": "참고 사진 King of Hearts · CC BY-SA 4.0"
+  },
+  {
+   "h1": "중국 손님용 로봇 <em>90%</em>는<br>상하이 공장에서 만들어요",
+   "size": "s",
+   "sub": [
+    "ABB는 상하이 공장에서 로봇을 많이 만들어요. 중국 고객용 기계의 약 90%가 현지 생산이에요. 그 공장 직원만 수천 명이래요.",
+    "ABB 로보틱스 전체 직원은 약 7,000명이에요. 미국 본사와 공장은 미시간주 오번힐스에 있고요.",
+    "ABB 말로는 소프트뱅크와 «긴밀히 대화하며 건설적으로 거래를 진행 중»이래요."
+   ],
+   "photo_query": "ABB IRB 6700",
+   "photo_scene": "automotive welding robots production line",
+   "photo": "photos/e0a1da469a.jpg",
+   "credit": "참고 사진 Marek Ślusarczyk ( Tupungato ) Photo por · CC BY 3.0"
+  },
+  {
+   "h1": "처음이 아니에요.<br><em>4월엔 메타</em>도 막혔어요",
+   "size": "s",
+   "sub": [
+    "지난 4월 중국은 메타(Meta)가 AI 스타트업 마누스(Manus)를 20억 달러에 사는 것도 막았어요.",
+    "마누스는 중국에서 창업했다가 싱가포르로 옮긴 회사예요.",
+    "그때도 이유는 국가 안보였어요. 이번 ABB 건과 같은 논리죠."
+   ],
+   "photo_query": "",
+   "photo_scene": "server room data center",
+   "photo": "photos/0075a00756.jpg",
+   "credit": "참고 사진 BalticServers.com · CC BY-SA 3.0"
+  },
+  {
+   "h1": "미국도 반대 방향에서<br><em>같은 일</em>을 하고 있어요",
+   "size": "s",
+   "sub": [
+    "지난주 트럼프 대통령은 로봇과 산업기계 수입이 안보에 어떤 영향을 주는지 조사한 섹션 232 보고서를 받았어요.",
+    "휴머노이드, 4족 보행 로봇, 자율주행 지상 차량이 군을 직접 돕는 기술로 꼽혔어요. 수입 로봇에 관세가 붙을 수도 있어요.",
+    "미국 연방통신위원회(FCC)는 이미 외국산 휴머노이드와 4족 로봇 같은 새 기기를 금지했어요. 공급망과 사이버 보안 위험 때문이래요."
+   ],
+   "photo_query": "",
+   "photo_scene": "quadruped robot walking",
+   "photo": "photos/747bc350d3.jpg",
+   "credit": "참고 사진 Manu amritanshu · CC BY-SA 4.0"
+  },
+  {
+   "h1": "로봇 데이터가<br><em>국경을 넘는 물건</em>이 됐어요",
+   "size": "s",
+   "sub": [
+    "저는 이번 일을 로봇이 아니라 데이터 이야기로 읽었어요. 중국은 로봇이 모은 데이터가 밖으로 나가는 걸 막고, 미국은 밖에서 들어오는 로봇을 막아요.",
+    "여러분이 공장이나 가게에 로봇을 들인다면, 성능 말고 어느 나라 회사인지도 따져 보시겠어요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "중국은 왜 일본 회사가 스위스 로봇 회사 사는 걸 막았을까\n\n스위스 ABB가 로봇 사업부를 일본 소프트뱅크(SoftBank)에 53억 7,500만 달러에 팔기로 한 지 1년이 넘었어요. 그 거래를 중국 규제당국이 막았어요. 로봇 데이터가 해외로 나가 AI 모델 학습에 쓰일까 걱정했대요.\n\n중국이 끼어드는 이유는 매출이에요. ABB 로보틱스는 2026년 3분기에 중국 사업만 32% 늘었어요. 중국 고객용 로봇의 약 90%는 상하이 공장에서 만들고요. 지난 4월엔 메타의 마누스 인수도 같은 이유로 막혔어요. 미국은 반대로 수입 로봇을 안보 위협으로 보고 조사 중이에요.\n\n여러분이 공장이나 가게에 로봇을 들인다면, 성능 말고 어느 나라 회사인지도 따져 보시겠어요? 댓글로 알려 주세요.\n\n#로봇 #ABB #소프트뱅크 #산업용로봇 #피지컬AI #로봇산업 #중국",
+ "caption_threads": "중국은 왜 일본 회사가 스위스 로봇 회사 사는 걸 막았을까\n\n스위스 ABB가 로봇 사업부를 일본 소프트뱅크에 53억 7,500만 달러에 팔기로 한 지 1년이 넘었어요. 그 거래를 중국 규제당국이 막았어요. 로봇 데이터가 해외로 나가 AI 학습에 쓰일까 걱정했대요. ABB는 2026년 3분기에 중국 사업만 32% 늘었고, 중국 고객용 로봇 90%를 상하이에서 만들어요.\n\n여러분이 공장에 로봇을 들인다면, 성능 말고 어느 나라 회사인지도 따져 보시겠어요?"
+}
