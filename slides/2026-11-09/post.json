@@ -1,0 +1,121 @@
+{
+ "no": 18,
+ "source": {
+  "title": "Physicl raises $10M to make the digital world real enough for robots",
+  "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+  "outlet": "TechCrunch"
+ },
+ "meta": {
+  "topic": "모델·소프트웨어",
+  "hook": "원인→결과",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "1천만 달러",
+   "quote": "has raised $10 million in seed funding led by Inovia Capital"
+  },
+  {
+   "ko": "10년",
+   "quote": "spent the last decade building nfinite"
+  },
+  {
+   "ko": "3D 공간 1만 개, 물건 10만 개",
+   "quote": "a product called Studio with 10,000 3D environments and 100,000 assets"
+  },
+  {
+   "ko": "2D 사진으로 3D 공간",
+   "quote": "SpAItial’s tool generates 3D simulations from 2D imagery"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "AI에 밀린 쇼핑몰 3D 회사가,<br>이번엔 <em>로봇 연습장</em>을 지어요",
+   "sub": [
+    "피지클(Physicl)이 로봇 훈련용 가상 세계를 만들려고 1천만 달러를 투자받았어요"
+   ],
+   "size": "s",
+   "photo_query": "Physicl AI",
+   "photo_cover": "robot arm grasping cup",
+   "photo_scene": "robotics laboratory",
+   "photo": "photos/6e01916877.jpg",
+   "credit": "사진 Physicl"
+  },
+  {
+   "h1": "10년 동안 쇼핑몰 상품을<br><em>3D</em>로 만들던 회사였어요",
+   "size": "s",
+   "sub": [
+    "알렉스 드 비강(Alex de Vigan)은 지난 10년간 nfinite라는 회사를 키웠어요.",
+    "브랜드와 쇼핑몰이 상품을 3D로 만들어 온라인에 보여 주게 돕는 회사였죠.",
+    "그런데 생성형 AI가 뜨면서 사업이 밀렸어요. 본인 말로는 «우리가 3D로 하던 일을 AI가 대신하게 될 거였다»래요."
+   ],
+   "photo_query": "",
+   "photo_scene": "product photography studio",
+   "photo": "photos/9ceb677886.jpg",
+   "credit": "참고 사진 Hubertl · CC BY-SA 4.0"
+  },
+  {
+   "h1": "그림은 잘 그리는데,<br>AI는 <em>컵을 집지</em> 못했어요",
+   "size": "s",
+   "sub": [
+    "드 비강은 AI에게 빠진 게 있다고 봤어요. 공간과 물건을 이해하고, 만지고, 다루는 능력이요.",
+    "그래서 10년 쌓은 3D 기술을 로봇 쪽으로 돌렸어요.",
+    "새 회사 피지클은 시드 투자로 1천만 달러를 받았어요. 이노비아 캐피털(Inovia Capital)이 이끌었대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "industrial robot gripper",
+   "photo": "photos/fe97b038f3.jpg",
+   "credit": "참고 사진 National Institute of Allergy and Infect · Public domain"
+  },
+  {
+   "h1": "로봇 공부는<br>생각보다 <em>비싸요</em>",
+   "size": "s",
+   "sub": [
+    "로봇에게 작은 물건 다루는 법을 가르치려면 데이터가 많이 필요해요.",
+    "영상으로 가르치면 효과가 아쉽고, 사람이 원격으로 로봇을 조종해 모으면 돈이 많이 들어요.",
+    "가상 세계에서 연습시키는 방법도 있어요. 다만 진짜 물리 법칙과 똑같이 만들기가 어려웠어요. 피지클은 여기에 3D 기술을 쓰겠대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "robot teleoperation"
+  },
+  {
+   "h1": "컵을 못 찾는 로봇에게<br><em>맞춤 연습장</em>을 만들어요",
+   "size": "s",
+   "sub": [
+    "이번에 내놓은 제품은 스튜디오(Studio)예요. 3D 공간 1만 개, 물건 10만 개가 들어 있어요.",
+    "어수선한 조리대 위 컵이나 그늘에 놓인 컵을 로봇이 잘 못 알아본다고 해 볼게요. 딱 그 장면만 골라 연습 데이터를 만들 수 있어요.",
+    "로봇이 자주 틀리는 까다로운 장면을 따로 가르치는 데 집중한대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "coffee cups on kitchen counter",
+   "photo": "photos/4ef028cc34.jpg",
+   "credit": "참고 사진 Daniel Case · CC BY-SA 4.0"
+  },
+  {
+   "h1": "손으로 고르던 데이터를<br><em>그때그때</em> 만들어요",
+   "size": "s",
+   "sub": [
+    "첫 고객 중 하나는 2D 사진으로 3D 공간을 만드는 SpAItial이에요.",
+    "대표 마티아스 니스너(Matthias Niessner)는 뮌헨 공대 로봇공학 교수이기도 해요.",
+    "니스너 말로는 지금은 데이터를 손으로 골라야 해서 한 바퀴가 아주 오래 걸린대요.",
+    "학습 중에 «이런 데이터가 더 필요하네» 싶으면 그 자리에서 자동으로 만들어 주는 것. 그게 끌린대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "Technical University of Munich",
+   "photo": "photos/ef81f724b1.jpg",
+   "credit": "참고 사진 AuHaidhausen · CC BY 4.0"
+  },
+  {
+   "h1": "로봇은 우리 부엌보다<br><em>가상 부엌</em>에 먼저 가요",
+   "size": "s",
+   "sub": [
+    "저는 이번 이야기를 로봇의 연습장 이야기로 읽었어요. 로봇이 헷갈리는 장면은 어수선한 조리대처럼 우리 일상에 흔한 곳이거든요.",
+    "드 비강도 이 분야는 아직 아주 어리고 흐릿하다고 인정했어요.",
+    "여러분 집이나 가게에서 로봇이 가장 헷갈려할 것 같은 장면은 어디인가요?",
+    "출처 TechCrunch"
+   ]
+  }
+ ],
+ "caption_ig": "AI에 밀린 쇼핑몰 3D 회사가, 이번엔 로봇 연습장을 지어요\n\n피지클(Physicl) 창업자 알렉스 드 비강은 10년 동안 쇼핑몰 상품을 3D로 만드는 회사를 키웠어요. 생성형 AI가 뜨면서 그 사업이 밀렸고, 쌓아 둔 3D 기술을 로봇 훈련 쪽으로 돌렸어요. 시드 투자로 1천만 달러를 받았대요.\n\n로봇에게 물건 다루는 법을 가르치려면 데이터가 많이 필요하고, 모으는 데 돈도 많이 들어요. 피지클의 스튜디오에는 3D 공간 1만 개와 물건 10만 개가 들어 있어요. 그늘진 컵처럼 로봇이 자주 틀리는 장면만 골라 연습 데이터를 만들 수 있어요.\n\n여러분 집이나 가게에서 로봇이 가장 헷갈려할 것 같은 장면은 어디인가요? 댓글로 알려 주세요.\n\n#로봇 #피지컬AI #로봇학습 #시뮬레이션 #3D #스타트업 #투자",
+ "caption_threads": "AI에 밀린 쇼핑몰 3D 회사가, 이번엔 로봇 연습장을 지어요\n\n10년 동안 쇼핑몰 상품을 3D로 만들던 회사가 생성형 AI에 밀렸어요. 창업자는 그 3D 기술로 로봇 훈련용 가상 세계를 만드는 피지클(Physicl)을 세웠고, 1천만 달러를 투자받았어요. 그늘진 컵처럼 로봇이 자주 틀리는 장면만 골라 연습시킬 수 있대요.\n\n여러분 집이나 가게에서 로봇이 가장 헷갈려할 것 같은 장면은 어디인가요?"
+}
