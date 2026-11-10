@@ -1,0 +1,139 @@
+{
+ "no": 19,
+ "source": {
+  "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
+  "url": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "휴머노이드",
+  "hook": "왜",
+  "photo_cover": true
+ },
+ "facts": [],
+ "cards": [
+  {
+   "h1": "현대차 공장 시험을 늘리는<br>휴머노이드가, 왜 발에<br><em>스쿠터 바퀴</em>를 달았을까",
+   "sub": [
+    "보스턴 다이내믹스(Boston Dynamics)가 아틀라스(Atlas) 발에 바퀴를 단 실험 영상을 공개했어요"
+   ],
+   "size": "s",
+   "photo_query": "Boston Dynamics Atlas",
+   "photo_cover": "robot rolling on wheels",
+   "photo_scene": "robotics laboratory",
+   "photo": "photos/cover_422ed81353.jpg",
+   "credit": "사진 Damian B Oh · CC BY-SA 4.0"
+  },
+  {
+   "h1": "새로 만든 부품은<br><em>딱 하나</em>였어요",
+   "size": "s",
+   "sub": [
+    "아틀라스 발목 모터에 시중에서 파는 스쿠터 바퀴 테를 끼우는 어댑터 하나요.",
+    "실험을 맡은 엔지니어 앤디 우(Andy Wu) 말로는 자전거 바퀴 바꾸는 정도였대요.",
+    "처음부터 많이 만들고 고치기 쉽게 설계한 로봇이라서 가능했대요.",
+    "소프트웨어도 간단했어요. 바퀴를 «계속 도는 발목»으로 보고 발만 바퀴로 바꿨대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "scooter wheel",
+   "photo": "photos/14659bd3f0.jpg",
+   "credit": "참고 사진 Jim.henderson · Public domain"
+  },
+  {
+   "h1": "바퀴 달린 아틀라스는<br>파는 물건이 <em>아니래요</em>",
+   "size": "s",
+   "sub": [
+    "회사 말로는 «바퀴 달린 아틀라스는 제품이 아니라 연구용 시험대»래요.",
+    "앤디 우는 모터를 한계까지 몰아붙여 보고 싶었대요.",
+    "미리 계산하기 어려운 바닥에서 로봇이 얼마나 버티는지도 보려 했고요."
+   ],
+   "photo_query": "",
+   "photo_scene": "robotics research laboratory",
+   "photo": "photos/0d9794a61f.jpg",
+   "credit": "참고 사진 Giacomo Alessandroni · CC BY-SA 4.0"
+  },
+  {
+   "h1": "균형은 계산으로,<br>흔들림은 <em>연습</em>으로 잡았어요",
+   "size": "s",
+   "sub": [
+    "기존 방식은 물리 법칙을 계산해서 움직여요. 그런데 현실 바닥은 미리 다 계산하기 어려워요.",
+    "그래서 강화학습(시행착오로 배우는 방법)을 몸 전체에 더했어요.",
+    "기본 균형은 계산이 맡고, 갑자기 생기는 흔들림은 학습한 몸놀림이 받아 내요.",
+    "회사 말로는 둘을 합치니 하나만 쓸 때보다 현실에서 더 날렵했대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "rough rocky terrain",
+   "photo": "photos/c0bfd3641a.jpg",
+   "credit": "참고 사진 Amal Kumar · CC0"
+  },
+  {
+   "h1": "가상 연습장에서 배운 대로<br><em>현실</em>에서 굴렀어요",
+   "size": "s",
+   "sub": [
+    "앤디 우는 모든 동작을 시뮬레이션(가상 연습장)에서 가르쳤어요. 현실에서도 놀랄 만큼 정확했대요.",
+    "평평한 바닥에선 빠르게 굴러가고, 장애물이나 울퉁불퉁한 곳에선 다리로 걸어요.",
+    "둘 사이를 매끄럽게 오가요. 제자리에서 도는 피루엣 같은 과격한 동작도 해 보였어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "computer simulation monitor",
+   "photo": "photos/3646d43b08.jpg",
+   "credit": "참고 사진 NASA · Public domain"
+  },
+  {
+   "h1": "다리냐 바퀴냐,<br>업계도 <em>갈려</em> 있어요",
+   "size": "s",
+   "sub": [
+    "바퀴 달린 휴머노이드를 만드는 회사가 많아요. 사람이 쓰는 공간을 다니려면 다리가 필요하다는 회사도 있고요.",
+    "애질리티 로보틱스(Agility Robotics)는 자사 로봇 Digit에는 바퀴를 안 달 것 같대요. 다른 바퀴형 로봇은 살펴보는 중이고요.",
+    "앤디 우의 다음 숙제는 모터가 고장 났을 때 로봇이 어떻게 반응하는지예요. 안전과 바로 이어지는 문제래요."
+   ],
+   "photo_query": "",
+   "photo_scene": "indoor stairs steps",
+   "photo": "photos/568b77d76c.jpg",
+   "credit": "참고 사진 Gausanchennai · CC BY-SA 4.0"
+  },
+  {
+   "h1": "로봇은 사람을<br>얼마나 <em>닮아야</em> 쓸모 있을까요",
+   "size": "s",
+   "sub": [
+    "보스턴 다이내믹스는 현대차 시설에서 아틀라스 시험을 늘릴 준비를 하고 있어요. 손가락 네 개짜리 새 집게도 개발 중이에요.",
+    "저는 이번 실험을 «사람 모양이 어디까지 필요한가»를 묻는 장면으로 봤어요.",
+    "여러분 일터에 로봇이 온다면, 다리와 바퀴 중 어느 쪽이 더 잘 다닐 것 같나요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "현대차 공장 시험을 늘리는 휴머노이드가, 왜 발에 스쿠터 바퀴를 달았을까\n\n보스턴 다이내믹스(Boston Dynamics)가 휴머노이드 아틀라스(Atlas) 발에 스쿠터 바퀴를 단 실험 영상을 공개했어요. 새로 만든 부품은 바퀴 테를 발목 모터에 끼우는 어댑터 하나였대요. 엔지니어 말로는 자전거 바퀴 바꾸는 정도였고요.\n\n바퀴 달린 아틀라스는 파는 제품이 아니라 연구용 시험대래요. 가상 연습장에서 배운 대로 평평한 곳에선 굴러가고, 울퉁불퉁한 곳에선 걸어요. 업계에선 휴머노이드에 다리가 꼭 필요한지를 두고 의견이 갈려 있어요.\n\n여러분 일터에 로봇이 온다면, 다리와 바퀴 중 어느 쪽이 더 잘 다닐 것 같나요? 댓글로 알려 주세요.\n\n#로봇 #휴머노이드 #보스턴다이내믹스 #아틀라스 #현대차 #강화학습 #피지컬AI",
+ "caption_threads": "현대차 공장 시험을 늘리는 휴머노이드가, 왜 발에 스쿠터 바퀴를 달았을까\n\n보스턴 다이내믹스가 아틀라스 발목 모터에 시중 스쿠터 바퀴 테를 끼웠어요. 새 부품은 어댑터 하나였대요. 제품이 아니라 연구용 시험대인데, 평평한 곳에선 굴러가고 울퉁불퉁한 곳에선 걸어요. 로봇이 사람 모양을 어디까지 닮아야 하는지 묻는 실험이에요.\n\n여러분 일터에 로봇이 온다면, 다리와 바퀴 중 어느 쪽이 더 잘 다닐 것 같나요?",
+ "cover_candidates": [
+  {
+   "photo": "photos/cover_46aa212a13.jpg",
+   "credit": "사진 DARPA · Public domain",
+   "query": "Boston Dynamics Atlas"
+  },
+  {
+   "photo": "photos/cover_1ce1867345.jpg",
+   "credit": "사진 Damian B Oh · CC BY-SA 4.0",
+   "query": "Boston Dynamics Atlas"
+  },
+  {
+   "photo": "photos/cover_422ed81353.jpg",
+   "credit": "사진 Damian B Oh · CC BY-SA 4.0",
+   "query": "Boston Dynamics Atlas"
+  },
+  {
+   "photo": "photos/cover_ad909b7560.jpg",
+   "credit": "사진 Damian B Oh · CC BY-SA 4.0",
+   "query": "Boston Dynamics Atlas"
+  },
+  {
+   "photo": "photos/cover_5b54f249b6.jpg",
+   "credit": "사진 Damian B Oh · CC BY-SA 4.0",
+   "query": "Boston Dynamics Atlas"
+  },
+  {
+   "photo": "photos/cover_df0276dcdb.jpg",
+   "credit": "사진 DARPA · Public domain",
+   "query": "Boston Dynamics Atlas"
+  }
+ ]
+}
