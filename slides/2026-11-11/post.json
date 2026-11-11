@@ -1,0 +1,127 @@
+{
+ "no": 20,
+ "source": {
+  "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+  "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "모델·소프트웨어",
+  "hook": "왜",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "10만 시간",
+   "quote": "The model includes 100,000 hours of NVIDIA open-source egocentric data"
+  },
+  {
+   "ko": "상위 3위",
+   "quote": "GR00T 2 currently ranks among the top three models"
+  },
+  {
+   "ko": "2.5배",
+   "quote": "achieved up to 2.5x the training throughput of Isaac Lab 2.3 with PhysX"
+  },
+  {
+   "ko": "15가지",
+   "quote": "it features 15 tasks across four scenes"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "엔비디아는 왜 로봇 두뇌에<br>사람 눈높이 기록<br><em>10만 시간</em>을 넣었을까",
+   "sub": [
+    "엔비디아(NVIDIA)가 로봇 두뇌 모델 GR00T 2를 내놨어요. 빨래와 서버 공장에서 벌써 시험 중이에요"
+   ],
+   "size": "s",
+   "photo_query": "NVIDIA GR00T",
+   "photo_cover": "robot hand grasping object",
+   "photo_scene": "robotics laboratory",
+   "photo": "photos/fdaaa89b23.jpg",
+   "credit": "사진 NVIDIA"
+  },
+  {
+   "h1": "로봇 영상만 보고<br>배운 게 <em>아니에요</em>",
+   "size": "s",
+   "sub": [
+    "GR00T 2는 로봇 데이터와 사람 데이터를 섞어서 배웠어요.",
+    "그중 1인칭 시점 데이터(사람 눈높이에서 기록한 것)만 10만 시간이에요. 엔비디아가 공개한 데이터래요.",
+    "목표는 손재주예요. 물건을 섬세하게 다루는 손동작이요.",
+    "사람 영상을 가상 로봇의 시범 동작으로 바꿔 주는 «Video to Data» 도구도 함께 풀었어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "robotic hand grasping",
+   "photo": "photos/9d637a3a3a.jpg",
+   "credit": "참고 사진 Oleg Alexandrov · CC BY-SA 3.0"
+  },
+  {
+   "h1": "벌써 <em>빨래</em>와<br>서버 공장에서 시험 중이에요",
+   "size": "s",
+   "sub": [
+    "넥스유니(Nexuni)는 로봇 빨래에 GR00T 2를 시험하고 있어요.",
+    "폭스콘(Foxconn)은 서버 만드는 공장 자동화에 쓰고, 지멘스(Siemens)는 여러 산업 현장에서 따져 보는 중이래요.",
+    "마이크로AGI(MicroAGI)는 로봇 팔에게 랜선(이더넷 케이블)을 교체하는 일을 시켰어요.",
+    "엔비디아 말로는 로봇 모델 성적표(벤치마크) 여러 곳에서 상위 3위 안에 들었대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "laundromat washing machines",
+   "photo": "photos/8c4bde6378.jpg",
+   "credit": "참고 사진 ArtOfHappiness · CC BY-SA 4.0"
+  },
+  {
+   "h1": "연습은<br><em>가상 연습장</em>에서 해요",
+   "size": "s",
+   "sub": [
+    "함께 나온 아이작 랩(Isaac Lab) 3.0은 로봇을 시뮬레이션(가상 연습장)에서 훈련시키는 공개 도구예요.",
+    "물리 엔진 뉴턴(Newton)과 묶어서 케이블이나 옷감처럼 휘는 물건도 흉내 낼 수 있게 됐어요.",
+    "가상 로봇 수천 대를 한꺼번에 연습시켜요.",
+    "엔비디아 말로는 손 쓰는 시험에서 훈련 처리량이 이전 판보다 최대 2.5배였대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "computer simulation monitor",
+   "photo": "photos/3646d43b08.jpg",
+   "credit": "참고 사진 NASA · Public domain"
+  },
+  {
+   "h1": "배우는 것보다 어려운 건<br><em>매번 잘하는 것</em>이에요",
+   "size": "s",
+   "sub": [
+    "그래서 시험장도 따로 만들었어요. 조건을 수천 가지로 바꿔 가며 로봇을 시험해요.",
+    "어떤 조건에서 실패하는지 보여 줘서, 다음 훈련에서 뭘 고칠지 알 수 있대요.",
+    "새 시험지 덱스벤치(DexBench)는 리얼월드(RLWRLD)가 엔비디아와 만들었어요.",
+    "매장, 물류, 제조, 접객 네 가지 장면에서 15가지 일을 시켜요."
+   ],
+   "photo_query": "",
+   "photo_scene": "retail store shelves",
+   "photo": "photos/6143bb00d0.jpg",
+   "credit": "참고 사진 User:Philrj · CC BY-SA 3.0"
+  },
+  {
+   "h1": "코엑스에선<br>한국 스타트업 <em>투자</em>를 알렸어요",
+   "size": "s",
+   "sub": [
+    "엔비디아는 코엑스에서 «MSIT(과학기술정보통신부)-엔비디아 AI 스타트업 파트너십 포럼»을 열었어요.",
+    "여기서 한국 스타트업 포인트2(Point2)에 투자한다고 알렸어요.",
+    "모티프 테크놀로지스(Motif Technologies), 리얼월드, 업스테이지(Upstage)에도 투자할 계획이래요.",
+    "저는 덱스벤치를 만든 리얼월드가 이 명단에 함께 있다는 점이 눈에 띄었어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "COEX Seoul",
+   "photo": "photos/f1e15b7207.jpg",
+   "credit": "참고 사진 Dr. Thomas Liptak · CC BY-SA 4.0"
+  },
+  {
+   "h1": "로봇이 사람을 보고 배우면,<br>내 일터엔 <em>무엇부터</em> 올까요",
+   "size": "s",
+   "sub": [
+    "GR00T 2가 시험 중인 곳은 빨래, 서버 공장, 케이블 교체처럼 손이 많이 가는 일이에요.",
+    "덱스벤치도 매장과 물류, 접객 현장의 일을 시험지로 삼았어요.",
+    "여러분 일터에서 로봇 손에 가장 먼저 맡기고 싶은 일은 뭔가요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "엔비디아는 왜 로봇 두뇌에 사람 눈높이 기록 10만 시간을 넣었을까\n\n엔비디아(NVIDIA)가 로봇 두뇌 모델 GR00T 2를 내놨어요. 로봇 데이터에 사람 1인칭 시점 데이터 10만 시간을 섞어서, 물건을 섬세하게 다루는 손재주를 배우게 했대요.\n\n벌써 로봇 빨래, 서버 공장 자동화, 랜선 교체에서 시험 중이에요. 가상 연습장(Isaac Lab 3.0)과 시험지(DexBench)도 함께 나왔어요. 시험지를 같이 만든 리얼월드(RLWRLD)는 엔비디아가 투자할 계획이라고 알린 회사 명단에도 있어요.\n\n여러분 일터에서 로봇 손에 가장 먼저 맡기고 싶은 일은 뭔가요? 댓글로 알려 주세요.\n\n#로봇 #피지컬AI #엔비디아 #GR00T #로봇파운데이션모델 #리얼월드 #시뮬레이션",
+ "caption_threads": "엔비디아는 왜 로봇 두뇌에 사람 눈높이 기록 10만 시간을 넣었을까\n\n엔비디아가 로봇 두뇌 모델 GR00T 2를 내놨어요. 사람 1인칭 시점 데이터 10만 시간을 섞어 손재주를 배우게 했대요. 벌써 로봇 빨래와 서버 공장에서 시험 중이에요. 시험지 덱스벤치는 리얼월드가 엔비디아와 같이 만들었고요.\n\n여러분 일터에서 로봇 손에 가장 먼저 맡기고 싶은 일은 뭔가요?"
+}
