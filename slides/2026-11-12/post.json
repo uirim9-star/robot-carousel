@@ -1,0 +1,147 @@
+{
+ "no": 21,
+ "source": {
+  "title": "Serve Robotics opens robot delivery network for others to build on",
+  "url": "https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "자영업·중소기업",
+  "hook": "원인→결과",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "300만 명",
+   "quote": "reaching about 3 million people"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "배달 로봇 2,000대가 열리자,<br>동네 가게도 <em>로봇</em>을<br>부를 수 있다",
+   "sub": [
+    "서브 로보틱스(Serve Robotics)가 배달 로봇을 누구나 코드 몇 줄로 부르게 열었어요"
+   ],
+   "size": "s",
+   "photo_query": "Serve Robotics delivery robot",
+   "photo_cover": "sidewalk delivery robot carrying food",
+   "photo_scene": "city sidewalk",
+   "photo": "photos/cover_24c745a2b0.jpg",
+   "credit": "사진 The Squirrel Game · CC BY 4.0"
+  },
+  {
+   "h1": "큰 배달 앱 뒤에만 있던 로봇,<br>이제 <em>아무나</em> 불러요",
+   "size": "s",
+   "sub": [
+    "서브 로보틱스는 미국과 호주에서 로봇 2,000대 넘게 굴리고 있어요.",
+    "식당 4,000곳 넘게 배달을 돕고, 닿는 사람은 300만 명쯤이래요.",
+    "그런데 지금까지는 배달 파트너 회사를 거쳐야만 이 로봇을 쓸 수 있었어요.",
+    "이번에 그 문을 바깥에 열었어요."
+   ],
+   "photo_query": "Serve Robotics",
+   "photo_scene": "restaurant takeout counter",
+   "photo": "photos/cover_5b8c379644.jpg",
+   "credit": "사진 Phillip Pessar · CC BY 2.0"
+  },
+  {
+   "h1": "코드 몇 줄이면<br>로봇이 <em>짐을 가지러</em> 와요",
+   "size": "s",
+   "sub": [
+    "새로 연 «AV 배달 개발자 포털»에서 API(프로그램끼리 주문을 주고받는 창구)를 공개했어요.",
+    "앱이나 AI 비서가 픽업과 도착 장소를 요청하면, 배달이 끝날 때까지 로봇 위치를 따라가요.",
+    "배차, 길 찾기, 원격 감독은 서브가 맡는대요.",
+    "진짜 로봇을 부르기 전에 연습해 보는 샌드박스(가상 시험장)도 열었어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "hand holding smartphone",
+   "photo": "photos/8accc797a1.jpg",
+   "credit": "참고 사진 Mictlancihuatl · CC BY-SA 4.0"
+  },
+  {
+   "h1": "로봇 회사를<br><em>차리지 않아도</em> 돼요",
+   "size": "s",
+   "sub": [
+    "대표 알리 카샤니(Ali Kashani) 말로는 «로봇으로 쓸모 있는 걸 만들려고 로봇 회사를 차릴 필요는 없어야 해요.»",
+    "«동네에 살고 일하는 사람들은 우리가 생각 못 한 쓸모를 찾을 거예요»라는 말도 했어요.",
+    "회사들은 사무실끼리 물건을 옮기는 데 쓸 수 있대요.",
+    "저는 이 두 번째 말이 로봇을 바깥에 연 이유라고 봤어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "cardboard boxes office desk",
+   "photo": "photos/cover_d11ba506bb.jpg",
+   "credit": "사진 Phillip Pessar · CC BY 2.0"
+  },
+  {
+   "h1": "아무 데서나<br>되는 건 <em>아니에요</em>",
+   "size": "s",
+   "sub": [
+    "배달은 서브가 운영하는 지역과 시간 안에서만 돼요.",
+    "로봇 짐칸에 들어가는 물건만 실을 수 있어요.",
+    "진짜 로봇을 쓰려면 서브의 승인을 받아야 해요. 지금은 포털에서 관심 신청부터 해요.",
+    "지금까지 미국 20개 도시, 150곳 넘는 동네에서 수십만 건을 배달했대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "suburban street sidewalk",
+   "photo": "photos/cover_f109a2e0c9.jpg",
+   "credit": "사진 Phillip Pessar · CC BY 2.0"
+  },
+  {
+   "h1": "지난주엔<br><em>로봇 기술</em>도 열었어요",
+   "size": "s",
+   "sub": [
+    "서브는 2021년 우버(Uber)에서 떨어져 나온 회사예요.",
+    "올해 초엔 병원 서비스 로봇 회사 딜리전트 로보틱스(Diligent Robotics)를 사들였어요.",
+    "지난주에는 새 로봇을 만드는 회사들에 자기 기술을 쓰게 해 주는 서비스도 내놨어요.",
+    "일주일 사이에 기술도, 로봇도 바깥에 연 셈이에요."
+   ],
+   "photo_query": "",
+   "photo_scene": "hospital corridor",
+   "photo": "photos/aafe6913d1.jpg",
+   "credit": "참고 사진 Nalbarian · CC BY-SA 4.0"
+  },
+  {
+   "h1": "우리 가게 배달을 로봇이 맡는다면,<br><em>무엇부터</em> 보낼까요",
+   "size": "s",
+   "sub": [
+    "회사 말로는 동네 가게가 사람을 더 뽑지 않고도 배달 범위를 넓힐 수 있대요.",
+    "다만 지금은 서브가 운영하는 지역에서, 승인을 받은 경우에만 돼요.",
+    "여러분 가게라면 로봇 짐칸에 맞는 물건 중 무엇을 먼저 보내 보시겠어요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "배달 로봇 2,000대가 열리자, 동네 가게도 로봇을 부를 수 있다\n\n서브 로보틱스(Serve Robotics)는 미국과 호주에서 배달 로봇 2,000대 넘게 굴리고, 식당 4,000곳 넘게 배달을 돕고 있어요. 지금까지는 배달 파트너 회사를 거쳐야만 이 로봇을 쓸 수 있었어요.\n\n이번에 API를 공개해서 앱이나 AI 비서가 코드 몇 줄로 로봇을 부를 수 있게 됐어요. 회사 말로는 동네 가게가 사람을 더 뽑지 않고도 배달 범위를 넓힐 수 있대요. 다만 서브가 운영하는 지역 안에서, 승인을 받아야 해요.\n\n여러분 가게라면 로봇에게 무엇을 먼저 배달시켜 보시겠어요? 댓글로 알려 주세요.\n\n#로봇 #배달로봇 #자영업 #소상공인 #서브로보틱스 #라스트마일 #가게운영",
+ "caption_threads": "배달 로봇 2,000대가 열리자, 동네 가게도 로봇을 부를 수 있다\n\n서브 로보틱스는 식당 4,000곳 넘게 배달을 돕는 로봇 2,000대를 굴려요. 지금까지는 배달 파트너 회사를 거쳐야만 쓸 수 있었는데, 이번에 API를 열어 누구나 코드 몇 줄로 부를 수 있게 했어요. 회사 말로는 동네 가게가 사람을 더 뽑지 않고도 배달 범위를 넓힐 수 있대요. 운영 지역 안에서, 승인을 받아야 하지만요.\n\n여러분 가게라면 로봇에게 무엇을 먼저 배달시켜 보시겠어요?",
+ "cover_candidates": [
+  {
+   "photo": "photos/cover_24c745a2b0.jpg",
+   "credit": "사진 The Squirrel Game · CC BY 4.0",
+   "query": "Serve Robotics delivery robot"
+  },
+  {
+   "photo": "photos/cover_96aba90423.jpg",
+   "credit": "사진 The Squirrel Game · CC BY 2.0",
+   "query": "Serve Robotics delivery robot"
+  },
+  {
+   "photo": "photos/cover_5b8c379644.jpg",
+   "credit": "사진 Phillip Pessar · CC BY 2.0",
+   "query": "Serve Robotics delivery robot"
+  },
+  {
+   "photo": "photos/cover_f109a2e0c9.jpg",
+   "credit": "사진 Phillip Pessar · CC BY 2.0",
+   "query": "Serve Robotics delivery robot"
+  },
+  {
+   "photo": "photos/cover_d11ba506bb.jpg",
+   "credit": "사진 Phillip Pessar · CC BY 2.0",
+   "query": "Serve Robotics delivery robot"
+  },
+  {
+   "photo": "photos/cover_322bc3206a.jpg",
+   "credit": "사진 Phillip Pessar · CC BY 2.0",
+   "query": "Serve Robotics delivery robot"
+  }
+ ]
+}
