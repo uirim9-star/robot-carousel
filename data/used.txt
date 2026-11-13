@@ -19,3 +19,4 @@ https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-r
 https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/
 https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/
 https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/
+https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/
