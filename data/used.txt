@@ -20,3 +20,4 @@ https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-
 https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/
 https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/
 https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/
+https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/

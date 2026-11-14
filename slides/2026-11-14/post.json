@@ -1,0 +1,168 @@
+{
+ "no": 23,
+ "source": {
+  "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+  "url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "휴머노이드",
+  "hook": "원인→결과",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "200만 명",
+   "quote": "livestreamed to an audience of more than two million viewers"
+  },
+  {
+   "ko": "2만 번째",
+   "quote": "its 20,000th robot had rolled off the production line"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "편의점을 로봇 6대에 24시간 맡기자,<br><em>2대</em>는 시험에서 떨어졌다",
+   "sub": [
+    "애지봇(AGIBOT)이 상하이의 진짜 편의점에서 휴머노이드 6대를 하루 종일 일하게 했어요"
+   ],
+   "size": "s",
+   "photo_query": "AGIBOT G2",
+   "photo_cover": "robot restocking shelves in store",
+   "photo_scene": "convenience store interior",
+   "photo": "photos/cover_12c053d1fe.jpg",
+   "credit": "참고 사진 Japanexperterna · CC BY-SA 3.0"
+  },
+  {
+   "h1": "하루 만에<br><em>1,730건</em>을 처리했어요",
+   "size": "s",
+   "sub": [
+    "실험실이 아니라 손님이 드나드는 가게에서 24시간 일했어요. 200만 명 넘게 생중계로 봤대요."
+   ],
+   "rows": [
+    [
+     "손님 응대",
+     "683번"
+    ],
+    [
+     "상품 집어 건네기",
+     "369번"
+    ],
+    [
+     "진열 점검, 채우기",
+     "277번"
+    ],
+    [
+     "커피 주문",
+     "147건"
+    ],
+    [
+     "아침 식사 내기",
+     "126번"
+    ]
+   ],
+   "photo_query": "AGIBOT G2 robot",
+   "photo_scene": "convenience store checkout counter",
+   "photo": "photos/225144cdf8.jpg",
+   "credit": "참고 사진 PattayaPatrol · CC BY-SA 4.0"
+  },
+  {
+   "h1": "알바 근무표처럼<br><em>6대</em>가 일을 나눴어요",
+   "size": "s",
+   "sub": [
+    "손님 안내, 진열 점검, 물건 채우기, 커피, 계산과 따뜻한 음식, 매장 청소를 나눠 맡았어요.",
+    "점심 붐빌 때, 저녁 피크, 밤샘, 다음 날 아침 손님 몰릴 때까지 네 시간대를 거쳤어요.",
+    "붐빌 땐 손님 요청을 받고, 밤에는 가게를 유지하는 식으로 할 일이 바뀌었어요.",
+    "청소 담당은 하루 동안 테이블을 128번 닦았어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "coffee machine espresso cafe counter",
+   "photo": "photos/f15f2b615c.jpg",
+   "credit": "참고 사진 Shixart1985 · CC BY 2.0"
+  },
+  {
+   "h1": "편의점은 생각보다<br><em>까다로운</em> 일터예요",
+   "size": "s",
+   "sub": [
+    "매장이 좁고 일마다 정해진 순서가 있어서 쉬워 보이죠.",
+    "그런데 비스듬히 걸린 사탕 봉지는 옆 상품을 건드리지 않고 집기가 어려워요.",
+    "케이크 한 조각은 쥐는 힘을 잘못 주면 떨어뜨리거나 망가뜨리고요.",
+    "손님이 물건을 집었다 내려놓으니, 같은 일을 반복해도 매번 조건이 달라요."
+   ],
+   "photo_query": "",
+   "photo_scene": "candy shelf in shop",
+   "photo": "photos/fec71ac0da.jpg",
+   "credit": "참고 사진 Niera · CC BY-SA 4.0"
+  },
+  {
+   "h1": "일반 콜라와 무설탕 콜라,<br><em>구별</em>하는지 봤어요",
+   "size": "s",
+   "sub": [
+    "평가자 두 명이 손님처럼 시험했어요. 비슷하게 생긴 두 콜라를 주문해 가려내는지 봤어요.",
+    "선반의 껌을 뒤섞어 제자리로 돌려놓게 하고, 사람과 상자로 통로를 막기도 했어요.",
+    "물건 채우기 담당은 선반의 빈자리를 찾아 시키지 않아도 채웠대요.",
+    "청소 담당은 흘린 자국과 조리대 무늬를 구별하고, 맞는 청소 도구를 골랐고요."
+   ],
+   "photo_query": "",
+   "photo_scene": "supermarket aisle shelves",
+   "photo": "photos/beb7493a6c.jpg",
+   "credit": "참고 사진 Wilfredor · CC BY-SA 4.0"
+  },
+  {
+   "h1": "6대 중 <em>4대</em>만<br>합격했어요",
+   "size": "s",
+   "sub": [
+    "평가 항목은 근무 시간, 일 마친 정도, 손님 반응, 응답 속도, 돌발 상황 대처였어요.",
+    "4대는 최종 평가를 통과했고, 2대는 기준을 다 채우지 못했어요.",
+    "Genie Master라는 시스템이 일을 나누고, 잘된 시도와 안된 시도를 기억해 다음에 써요.",
+    "손이 섬세해야 하는 일은 손님이 적은 밤에 더 연습시켰대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "evaluation checklist clipboard"
+  },
+  {
+   "h1": "단골 편의점에 로봇이 온다면,<br><em>뭘</em> 맡길래요?",
+   "size": "s",
+   "sub": [
+    "애지봇은 다른 일, 다른 장소로 시험을 넓힐 계획이래요. 지난 9월엔 2만 번째 로봇을 생산했고요.",
+    "이번 숫자는 모두 애지봇이 낸 거예요.",
+    "여러분 가게나 단골 편의점이라면, 로봇에게 어떤 일부터 맡기고 싶으세요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "편의점을 로봇 6대에 24시간 맡기자, 2대는 시험에서 떨어졌다\n\n로봇 회사 애지봇(AGIBOT)이 상하이에서 문을 연 편의점에 바퀴 달린 휴머노이드 G2 6대를 들였어요. 하루 동안 손님 응대, 커피, 진열, 청소까지 1,730건을 처리했대요. 200만 명 넘게 생중계로 봤고요.\n\n평가자는 일반 콜라와 무설탕 콜라를 주문하고, 껌을 뒤섞고, 통로를 막으며 일부러 헷갈리게 했어요. 최종 평가를 통과한 건 4대예요. 2대는 기준을 다 채우지 못했어요. 숫자는 모두 애지봇이 낸 거예요.\n\n여러분 가게나 단골 편의점이라면, 로봇에게 어떤 일부터 맡기고 싶으세요? 댓글로 알려 주세요.\n\n#로봇 #휴머노이드 #편의점 #애지봇 #AGIBOT #자영업 #피지컬AI",
+ "caption_threads": "편의점을 로봇 6대에 24시간 맡기자, 2대는 시험에서 떨어졌다\n\n애지봇(AGIBOT)의 휴머노이드 6대가 상하이 편의점에서 하루 동안 1,730건을 처리했어요. 손님 응대만 683번이에요. 그런데 최종 평가를 통과한 건 4대였어요. 실험실과 달리 진짜 가게는 손님과 물건 위치가 계속 바뀌거든요.\n\n여러분 가게라면 로봇에게 어떤 일부터 맡기고 싶으세요?",
+ "cover_candidates": [
+  {
+   "photo": "photos/cover_a2b13a8750.jpg",
+   "credit": "참고 사진 Mutney · CC BY 4.0",
+   "query": "convenience store interior"
+  },
+  {
+   "photo": "photos/cover_69ebb66f28.jpg",
+   "credit": "참고 사진 Mutney · CC BY 4.0",
+   "query": "convenience store interior"
+  },
+  {
+   "photo": "photos/cover_12c053d1fe.jpg",
+   "credit": "참고 사진 Japanexperterna · CC BY-SA 3.0",
+   "query": "convenience store interior"
+  },
+  {
+   "photo": "photos/cover_0e13fc5d27.jpg",
+   "credit": "참고 사진 Harrison Keely · CC BY 4.0",
+   "query": "convenience store interior"
+  },
+  {
+   "photo": "photos/cover_ffb8506c8e.jpg",
+   "credit": "참고 사진 Harrison Keely · CC BY 4.0",
+   "query": "convenience store interior"
+  },
+  {
+   "photo": "photos/cover_df14309e4e.jpg",
+   "credit": "참고 사진 Harrison Keely · CC BY 4.0",
+   "query": "convenience store interior"
+  }
+ ]
+}
