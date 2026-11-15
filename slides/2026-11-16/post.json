@@ -1,0 +1,149 @@
+{
+ "no": 24,
+ "source": {
+  "title": "How Rhoda AI is using video data to create generalized AI models for robots",
+  "url": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "모델·소프트웨어",
+  "hook": "인물+주장",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "4억 5천만 달러",
+   "quote": "$450 million in Series A funding"
+  },
+  {
+   "ko": "0.5초",
+   "quote": "the next half second or so"
+  },
+  {
+   "ko": "18개월",
+   "quote": "emerged from 18 months of stealth"
+  },
+  {
+   "ko": "10~20시간",
+   "quote": "maybe 10 to 20 hours’ worth"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "4억 5천만 달러 받은 대표<br>\"인터넷 전체가 <em>물리 교실</em>\"",
+   "sub": [
+    "로봇 회사 로다 AI(Rhoda AI)는 로봇에게 영상으로 세상부터 가르쳐요"
+   ],
+   "size": "s",
+   "photo_query": "Rhoda AI robot",
+   "photo_cover": "robot arm picking parts factory",
+   "photo_scene": "factory assembly line",
+   "photo": "photos/9ca5448839.jpg",
+   "credit": "사진 Rhoda AI"
+  },
+  {
+   "h1": "혼자 일하는 로봇 손,<br>대표 말로는 <em>사실상 0대</em>",
+   "size": "s",
+   "sub": [
+    "혼자 물건을 다루며 실제 문제를 푸는 로봇은 지금 사실상 0대래요. 로다 AI 대표 자그딥 싱(Jagdeep Singh)의 말이에요.",
+    "티셔츠 개기, 커피 만들기 같은 시연은 많았어요. 사람이 로봇을 원격 조종해 모은 데이터로 배운 거예요.",
+    "그런데 실험실 밖으로 나갈 만큼 튼튼하지 않았대요. 현장은 매번 조건이 다르거든요."
+   ],
+   "photo_query": "",
+   "photo_scene": "robotics laboratory",
+   "photo": "photos/3bbb125be0.jpg",
+   "credit": "참고 사진 NASA/JPL-Caltech · Public domain"
+  },
+  {
+   "h1": "챗GPT는 셰익스피어부터<br>레딧까지 <em>다 읽었어요</em>",
+   "size": "s",
+   "sub": [
+    "싱 대표 말로는 챗GPT 같은 언어 AI는 셰익스피어부터 레딧까지, 인터넷에 올라온 모든 글로 배웠대요.",
+    "로봇에게는 그만한 교과서가 없었어요. 몸으로 하는 일을 담은 인터넷 크기의 데이터가 없었거든요.",
+    "그래서 로봇 AI는 언어 AI보다 뒤처졌대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "library bookshelves",
+   "photo": "photos/8622b8e30e.jpg",
+   "credit": "참고 사진 Andy Li · CC0"
+  },
+  {
+   "h1": "로봇 교과서는<br><em>수백 년 분량</em>의 영상이에요",
+   "size": "s",
+   "sub": [
+    "로다 AI는 수백 년 분량의 영상으로 모델을 미리 가르쳤어요. 야구, 다트 던지기, 해변의 파도, 바람에 흔들리는 나무까지요.",
+    "사람 손이 일하는 영상만 골라 써 보기도 했대요. 그런데 성적은 가장 넓게 모은 쪽이 제일 좋았어요.",
+    "저는 여기가 핵심이라고 봤어요. 일과 상관없어 보이는 영상도 세상이 움직이는 법을 가르쳐 주니까요."
+   ],
+   "photo_query": "",
+   "photo_scene": "ocean waves crashing on beach",
+   "photo": "photos/56c5433d62.jpg",
+   "credit": "참고 사진 Matthew T Rader · CC BY-SA 4.0"
+  },
+  {
+   "h1": "움직이기 전에<br><em>0.5초 뒤</em>를 먼저 그려요",
+   "size": "s",
+   "sub": [
+    "모델은 지금까지의 영상과 동작, 말로 한 지시를 함께 봐요. 그리고 다음 0.5초쯤의 장면을 영상으로 예측해요.",
+    "예측한 장면을 동작 변환기가 로봇 동작으로 바꿔요. 로봇은 0.5초만 움직이고 다시 봐요.",
+    "보고, 예측하고, 움직이고, 다시 봐요. 이걸 계속 되풀이해요.",
+    "최근엔 물건 다루기와 돌아다니기를 한 모델에 묶었대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "industrial robot arm camera",
+   "photo": "photos/b06d22d75a.jpg",
+   "credit": "참고 사진 Oleg Yunakov · CC BY-SA 4.0"
+  },
+  {
+   "h1": "새 일은 신입처럼<br><em>10~20시간</em>만 더 배워요",
+   "size": "s",
+   "sub": [
+    "미리 배운 뒤엔 그 일만 따로 10~20시간쯤 가르친대요. 조립 라인에 새로 온 직원을 가르치듯이요.",
+    "어떤 로봇 몸에 넣을지도 이 단계에서 정해요. 그래서 다른 회사 로봇에도 같은 두뇌를 쓸 수 있대요."
+   ],
+   "rows": [
+    [
+     "미리 배우기",
+     "인터넷 영상 수백 년 분량"
+    ],
+    [
+     "더 배우기",
+     "그 일만 10~20시간"
+    ],
+    [
+     "로봇 몸",
+     "자체 로봇 또는 다른 회사 로봇"
+    ]
+   ],
+   "photo_query": "",
+   "photo_scene": "assembly line",
+   "photo": "photos/2abaa2866e.jpg",
+   "credit": "참고 사진 User: Anonyme · CC BY 2.5"
+  },
+  {
+   "h1": "공장과 창고부터 가는 건<br><em>사람이 모자라서</em>예요",
+   "size": "s",
+   "sub": [
+    "로다 AI는 18개월 동안 조용히 개발하다가 올해 시리즈 A로 4억 5천만 달러를 받았어요.",
+    "지금은 자동차, 제조, 물류, 전자상거래 고객과 일해요. 직접 키우는 기술도 제조와 물류에 모았어요.",
+    "싱 대표 말로는 두 곳 모두 일손이 모자라요. 해외로 나간 공장을 다시 들여올 길도 될 수 있대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "car factory production line",
+   "photo": "photos/e0a1da469a.jpg",
+   "credit": "참고 사진 Marek Ślusarczyk ( Tupungato ) Photo por · CC BY 3.0"
+  },
+  {
+   "h1": "로봇이 신입처럼 배운다면,<br>여러분은 <em>뭘</em> 가르칠래요?",
+   "size": "s",
+   "sub": [
+    "싱 대표는 로봇의 챗GPT 순간이 생각보다 빨리 온다고 봐요.",
+    "다만 아직은 회사의 말이에요. 이번 이야기엔 현장 성공률 같은 숫자가 없어요.",
+    "여러분 일터에서 신입 가르치듯 로봇에게 맡기고 싶은 일은 뭔가요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "4억 5천만 달러 받은 대표 \"인터넷 전체가 물리 교실\"\n\n로다 AI(Rhoda AI)는 로봇에게 수백 년 분량의 영상을 먼저 보여 줘요. 야구, 다트, 파도, 바람에 흔들리는 나무까지요. 영상으로 세상이 움직이는 법을 배운 뒤, 새 일은 신입 교육처럼 10~20시간만 더 가르친대요.\n\n싱 대표 말로는 지금 현장에서 혼자 물건을 다루는 로봇은 사실상 0대예요. 그래서 일손이 모자란 공장과 창고부터 노린대요. 다만 이번 이야기엔 현장 성공률 같은 숫자가 없어요.\n\n여러분 일터에서 신입 가르치듯 로봇에게 맡기고 싶은 일은 뭔가요? 댓글로 알려 주세요.\n\n#로봇 #피지컬AI #로봇파운데이션모델 #RhodaAI #로봇학습 #공장자동화 #물류로봇",
+ "caption_threads": "4억 5천만 달러 받은 대표 \"인터넷 전체가 물리 교실\"\n\n로다 AI(Rhoda AI)는 로봇에게 수백 년 분량의 영상을 먼저 보여 줘요. 그다음 새 일은 신입처럼 10~20시간만 더 가르친대요. 대표 말로는 지금 현장에서 혼자 물건을 다루는 로봇은 사실상 0대래요. 그래서 일손이 모자란 공장과 창고부터 간대요.\n\n여러분 일터에서 로봇에게 가르치고 싶은 일은 뭔가요?"
+}
