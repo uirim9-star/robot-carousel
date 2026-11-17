@@ -22,3 +22,4 @@ https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-o
 https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/
 https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/
 https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/
+https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/

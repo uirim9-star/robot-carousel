@@ -1,0 +1,137 @@
+{
+ "no": 25,
+ "source": {
+  "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+  "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+  "outlet": "TechCrunch"
+ },
+ "meta": {
+  "topic": "자영업·중소기업",
+  "hook": "왜",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "1,000달러",
+   "quote": "it will retail at a whopping $1,000"
+  },
+  {
+   "ko": "270달러",
+   "quote": "will be made available for $270"
+  },
+  {
+   "ko": "12월 16일",
+   "quote": "made available starting on December 16"
+  },
+  {
+   "ko": "1월 27일",
+   "quote": "next year, on January 27"
+  },
+  {
+   "ko": "7개월",
+   "quote": "seven months into the robot"
+  },
+  {
+   "ko": "새벽 2시",
+   "quote": "investigate when sensor trips at 2 a.m."
+  },
+  {
+   "ko": "4K",
+   "quote": "The robot streams video in continuous 4K"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "아마존이 7개월 만에 접은<br>가게 경비 로봇,<br>링은 왜 <em>다시</em> 꺼냈을까",
+   "sub": [
+    "링(Ring)이 가게를 혼자 도는 로봇과 집 안을 나는 드론 카메라(사진)를 내놨어요"
+   ],
+   "size": "s",
+   "photo_query": "Ring Rover Cam",
+   "photo_cover": "security guard patrolling with flashlight",
+   "photo_scene": "retail store at night",
+   "photo": "photos/8ca4b3ed43.jpg",
+   "credit": "사진 Ring"
+  },
+  {
+   "h1": "새벽 2시에 센서가 울리면,<br>로봇이 <em>먼저</em> 가 봐요",
+   "size": "s",
+   "sub": [
+    "링 말로는 로버 캠(Ring Rover Cam)이 문 닫은 뒤 바닥을 한 바퀴 돌고, 새벽 2시에 센서가 울리면 확인하러 간대요.",
+    "그 장면은 사장님이 어디에 있든 휴대폰으로 와요.",
+    "링은 이 로봇을 «퇴근하지 않는 순찰 경비원»이라고 불러요."
+   ],
+   "rows": [
+    [
+     "가격",
+     "1,000달러"
+    ],
+    [
+     "판매 시작",
+     "12월 16일"
+    ],
+    [
+     "영상",
+     "4K로 끊김 없이"
+    ]
+   ],
+   "photo_query": "",
+   "photo_scene": "security camera app on smartphone"
+  },
+  {
+   "h1": "정해진 시간에<br><em>혼자</em> 돌아요",
+   "size": "s",
+   "sub": [
+    "순찰 길과 시간을 정해 두면 그대로 가게 안을 돌아요.",
+    "4K 영상을 앱으로 계속 보내고, 사람이 보이면 저절로 녹화를 시작해요.",
+    "카메라를 잠망경처럼 올려서 장애물 너머도 봐요.",
+    "스피커와 마이크가 달려 있어요. 가게에 있는 직원이든 침입자든, 멀리서 로봇 너머로 말을 걸 수 있어요.",
+    "가게 지도는 로봇이 혼자 돌아다니며 그려요."
+   ],
+   "photo_query": "",
+   "photo_scene": "CCTV security camera in shop",
+   "photo": "photos/4ca8c25d58.jpg",
+   "credit": "참고 사진 Sunglajsp Kunggong · CC BY-SA 4.0"
+  },
+  {
+   "h1": "아마존 경비 로봇은<br><em>7개월</em> 만에 멈췄어요",
+   "size": "s",
+   "sub": [
+    "아마존은 2021년에 집안일 돕는 로봇 아스트로(Astro)를 냈어요.",
+    "나중에 회사용 경비 로봇으로 바꿨는데, 소상공인 경비원으로 나선 지 7개월 만에 접었어요.",
+    "링은 이번 로봇을 «아마존 아스트로 고객들의 의견»을 듣고 만들었대요. 생김새도 아스트로와 닮았어요.",
+    "TechCrunch는 경비 자동화를 기술 업계가 아직 제대로 풀지 못한 분야로 봐요."
+   ],
+   "photo_query": "",
+   "photo_scene": "small shop counter cash register",
+   "photo": "photos/30cf36b4e6.jpg",
+   "credit": "참고 사진 PattayaPatrol · CC BY-SA 4.0"
+  },
+  {
+   "h1": "편하긴 한데,<br>영상은 <em>어디</em>에 남을까요",
+   "size": "s",
+   "sub": [
+    "링 카메라는 경찰이 꺼내 보는 비공식 감시망이 됐다는 비판을 오래 받아 왔어요.",
+    "링은 로버 캠 영상에도 TAKE라는 암호화를 기본으로 건대요. 링이 가진 기본 암호화 중 가장 강한 거래요.",
+    "다만 영상을 가게 안에만 저장할 수 있는지는 아직 몰라요. 링 카메라는 보통 클라우드에 녹화하거든요.",
+    "손님과 직원이 함께 찍히는 가게라면 먼저 따져 볼 부분이에요."
+   ],
+   "photo_query": "Ring video doorbell",
+   "photo_scene": "server room data center",
+   "photo": "photos/889da31003.jpg",
+   "credit": "사진 Ring · CC BY-SA 4.0"
+  },
+  {
+   "h1": "문 닫고 퇴근한 밤,<br>이 로봇을 <em>들여놓으시겠어요</em>?",
+   "size": "s",
+   "sub": [
+    "로버 캠은 12월 16일부터 1,000달러에 팔아요. 집 안을 나는 드론 카메라는 내년 1월 27일에 270달러로 나와요.",
+    "기능과 가격은 모두 링이 내놓은 내용이에요.",
+    "여러분 가게라면, 밤사이 이 로봇에게 무엇부터 지켜보게 하시겠어요?",
+    "출처 TechCrunch"
+   ]
+  }
+ ],
+ "caption_ig": "아마존이 7개월 만에 접은 가게 경비 로봇, 링은 왜 다시 꺼냈을까\n\n초인종 카메라로 유명한 링(Ring)이 로봇 사업부를 차렸어요. 첫 제품 하나가 가게와 사무실을 혼자 순찰하는 로버 캠(Ring Rover Cam)이에요. 문 닫은 뒤 바닥을 돌고, 새벽 2시에 센서가 울리면 확인하러 가서 영상을 휴대폰으로 보내 준대요.\n\n아마존은 2021년에 낸 로봇 아스트로(Astro)를 소상공인 경비원으로 바꿨다가 7개월 만에 접었어요. 링은 이번 로봇을 아스트로 고객들의 의견을 듣고 만들었대요. 가격은 1,000달러, 판매는 12월 16일부터예요.\n\n여러분 가게라면 밤사이 이 로봇에게 무엇부터 지켜보게 하시겠어요? 댓글로 알려 주세요.\n\n#로봇 #경비로봇 #자영업 #소상공인 #매장보안 #링 #아마존",
+ "caption_threads": "아마존이 7개월 만에 접은 가게 경비 로봇, 링은 왜 다시 꺼냈을까\n\n링(Ring)의 순찰 로봇 로버 캠은 1,000달러예요. 문 닫은 가게를 정해진 시간에 돌고, 사람이 보이면 녹화해서 휴대폰으로 보내요. 아마존의 아스트로는 같은 일을 맡았다가 7개월 만에 멈췄어요. 링은 이번 로봇을 아스트로 고객들의 의견을 듣고 만들었대요.\n\n여러분 가게라면 이 로봇을 밤에 들여놓으시겠어요?"
+}
