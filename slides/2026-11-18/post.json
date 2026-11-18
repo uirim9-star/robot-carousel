@@ -1,0 +1,184 @@
+{
+ "no": 26,
+ "source": {
+  "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
+  "url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "휴머노이드",
+  "hook": "원인→결과",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "9만 번",
+   "quote": "completed more than 90,000 inspections"
+  },
+  {
+   "ko": "900km",
+   "quote": "traveled nearly 900 km"
+  },
+  {
+   "ko": "99%",
+   "quote": "achieving a 99% mission success rate"
+  },
+  {
+   "ko": "2대",
+   "quote": "two Spot robots at its Singapore facility"
+  },
+  {
+   "ko": "2026년 4월",
+   "quote": "Since April 2026"
+  },
+  {
+   "ko": "2027년 초",
+   "quote": "Atlas testing will begin in early 2027"
+  },
+  {
+   "ko": "2만 5천 대",
+   "quote": "deploy 25,000 Atlas humanoids"
+  },
+  {
+   "ko": "4개, 13개",
+   "quote": "four fingers and 13 degrees of freedom"
+  },
+  {
+   "ko": "3개, 7개",
+   "quote": "up from seven DoF in its previous three-fingered design"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "로봇 개가 9만 번 점검하자,<br>반도체 공장이 <em>휴머노이드</em>를 불렀다",
+   "sub": [
+    "보스턴 다이내믹스(Boston Dynamics) 휴머노이드 아틀라스가 자동차 밖 공장에서 처음 시험을 받아요"
+   ],
+   "size": "s",
+   "photo_query": "Spot robot inspection",
+   "photo_cover": "quadruped robot inspecting industrial plant",
+   "photo_scene": "semiconductor fab cleanroom",
+   "photo": "photos/cover_490dc3bc93.jpg",
+   "credit": "사진 Mojmir Churavy · CC0"
+  },
+  {
+   "h1": "로봇 개 2대가<br><em>900km</em>를 걸었어요",
+   "size": "s",
+   "sub": [
+    "글로벌파운드리(GlobalFoundries)는 반도체를 만드는 회사예요. 싱가포르 공장에 4발 로봇 스팟(Spot) 2대를 두고 있어요.",
+    "서울과 부산을 한 번 넘게 왕복한 거리예요."
+   ],
+   "rows": [
+    [
+     "언제부터",
+     "2026년 4월"
+    ],
+    [
+     "걸은 거리",
+     "900km 가까이"
+    ],
+    [
+     "점검",
+     "9만 번 넘게"
+    ],
+    [
+     "성공률",
+     "99%"
+    ]
+   ],
+   "photo_query": "Boston Dynamics Spot",
+   "photo_scene": "industrial plant inspection",
+   "photo": "photos/fb8d131ddf.jpg",
+   "credit": "사진 Web Summit · CC BY 2.0"
+  },
+  {
+   "h1": "고치는 때가<br><em>고장 나기 전</em>으로 바뀌었대요",
+   "size": "s",
+   "sub": [
+    "글로벌파운드리 제조 책임자 프라딥 싱(Pradip Singh) 말로는 스팟 덕에 정비 방식이 바뀌었대요.",
+    "고장 난 뒤에 고치던 걸, 고장 나기 전에 미리 고치게 됐대요. 스팟이 점검 지점 수천 곳에서 데이터를 모은 덕분이에요.",
+    "공장이 멈추는 시간을 줄이려는 거예요. 두 회사는 스팟을 세계 곳곳의 다른 공장에도 늘리기로 했어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "industrial plant pipes valves",
+   "photo": "photos/cd5b6e22ef.jpg",
+   "credit": "참고 사진 Dietmar Rabich · CC BY-SA 4.0"
+  },
+  {
+   "h1": "아틀라스가 무슨 일을 할지는<br><em>아직 안 정했어요</em>",
+   "size": "s",
+   "sub": [
+    "아틀라스 시험은 2027년 초에 시작해요. 자동차 업계 밖에서 아틀라스를 시험하는 첫 고객이에요.",
+    "두 회사는 반도체 공장에서 휴머노이드가 할 만한 일부터 같이 찾는대요. 그다음 아틀라스에게 그 일을 가르쳐요.",
+    "몇 대를 쓸지, 어느 공장에 둘지, 처음 맡길 일이 뭔지는 공개하지 않았어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "silicon wafer cleanroom",
+   "photo": "photos/c4949708f1.jpg",
+   "credit": "참고 사진 Wikimedia Commons · CC BY 2.5"
+  },
+  {
+   "h1": "공개된 공장 고객은<br>지금까지 <em>현대차그룹</em>뿐이었어요",
+   "size": "s",
+   "sub": [
+    "보스턴 다이내믹스의 모회사는 현대차그룹이에요. 올해 만든 아틀라스는 현대차와 구글 딥마인드(Google DeepMind) 몫으로 이미 다 찼대요.",
+    "현대차는 앞으로 몇 년 동안 현대차와 기아 공장에 아틀라스 2만 5천 대를 넣을 계획이에요.",
+    "반도체 공장은 자동차 공장과 기술 요구도, 운영 방식도 다를 수 있어요. 아틀라스가 그 차이를 넘을지 보는 자리예요."
+   ],
+   "photo_query": "",
+   "photo_scene": "car factory assembly line",
+   "photo": "photos/7472ace634.jpg",
+   "credit": "참고 사진 Marek Ślusarczyk ( Tupungato ) Photo por · CC BY 3.0"
+  },
+  {
+   "h1": "휴머노이드를 팔 길은<br><em>로봇 개</em>가 먼저 냈어요",
+   "size": "s",
+   "sub": [
+    "보스턴 다이내믹스는 스팟과 창고 로봇 스트레치(Stretch)를 이미 여러 업종에 팔았어요.",
+    "9월엔 그 고객들과 아틀라스를 두고 이야기 중이라고 했어요. 항공, 반도체, 물류, 식음료, 생명과학 쪽이에요.",
+    "저는 여기가 핵심이라고 봤어요. 로봇을 이미 써 본 공장은 들이는 법도 알고, 데이터도 쌓여 있거든요."
+   ],
+   "photo_query": "Boston Dynamics Stretch",
+   "photo_scene": "warehouse truck unloading boxes",
+   "photo": "photos/082a198c10.jpg",
+   "credit": "참고 사진 brownpau · CC BY 2.0"
+  },
+  {
+   "h1": "생산을 시작했는데도<br>손은 <em>아직 고치는 중</em>이에요",
+   "size": "s",
+   "sub": [
+    "아틀라스는 생산에 들어간 뒤에도 하드웨어와 소프트웨어를 계속 손보고 있어요.",
+    "10월엔 새 손을 공개했어요. 손가락은 3개에서 4개로, 움직이는 관절 축(자유도)은 7개에서 13개로 늘었어요.",
+    "한 달 남짓 전엔 아마존에서 알렉사를 만들던 로힛 프라사드(Rohit Prasad)가 새 대표가 됐어요. 로봇에 AI를 더 빨리 넣으려는 거예요."
+   ],
+   "photo_query": "",
+   "photo_scene": "robot hand fingers",
+   "photo": "photos/d76255f530.jpg",
+   "credit": "참고 사진 NearEMPTiness · CC BY-SA 4.0"
+  },
+  {
+   "h1": "점검부터 로봇에 맡긴다면,<br>여러분 일터에선 <em>뭘</em> 맡길까요?",
+   "size": "s",
+   "sub": [
+    "이번 이야기는 순서가 보여요. 로봇 개가 먼저 점검을 맡았고, 그 공장이 휴머노이드 시험을 열었어요.",
+    "다만 아틀라스가 반도체 공장에서 무슨 일을 할지는 2027년이 돼야 알 수 있어요.",
+    "여러분 일터에서 매일 돌며 확인하는 일, 로봇에게 먼저 맡긴다면 뭘 고르시겠어요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "로봇 개가 9만 번 점검하자, 반도체 공장이 휴머노이드를 불렀다\n\n반도체 회사 글로벌파운드리(GlobalFoundries)는 싱가포르 공장에서 로봇 개 스팟 2대를 써 왔어요. 2026년 4월부터 900km 가까이 걸으며 9만 번 넘게 점검했고, 성공률은 99%였대요. 덕분에 고장 난 뒤 고치던 정비를 고장 나기 전에 하게 됐대요.\n\n이번엔 보스턴 다이내믹스의 휴머노이드 아틀라스를 2027년 초부터 시험해요. 현대차그룹 밖 공장 고객으로는 처음 공개된 곳이에요. 다만 몇 대를, 어느 공장에서, 무슨 일에 쓸지는 아직 공개하지 않았어요.\n\n여러분 일터에서 매일 돌며 확인하는 일, 로봇에게 먼저 맡긴다면 뭘 고르시겠어요? 댓글로 알려 주세요.\n\n#로봇 #휴머노이드 #보스턴다이내믹스 #아틀라스 #반도체 #공장자동화 #현대차 #피지컬AI",
+ "caption_threads": "로봇 개가 9만 번 점검하자, 반도체 공장이 휴머노이드를 불렀다\n\n글로벌파운드리 싱가포르 공장에서 로봇 개 스팟 2대가 9만 번 넘게 점검했어요. 성공률은 99%였어요. 이 회사가 2027년 초부터 보스턴 다이내믹스 휴머노이드 아틀라스를 시험해요. 현대차그룹 밖 첫 공장 고객이에요. 다만 무슨 일을 맡길지는 아직 안 정했대요.\n\n여러분 일터에서 로봇에게 먼저 맡기고 싶은 점검은 뭔가요?",
+ "cover_candidates": [
+  {
+   "photo": "photos/cover_490dc3bc93.jpg",
+   "credit": "사진 Mojmir Churavy · CC0",
+   "query": "Spot robot inspection"
+  },
+  {
+   "photo": "photos/cover_763ab95f48.jpg",
+   "credit": "참고 사진 Intel Free Press · CC BY 2.0",
+   "query": "semiconductor fab cleanroom"
+  }
+ ]
+}
