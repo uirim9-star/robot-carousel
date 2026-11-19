@@ -1,0 +1,156 @@
+{
+ "no": 27,
+ "source": {
+  "title": "Rockwell Automation acquiring mobile robot maker AGILOX",
+  "url": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "자영업·중소기업",
+  "hook": "왜",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "3년",
+   "quote": "comes three years after Rockwell acquired Clearpath Robotics"
+  },
+  {
+   "ko": "6억 900만 달러",
+   "quote": "Rockwell valued that acquisition at $609 million"
+  },
+  {
+   "ko": "2분기",
+   "quote": "expected to close in the second quarter"
+  },
+  {
+   "ko": "4배",
+   "quote": "AGILOX has quadrupled its revenue since then"
+  },
+  {
+   "ko": "1,900kg",
+   "quote": "can carry payloads of up to 1,900 kg"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "3년 전 로봇 회사를 산 회사가<br>왜 <em>또</em> 로봇 회사를 샀을까",
+   "sub": [
+    "자동화 회사 록웰(Rockwell Automation)이 팔레트 나르는 로봇 회사 아질록스(AGILOX)를 사기로 했어요"
+   ],
+   "size": "s",
+   "photo_query": "AGILOX",
+   "photo_cover": "forklift lifting pallet",
+   "photo_scene": "automated guided vehicle pallet",
+   "photo": "photos/cover_010c7eca39.jpg",
+   "credit": "참고 사진 Trondheim Havn from Trondheim, Norway · CC BY-SA 2.0"
+  },
+  {
+   "h1": "팔레트 나르는 로봇,<br>벌써 <em>2,500대</em>가 일해요",
+   "size": "s",
+   "sub": [
+    "아질록스는 2017년에 생긴 오스트리아 회사예요.",
+    "그동안 스스로 길을 찾는 운반 로봇(AMR)을 전 세계 현장에 2,500대 넘게 보냈대요.",
+    "자동차 공장, 물류 대행 창고, 식품과 음료 공장, 제약 회사에서 써요."
+   ],
+   "rows": [
+    [
+     "설립",
+     "2017년, 오스트리아"
+    ],
+    [
+     "현장에 나간 로봇",
+     "2,500대 넘게"
+    ],
+    [
+     "직원",
+     "250명 넘게"
+    ]
+   ],
+   "photo_query": "AGILOX",
+   "photo_scene": "warehouse pallets forklift",
+   "photo": "photos/698bfe453b.jpg",
+   "credit": "참고 사진 Axisadman · CC BY-SA 3.0"
+  },
+  {
+   "h1": "운반 로봇 사업이<br>한 번에 <em>두 배 넘게</em> 커져요",
+   "size": "s",
+   "sub": [
+    "록웰은 3년 전 캐나다 로봇 회사 클리어패스(Clearpath Robotics)를 6억 900만 달러에 샀어요.",
+    "그 안에 운반 로봇 회사 오토 모터스(OTTO Motors)가 있었죠.",
+    "록웰 말로는 이번 인수로 운반 로봇 사업이 두 배 넘게 커진대요. 북미에 강한 오토와 유럽 고객이 많은 아질록스를 합치는 거예요.",
+    "인수 금액은 공개하지 않았어요. 규제 당국 승인을 거쳐 록웰 회계연도 2027년 2분기에 거래를 마칠 계획이에요."
+   ],
+   "photo_query": "OTTO Motors",
+   "photo_scene": "factory material handling robot",
+   "photo": "photos/8abfe944f8.jpg",
+   "credit": "사진 Luke J. Allen · Public domain"
+  },
+  {
+   "h1": "좁은 통로에서는<br><em>옆으로</em> 움직여요",
+   "size": "s",
+   "sub": [
+    "두 회사 로봇은 둘 다 물건을 나르지만, 나르는 방식이 달라요.",
+    "오토는 평평한 짐칸에 컨베이어나 리프트 테이블을 얹어요. 가장 큰 오토 1500은 1,900kg까지 실어요.",
+    "아질록스 로봇은 팔레트를 직접 들어 올려요. 몸을 돌리지 않고 옆이나 대각선으로 가서, 좁은 곳에서도 다녀요.",
+    "저는 통로가 좁은 창고라면 이 점이 가장 크다고 봤어요."
+   ],
+   "photo_query": "AGILOX",
+   "photo_scene": "pallet stacker",
+   "photo": "photos/ba94204862.jpg",
+   "credit": "참고 사진 W.carter · CC0"
+  },
+  {
+   "h1": "사지 않고<br><em>빌려</em> 쓰는 길도 있어요",
+   "size": "s",
+   "sub": [
+    "아질록스 지분 대부분은 2021년부터 투자회사 칼라일(Carlyle)이 갖고 있었어요.",
+    "칼라일 말로는 그 뒤로 아질록스 매출이 4배가 됐대요. 로봇을 빌려주는 구독 서비스(RaaS)도 시작했고요.",
+    "RaaS는 로봇을 사는 대신 기간을 정해 빌려 쓰는 방식이에요.",
+    "다만 오토와 아질록스 로봇을 한 시스템에서 같이 부릴 수 있을지는 록웰이 아직 말하지 않았어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "hand pallet truck",
+   "photo": "photos/bb8f7b030d.jpg",
+   "credit": "참고 사진 Wai Kwong Yau · CC BY-SA 3.0"
+  },
+  {
+   "h1": "우리 창고 통로가 좁다면,<br>로봇을 <em>사시겠어요</em>, 빌리시겠어요?",
+   "size": "s",
+   "sub": [
+    "팔레트를 들고 옆으로 가는 로봇이 이미 2,500대 넘게 현장에서 일해요. 이제 큰 자동화 회사 손에 들어가요.",
+    "여러분 회사라면, 팔레트 나르는 일부터 로봇에게 맡겨 보시겠어요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "3년 전 로봇 회사를 산 회사가 왜 또 로봇 회사를 샀을까\n\n자동화 회사 록웰(Rockwell Automation)이 오스트리아 창고 로봇 회사 아질록스(AGILOX)를 사기로 했어요. 아질록스는 2017년부터 팔레트를 들어 나르는 로봇을 2,500대 넘게 현장에 보냈대요.\n\n록웰은 3년 전 운반 로봇 회사 오토 모터스(OTTO Motors)를 품은 클리어패스를 6억 900만 달러에 샀어요. 이번 인수로 운반 로봇 사업이 두 배 넘게 커진대요. 아질록스 로봇은 몸을 돌리지 않고 옆으로 움직여서 좁은 곳에서도 다니고, 빌려 쓰는 구독 서비스도 있어요.\n\n여러분 회사 창고라면 이 로봇을 사시겠어요, 빌리시겠어요? 댓글로 알려 주세요.\n\n#로봇 #물류로봇 #창고자동화 #중소기업 #AMR #팔레트 #록웰 #아질록스",
+ "caption_threads": "3년 전 로봇 회사를 산 회사가 왜 또 로봇 회사를 샀을까\n\n록웰(Rockwell Automation)이 창고 로봇 회사 아질록스(AGILOX)를 사요. 3년 전 6억 900만 달러에 사들인 운반 로봇 사업이 이번 인수로 두 배 넘게 커진대요. 아질록스 로봇은 팔레트를 들고 옆으로 움직여서 좁은 통로도 다니고, 빌려 쓰는 방식으로도 쓸 수 있어요.\n\n여러분 회사 창고라면 이 로봇을 사시겠어요, 빌리시겠어요?",
+ "cover_candidates": [
+  {
+   "photo": "photos/cover_010c7eca39.jpg",
+   "credit": "참고 사진 Trondheim Havn from Trondheim, Norway · CC BY-SA 2.0",
+   "query": "forklift lifting pallet"
+  },
+  {
+   "photo": "photos/cover_0f611b192e.jpg",
+   "credit": "참고 사진 Zainal.mahakarya · CC BY-SA 4.0",
+   "query": "forklift lifting pallet"
+  },
+  {
+   "photo": "photos/cover_78336f88cb.jpg",
+   "credit": "참고 사진 U.S. Air Force photo by Senior Airman El · Public domain",
+   "query": "forklift lifting pallet"
+  },
+  {
+   "photo": "photos/cover_1303f28a69.jpg",
+   "credit": "참고 사진 SPC Chenee' Brooks · Public domain",
+   "query": "forklift lifting pallet"
+  },
+  {
+   "photo": "photos/cover_a3c0666442.jpg",
+   "credit": "참고 사진 SPC Chenee' Brooks · Public domain",
+   "query": "forklift lifting pallet"
+  }
+ ]
+}
