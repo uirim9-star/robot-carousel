@@ -1,0 +1,190 @@
+{
+ "no": 28,
+ "source": {
+  "title": "Humyn Labs raises $47M to collect real-world data for robotics",
+  "url": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "투자·상장",
+  "hook": "원인→결과",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "4,700만 달러",
+   "quote": "raised $47 million in Series A funding"
+  },
+  {
+   "ko": "5천만 달러",
+   "quote": "surpassed $50 million in annualized revenue"
+  },
+  {
+   "ko": "6개월",
+   "quote": "within six months of operations"
+  },
+  {
+   "ko": "2,600만 달러",
+   "quote": "$26 million in equity led by Accel"
+  },
+  {
+   "ko": "2,100만 달러",
+   "quote": "$21 million venture debt round"
+  },
+  {
+   "ko": "4가지",
+   "quote": "across these four modalities"
+  },
+  {
+   "ko": "20개국",
+   "quote": "across 20 countries"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "로봇이 실험실을 못 벗어나자,<br><em>사람이 일하는 모습</em>이 돈이 됐다",
+   "sub": [
+    "휴민 랩스(Humyn Labs)는 사람이 일하는 모습을 기록해 로봇 회사에 대 주고, 4,700만 달러를 투자받았어요"
+   ],
+   "size": "s",
+   "photo_query": "",
+   "photo_cover": "worker soldering circuit board",
+   "photo_scene": "electronics assembly worker",
+   "photo": "photos/cover_c46a9a9781.jpg",
+   "credit": "참고 사진 EU-Ukraine cooperation · CC BY-SA 2.0"
+  },
+  {
+   "h1": "운영 6개월,<br>연 환산 매출 <em>5천만 달러</em>",
+   "size": "s",
+   "sub": [
+    "휴민 랩스는 피지컬 AI(몸을 가진 AI) 회사예요. 운영 6개월 안에 연으로 환산한 매출이 5천만 달러를 넘었대요.",
+    "파는 건 로봇이 아니에요. 로봇이 배울 데이터예요."
+   ],
+   "rows": [
+    [
+     "이번 투자",
+     "4,700만 달러 (시리즈 A)"
+    ],
+    [
+     "지분 투자",
+     "2,600만 달러, 액셀(Accel) 주도"
+    ],
+    [
+     "벤처 대출",
+     "2,100만 달러"
+    ],
+    [
+     "연 환산 매출",
+     "5천만 달러 넘게"
+    ]
+   ],
+   "photo_query": "",
+   "photo_scene": "robot arm research laboratory",
+   "photo": "photos/54655e97da.jpg",
+   "credit": "참고 사진 Caio.st.oliveira · CC BY-SA 4.0"
+  },
+  {
+   "h1": "로봇 개발이 막힌 곳은<br><em>실험실 밖</em>이었어요",
+   "size": "s",
+   "sub": [
+    "공동창업자 이샹크 굽타(Ishank Gupta) 말로는 로봇 개발의 많은 부분이 현실 세계에서 막혀 있대요.",
+    "만나 본 회사 여럿이 시뮬레이션(컴퓨터 속 가상 환경)에서 로봇을 가르치고 있었대요.",
+    "굽타 말로는 «가장 큰 틈은 실험실에서 되던 걸 어떻게 현실로 가져가느냐였어요.»"
+   ],
+   "photo_query": "",
+   "photo_scene": "robot simulation computer screen",
+   "photo": "photos/431abcdbe6.jpg",
+   "credit": "참고 사진 Lance Cheung · Public domain"
+  },
+  {
+   "h1": "사람이 일하는 모습을<br><em>4가지</em>로 기록해요",
+   "size": "s",
+   "sub": [
+    "직접 만든 기록 장치로 사람이 특정 일을 하는 모습을 담아요. 연구소가 요구한 조건에 맞춰서요.",
+    "담는 건 보는 것, 소리, 촉감, 움직임 4가지예요.",
+    "모은 기록엔 이름표(라벨)를 붙이고 출처를 확인해요. 로봇이 바로 배울 수 있는 데이터로 바꾸는 거예요."
+   ],
+   "photo_query": "",
+   "photo_scene": "packing boxes warehouse",
+   "photo": "photos/2c43f0491c.jpg",
+   "credit": "참고 사진 U.S. Department of Agriculture · Public domain"
+  },
+  {
+   "h1": "모으는 곳은<br><em>20개국</em>이에요",
+   "size": "s",
+   "sub": [
+    "휴민 랩스는 현지 수집 파트너와 함께 20개국에서 움직여요. 중남미, 동남아시아, 남아시아, 동아시아가 가장 커요.",
+    "소리는 업종보다 언어별로 모은대요.",
+    "보는 것, 촉감, 움직임은 대개 함께 모으고, 업종마다 달라요."
+   ],
+   "photo_query": "",
+   "photo_scene": "garment factory sewing machines",
+   "photo": "photos/b586b73a50.jpg",
+   "credit": "참고 사진 Tareq Salahuddin from Dhaka, Bangladesh · CC BY 2.0"
+  },
+  {
+   "h1": "로봇 몸 모양은<br><em>가리지 않아요</em>",
+   "size": "s",
+   "sub": [
+    "휴민 랩스는 어떤 로봇을 쓸지 정해 주지 않아요. 일을 어떻게 하는지에 집중한대요.",
+    "굽타 말로는 로봇 팔은 한자리에서 손만 쓰는 일에 잘 맞아요. 공장 조립 라인처럼요.",
+    "호텔이나 창고에선 손도 쓰고 돌아다니기도 해야 해요. 집엔 두 가지가 섞여 있고요."
+   ],
+   "rows": [
+    [
+     "주거",
+     "집"
+    ],
+    [
+     "상업",
+     "창고, 매장, 숙박"
+    ],
+    [
+     "산업",
+     "제조, 공장"
+    ]
+   ],
+   "photo_query": "",
+   "photo_scene": "industrial robot arm",
+   "photo": "photos/e228c35243.jpg",
+   "credit": "참고 사진 Auledas · CC BY-SA 4.0"
+  },
+  {
+   "h1": "투자금은<br><em>서울</em>에도 쓰여요",
+   "size": "s",
+   "sub": [
+    "브라질, 한국, 인도엔 로봇을 현장에 넣을 준비를 돕는 인프라를 만들어요. 기록 장치와 데이터 가공 엔진도 키워요.",
+    "샌프란시스코, 런던, 서울엔 현지 인력을 둬요.",
+    "공동창업자 마니시 아가르왈(Manish Agarwal)은 연구소가 베네수엘라 현장에 장비 보내는 일로 시간을 쓸 이유가 없다고 해요."
+   ],
+   "photo_query": "",
+   "photo_scene": "Seoul city skyline",
+   "photo": "photos/e9bc3f3408.jpg",
+   "credit": "참고 사진 Flickr - Laurie Nevay https://www.flickr · CC BY-SA 2.0"
+  },
+  {
+   "h1": "여러분이 매일 하는 일,<br>로봇이 <em>뭘</em> 보고 배우면 좋을까요?",
+   "size": "s",
+   "sub": [
+    "아가르왈 말로는 로봇 업계는 현장에 넣는 데 얼마나 걸리는지도 아직 알아 가는 중이래요.",
+    "저는 사람이 일하는 모습이 로봇의 교재가 됐다고 읽었어요.",
+    "여러분 일터에서 로봇이 먼저 보고 배웠으면 하는 일은 뭔가요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "로봇이 실험실을 못 벗어나자, 사람이 일하는 모습이 돈이 됐다\n\n휴민 랩스(Humyn Labs)는 로봇을 만들지 않아요. 사람이 일하는 모습을 보는 것, 소리, 촉감, 움직임 4가지로 기록해서 로봇 회사와 AI 연구소에 대 줘요. 운영 6개월 안에 연으로 환산한 매출이 5천만 달러를 넘었대요.\n\n이번에 시리즈 A로 4,700만 달러를 투자받았어요. 공동창업자 말로는 로봇 개발의 많은 부분이 현실 세계에서 막혀 있대요. 가상 환경에서 배운 로봇을 현실로 데려오는 게 가장 큰 틈이었대요.\n\n투자금은 한국에도 쓰여요. 브라질, 한국, 인도에 인프라를 만들고, 서울에도 현지 인력을 둔대요.\n\n여러분 일터에서 로봇이 먼저 보고 배웠으면 하는 일은 뭔가요? 댓글로 알려 주세요.\n\n#로봇 #피지컬AI #로봇데이터 #휴머노이드 #스타트업투자 #시리즈A #로봇학습 #자동화",
+ "caption_threads": "로봇이 실험실을 못 벗어나자, 사람이 일하는 모습이 돈이 됐다\n\n휴민 랩스(Humyn Labs)는 사람이 일하는 모습을 기록해 로봇 회사에 대 줘요. 운영 6개월 안에 연으로 환산한 매출이 5천만 달러를 넘었고, 이번에 4,700만 달러를 투자받았어요. 로봇이 가상 환경에서 배운 걸 현실로 가져오지 못해 막혀 있었거든요. 투자금은 서울에도 쓰인대요.\n\n여러분 일터에서 로봇이 먼저 보고 배웠으면 하는 일은 뭔가요?",
+ "cover_candidates": [
+  {
+   "photo": "photos/cover_c46a9a9781.jpg",
+   "credit": "참고 사진 EU-Ukraine cooperation · CC BY-SA 2.0",
+   "query": "electronics assembly worker"
+  },
+  {
+   "photo": "photos/cover_6a1516c10d.jpg",
+   "credit": "참고 사진 NASA · CC0",
+   "query": "electronics assembly worker"
+  }
+ ]
+}
