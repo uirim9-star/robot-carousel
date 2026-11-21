@@ -1,0 +1,134 @@
+{
+ "no": 29,
+ "source": {
+  "title": "Medtronic’s Hugo surgical robot ready for bigger operation",
+  "url": "https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "기타",
+  "hook": "원인→결과",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "350만 건",
+   "quote": "account for about 3.5 million surgeries annually in the U.S."
+  },
+  {
+   "ko": "5만 건",
+   "quote": "on track to surpass 50,000 cumulative procedures"
+  },
+  {
+   "ko": "2025년 12월",
+   "quote": "in December 2025"
+  },
+  {
+   "ko": "6월",
+   "quote": "In June, Medtronic gained FDA approval for its compute platform"
+  },
+  {
+   "ko": "9월",
+   "quote": "In September, it invested $700 million into Cornerstone Robotics"
+  },
+  {
+   "ko": "7억 달러",
+   "quote": "it invested $700 million into Cornerstone Robotics"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "맹장 수술까지 허가가 나자,<br>수술 로봇 앞에<br><em>연 350만 건</em>이 열렸다",
+   "sub": [
+    "메드트로닉(Medtronic)의 수술 로봇 휴고(Hugo)가 미국 FDA에서 일반외과 수술 허가를 받았어요"
+   ],
+   "size": "s",
+   "photo_query": "Medtronic Hugo surgical robot",
+   "photo_cover": "robotic surgery operating room",
+   "photo_scene": "operating room surgery",
+   "photo": "photos/bd28687887.jpg",
+   "credit": "사진 Medtronic"
+  },
+  {
+   "h1": "허가받은 수술, 미국에서만<br>한 해 <em>350만 건</em>이에요",
+   "size": "s",
+   "sub": [
+    "쓸개 절제, 위 우회술, 탈장, 소장 절제, 맹장 수술이 이번 허가에 들어갔어요.",
+    "메드트로닉 말로는 이 수술들이 미국에서 한 해 350만 건쯤 된대요.",
+    "이름만 들어도 익숙한 수술이 로봇 수술 범위에 들어온 거예요."
+   ],
+   "rows": [
+    [
+     "윗배",
+     "쓸개 절제, 위 우회술, 복벽 탈장, 소장 절제"
+    ],
+    [
+     "아랫배",
+     "사타구니 탈장, 맹장 수술"
+    ],
+    [
+     "미국 연간 수술",
+     "약 350만 건"
+    ]
+   ],
+   "photo_query": "Medtronic Hugo",
+   "photo_scene": "laparoscopic surgery surgeons operating",
+   "photo": "photos/f2e1baa966.jpg",
+   "credit": "참고 사진 Dr.jayesh amin · CC BY-SA 3.0"
+  },
+  {
+   "h1": "미국 임상시험에<br><em>유럽 자료</em>를 더했어요",
+   "size": "s",
+   "sub": [
+    "휴고는 2022년에 유럽에서 일반외과 인증(CE)을 먼저 받았어요.",
+    "미국에서는 2025년 12월에 비뇨기과 수술 허가가 먼저 났고요.",
+    "이번에는 미국 임상시험 결과에 미국 밖에서 쌓은 자료를 함께 냈대요.",
+    "전 세계 누적 수술은 회사 회계연도 말까지 5만 건을 넘길 흐름이에요.",
+    "저는 다른 나라에서 쌓은 수술 기록이 허가 범위를 넓혔다는 점이 눈에 띄었어요."
+   ],
+   "photo_query": "Medtronic Hugo RAS",
+   "photo_scene": "surgical robot arms",
+   "photo": "photos/0660f43e0b.jpg",
+   "credit": "참고 사진 P. Berthet-Rayne, G. Gras, K. Leibrandt, · CC BY 4.0"
+  },
+  {
+   "h1": "서서 하던 수술을<br><em>앉아서</em> 해요",
+   "size": "s",
+   "sub": [
+    "배에 작은 구멍을 내는 복강경 수술은 의사가 오래 서서 기구를 다뤄야 해요.",
+    "로봇 수술은 의사가 조종석에 앉아서 해요. 화면은 확대된 3D로 보이고요.",
+    "메드트로닉 로봇 수술 책임자 라지트 카말(Rajit Kamal) 말로는 수십 년 수술하면 의사 몸이 상한대요.",
+    "휴고는 로봇 팔이 따로따로 수레에 실려 있어서 수술마다 필요한 팔만 써요."
+   ],
+   "photo_query": "",
+   "photo_scene": "surgical team operating theatre",
+   "photo": "photos/ca98d22428.jpg",
+   "credit": "참고 사진 Department of Foreign Affairs and Trade · CC BY 2.0"
+  },
+  {
+   "h1": "남은 문턱은<br><em>비용, 교육, 지원</em>이에요",
+   "size": "s",
+   "sub": [
+    "카말은 로봇 수술이 더 많은 병원에 퍼지려면 비용, 교육, 지원 세 가지가 풀려야 한다고 봐요.",
+    "병원이 로봇을 들일 수 있게 돈 문제를 같이 풀 생각이 있대요.",
+    "수술 영상을 AI로 분석해 수술 중에 정보를 주는 장비는 6월에 FDA 허가를 받았어요. 이런 AI 기능을 휴고에도 넣을 계획이래요.",
+    "9월에는 다른 수술 로봇 회사 코너스톤 로보틱스(Cornerstone Robotics)에 7억 달러를 투자했어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "hospital operating room equipment",
+   "photo": "photos/4bdea072fd.jpg",
+   "credit": "참고 사진 The U.S. Food and Drug Administration · Public domain"
+  },
+  {
+   "h1": "맹장 수술을 받는다면,<br>로봇 수술을 <em>고르시겠어요</em>?",
+   "size": "s",
+   "sub": [
+    "의사는 앉아서 확대된 화면을 보고, 로봇 팔이 기구를 잡아요. 다만 병원이 로봇을 들이려면 비용과 교육이 먼저 풀려야 해요.",
+    "여러분이나 가족이 수술을 받는다면, 어떤 방식을 고르시겠어요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "맹장 수술까지 허가가 나자, 수술 로봇 앞에 연 350만 건이 열렸다\n\n메드트로닉(Medtronic)의 수술 로봇 휴고(Hugo)가 미국 FDA에서 일반외과 수술 허가를 받았어요. 쓸개 절제, 위 우회술, 탈장, 맹장 수술이 들어갔어요. 메드트로닉 말로는 이 수술들이 미국에서 한 해 350만 건쯤 된대요.\n\n복강경 수술은 의사가 오래 서서 해요. 로봇 수술은 조종석에 앉아 확대된 3D 화면을 보면서 해요. 다만 더 많은 병원에 퍼지려면 비용, 교육, 지원이 먼저 풀려야 한대요.\n\n여러분이나 가족이 수술을 받는다면 로봇 수술을 고르시겠어요? 댓글로 알려 주세요.\n\n#로봇 #수술로봇 #로봇수술 #의료로봇 #메드트로닉 #병원 #헬스케어",
+ "caption_threads": "맹장 수술까지 허가가 나자, 수술 로봇 앞에 연 350만 건이 열렸다\n\n메드트로닉(Medtronic)의 수술 로봇 휴고(Hugo)가 미국 FDA에서 일반외과 수술 허가를 받았어요. 쓸개 절제, 탈장, 맹장 수술처럼 익숙한 수술들이에요. 미국에서만 한 해 350만 건쯤 된대요. 의사는 서서 하던 수술을 조종석에 앉아서 하게 돼요.\n\n여러분이나 가족이 수술을 받는다면 로봇 수술을 고르시겠어요?"
+}
