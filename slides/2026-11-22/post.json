@@ -1,0 +1,177 @@
+{
+ "no": 30,
+ "source": {
+  "title": "MassRobotics launching marine robotics facility on Boston Harbor",
+  "url": "https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "기타",
+  "hook": "왜",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "100곳",
+   "quote": "more than 100 resident startups"
+  },
+  {
+   "ko": "2028년 초",
+   "quote": "open the facility in early 2028"
+  },
+  {
+   "ko": "2027년",
+   "quote": "programming starting throughout 2027"
+  },
+  {
+   "ko": "3명",
+   "quote": "It started as a three-person startup"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "스타트업 100곳 넘게 모인 곳은<br>왜 <em>부두</em>로 갈까",
+   "sub": [
+    "매스로보틱스(MassRobotics)가 보스턴 항구 부두에 바다 로봇 시험장을 짓고 있어요"
+   ],
+   "size": "s",
+   "photo_query": "CRABI Robotics",
+   "photo_cover": "underwater robot cleaning ship hull",
+   "photo_scene": "Boston Fish Pier",
+   "photo": "photos/a680625c1c.jpg",
+   "credit": "사진 MassRobotics"
+  },
+  {
+   "h1": "만들 곳은 있는데<br><em>띄울 물</em>이 없었어요",
+   "size": "s",
+   "sub": [
+    "매스로보틱스는 전 세계에서 온 입주 스타트업을 100곳 넘게 돕고 있어요.",
+    "그런데 바다 로봇 팀은 물에 넣어 볼 곳 찾기가 가장 큰 걸림돌 가운데 하나래요."
+   ],
+   "rows": [
+    [
+     "어디에",
+     "보스턴 피시 피어(Fish Pier)"
+    ],
+    [
+     "누구와",
+     "매사추세츠 항만청(Massport)"
+    ],
+    [
+     "문 여는 때",
+     "2028년 초"
+    ]
+   ],
+   "photo_query": "Boston Fish Pier",
+   "photo_scene": "Boston Harbor waterfront",
+   "photo": "photos/900d3f22b6.jpg",
+   "credit": "사진 NewtonCourt · CC BY-SA 4.0"
+  },
+  {
+   "h1": "물에 한 번 넣으려면<br><em>배부터 빌렸어요</em>",
+   "size": "s",
+   "sub": [
+    "수중 로봇이나 바다 센서를 시험하려면 보통 이 가운데 하나를 해야 한대요.",
+    "시험 한 번 하려면 빌리거나 멀리 가야 했어요."
+   ],
+   "rows": [
+    [
+     "하나",
+     "배를 시간 단위로 빌린다"
+    ],
+    [
+     "둘",
+     "수조를 빌린다"
+    ],
+    [
+     "셋",
+     "외딴 시험장까지 간다"
+    ]
+   ],
+   "photo_query": "",
+   "photo_scene": "underwater vehicle launch from boat",
+   "photo": "photos/9cbeee3d1b.jpg",
+   "credit": "참고 사진 U.S. Navy photo by Mass Communication Sp · Public domain"
+  },
+  {
+   "h1": "아침에 만들고<br><em>오후엔 항구</em>에서 시험해요",
+   "size": "s",
+   "sub": [
+    "피시 피어는 매스로보틱스 본부에서 몇 걸음 거리예요.",
+    "총괄 책임자 톰 라이든(Tom Ryden) 말로는 «아침엔 우리 작업장에서 만들고, 오후엔 항구에서 시험할 수 있어요.»",
+    "기계 작업장에서 설계하고 만든 시제품을 부두까지 걸어가 그날 바로 물에 넣어요.",
+    "만들기와 시험 사이가 짧아지면 초기 팀은 더 빨리 고치고 돈도 덜 써요."
+   ],
+   "photo_query": "",
+   "photo_scene": "machine shop workshop",
+   "photo": "photos/79988da16a.jpg",
+   "credit": "참고 사진 Matthew Machado · CC BY-SA 4.0"
+  },
+  {
+   "h1": "부두엔<br><em>이런 장비</em>가 들어가요",
+   "size": "s",
+   "sub": [
+    "바다 로봇을 시험하는 장비를 갖춘대요.",
+    "저는 장비보다 자리가 핵심이라고 봤어요. 만드는 곳 바로 옆에 물이 있으니까요."
+   ],
+   "rows": [
+    [
+     "수조",
+     "물을 채운 시험 탱크"
+    ],
+    [
+     "부유 시설",
+     "부두 옆 물에서 바로 시험"
+    ],
+    [
+     "인양 장비",
+     "로봇을 항구에 넣고 뺀다"
+    ]
+   ],
+   "photo_query": "",
+   "photo_scene": "towing tank",
+   "photo": "photos/60a4eea59e.jpg",
+   "credit": "참고 사진 Danfone · CC BY-SA 3.0"
+  },
+  {
+   "h1": "문 여는 건<br><em>2028년 초</em>예요",
+   "size": "s",
+   "sub": [
+    "공사는 이미 하고 있어요. 매사추세츠 항만청(Massport)과 손잡고 짓는대요.",
+    "프로그램은 2027년 중에 먼저 시작하고, 시설은 2028년 초에 열 계획이에요.",
+    "라이든 말로는 요즘 가장 흥미로운 로봇 일 가운데 일부가 물 위와 물속에서 벌어지고 있대요.",
+    "보스턴을 바다 로봇의 세계 중심지로 만드는 데 힘을 보태겠대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "Boston Harbor boats pier",
+   "photo": "photos/b02c6aea86.jpg",
+   "credit": "참고 사진 EgorovaSvetlana · CC BY-SA 4.0"
+  },
+  {
+   "h1": "<em>3명</em>으로 시작한<br>배 닦는 로봇 회사",
+   "size": "s",
+   "sub": [
+    "크래비 로보틱스(CRABI Robotics)는 매스로보틱스의 바다 스타트업이에요. 물속에서 선체(배 몸통)를 닦는 로봇을 만들어요.",
+    "바다를 더 깨끗하게 만들 방법을 떠올린 3명이 시작했대요.",
+    "대표 리바이 거숀(Levi Gershon) 말로는 «바다 스타트업한텐 물까지 가는 게 가장 어려운 일 가운데 하나예요.»",
+    "만드는 곳 옆 항구에 시설이 생기면 다음 회사는 자기들보다 훨씬 빨리 움직일 거래요."
+   ],
+   "photo_query": "",
+   "photo_scene": "ship hull underwater",
+   "photo": "photos/48aaaf216b.jpg",
+   "credit": "참고 사진 Nortix08 · CC BY-SA 4.0"
+  },
+  {
+   "h1": "만들어 놓고<br><em>써 볼 곳</em>이 없어 멈춘 일,<br>여러분도 있나요?",
+   "size": "s",
+   "sub": [
+    "저는 이 소식을 로봇 이야기보다 시험할 자리 이야기로 읽었어요.",
+    "가게 새 메뉴든 졸업 작품이든, 만든 걸 바로 써 볼 곳이 가까우면 고치는 속도가 달라지잖아요.",
+    "여러분이 만든 것 가운데 시험할 곳이 없어 멈춘 게 있다면 뭔가요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "스타트업 100곳 넘게 모인 곳은 왜 부두로 갈까\n\n매스로보틱스(MassRobotics)가 보스턴 피시 피어(Fish Pier)에 바다 로봇 시설을 짓고 있어요. 스타트업이 로봇을 만들고, 항구에 띄워 시험하는 곳이에요. 바다 로봇 스타트업은 시험할 곳 찾기가 가장 큰 걸림돌 가운데 하나였대요.\n\n지금까진 수중 로봇을 물에 한 번 넣으려면 배를 빌리거나, 수조를 빌리거나, 외딴 시험장까지 가야 했어요. 새 시설이 생기면 작업장에서 만든 시제품을 부두까지 걸어가 그날 바로 물에 넣을 수 있대요.\n\n프로그램은 2027년 중에 시작하고, 시설은 2028년 초에 열 계획이에요.\n\n여러분이 만든 것 가운데 시험할 곳이 없어 멈춘 게 있다면 뭔가요? 댓글로 알려 주세요.\n\n#로봇 #해양로봇 #수중로봇 #로봇스타트업 #매스로보틱스 #보스턴 #스타트업 #자동화",
+ "caption_threads": "스타트업 100곳 넘게 모인 곳은 왜 부두로 갈까\n\n매스로보틱스(MassRobotics)가 보스턴 항구 부두에 바다 로봇 시설을 짓고 있어요. 지금까진 수중 로봇을 물에 한 번 넣으려면 배나 수조를 빌리거나 외딴 시험장까지 가야 했거든요. 새 시설에선 아침에 만든 시제품을 오후에 항구에서 시험할 수 있대요. 문 여는 건 2028년 초예요.\n\n여러분이 만든 것 가운데 시험할 곳이 없어 멈춘 게 있다면 뭔가요?"
+}
