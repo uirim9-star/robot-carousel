@@ -1,0 +1,158 @@
+{
+ "no": 31,
+ "source": {
+  "title": "Robotics enters its post-Jensen Huang era",
+  "url": "https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "투자·상장",
+  "hook": "원인→결과",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "11월 12일",
+   "quote": "resignation on Nov. 12"
+  },
+  {
+   "ko": "250억 달러",
+   "quote": "on track to exceed $25 billion in fiscal 2027"
+  },
+  {
+   "ko": "4,000억 달러",
+   "quote": "projected annual revenue of more than $400 billion"
+  },
+  {
+   "ko": "129억 달러",
+   "quote": "pending $12.9 billion acquisition of Hugging Face"
+  },
+  {
+   "ko": "1년",
+   "quote": "I think for the next year, maybe it will be fine"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "젠슨 황이 엔비디아를 떠나자,<br>로봇 회사들은<br><em>투자</em>부터 걱정한다",
+   "sub": [
+    "엔비디아(NVIDIA) 이사회가 11월 12일 젠슨 황(Jensen Huang) 대표의 사임을 받아들였어요"
+   ],
+   "size": "s",
+   "photo_query": "Jensen Huang keynote",
+   "photo_cover": "humanoid robot on stage keynote presentation",
+   "photo_scene": "technology keynote stage",
+   "photo": "photos/cover_fc7dd5b279.jpg",
+   "credit": "사진 Pronoia · CC0"
+  },
+  {
+   "h1": "매출의 <em>6%</em>뿐인 로봇을<br>기조연설마다 올렸어요",
+   "size": "s",
+   "sub": [
+    "엔비디아의 피지컬 AI(로봇처럼 몸을 가진 AI) 매출은 2027 회계연도에 250억 달러를 넘길 흐름이래요.",
+    "그래도 회사 전체 예상 매출 4,000억 달러의 6%쯤이에요.",
+    "버는 돈에 비해 로봇에 내준 무대가 훨씬 컸어요. 그 무대를 만든 사람이 물러났어요."
+   ],
+   "rows": [
+    [
+     "사임 수리",
+     "11월 12일"
+    ],
+    [
+     "임시 대표",
+     "콜레트 크레스 재무책임자"
+    ],
+    [
+     "피지컬 AI 매출",
+     "250억 달러 넘길 흐름"
+    ]
+   ],
+   "photo_query": "Nvidia GTC keynote",
+   "photo_scene": "server room",
+   "photo": "photos/9660b2d53a.jpg",
+   "credit": "참고 사진 Indrajit Das · CC BY-SA 3.0"
+  },
+  {
+   "h1": "월급을 못 주던 회사가<br><em>넉 달 뒤</em> 상장했어요",
+   "size": "s",
+   "sub": [
+    "2023년 크리스마스 며칠 전, 배달 로봇 회사 서브 로보틱스(Serve Robotics)는 파산 직전이었어요.",
+    "큰 투자자가 약속했던 투자를 거둬서 월급도 못 줄 상황이었대요.",
+    "알리 카샤니(Ali Kashani) 대표가 젠슨 황에게 연락했고, 다음 날 오전 6시에 통화했어요.",
+    "며칠 만에 엔비디아가 투자를 이끌었고, 넉 달 뒤 서브 로보틱스는 나스닥에 상장했어요.",
+    "엔비디아는 피겨 AI(Figure AI), 스킬드 AI(Skild AI) 같은 로봇 회사에도 투자했어요."
+   ],
+   "photo_query": "Serve Robotics delivery robot",
+   "photo_scene": "sidewalk delivery robot",
+   "photo": "photos/24c745a2b0.jpg",
+   "credit": "사진 The Squirrel Game · CC BY 4.0"
+  },
+  {
+   "h1": "개발 도구는 남아요.<br><em>무대와 초기 투자</em>가 문제예요",
+   "size": "s",
+   "sub": [
+    "농업 로봇 회사 부사장 디팍 자야라지(Deepak Jayaraj)는 엔비디아가 로봇에 남을 거라고 봐요.",
+    "로봇 회사들이 엔비디아 장비로 AI를 학습시키고 시뮬레이션을 돌리거든요.",
+    "대신 «기조연설 시간과 신생 팀에 일찍 거는 투자는 줄어들 수 있다»고 했어요.",
+    "부품 회사 창업자 로버트 리틀(Robert Little)은 데이터센터에서 번 돈이 로봇 개발팀을 받쳐 왔다고 말해요."
+   ],
+   "photo_query": "Nvidia Jetson robot",
+   "photo_scene": "data center server racks",
+   "photo": "photos/b4dfe53851.jpg",
+   "credit": "사진 Auledas · CC BY 4.0"
+  },
+  {
+   "h1": "진짜 시험은<br><em>12개월 뒤</em>일 수 있어요",
+   "size": "s",
+   "sub": [
+    "라이트핸드 로보틱스(RightHand Robotics)의 야로 텐저(Yaro Tenzer) 대표는 앞으로 1년은 괜찮을 거라고 봐요.",
+    "그 뒤가 문제래요. 휴머노이드 회사들은 AI 발전을 기대한 투자자에게서 큰돈을 받았거든요.",
+    "다시 투자받을 때 실제 쓰임새와 사업을 못 보여 주면 열기가 식을 수 있대요.",
+    "리틀은 생각이 달라요. «바퀴는 이미 돌고 있다»면서 업계가 한 사람 없이도 굴러간다고 봐요."
+   ],
+   "photo_query": "humanoid robot Nvidia GR00T",
+   "photo_scene": "humanoid robot exhibition",
+   "photo": "photos/d24dac6758.jpg",
+   "credit": "참고 사진 Om Umekar · CC BY-SA 4.0"
+  },
+  {
+   "h1": "내 계획은<br><em>한 사람</em>에게 기대고 있나요?",
+   "size": "s",
+   "sub": [
+    "자야라지는 창업자들에게 계획의 얼마가 비공식 지원에 기대는지 따져 보라고 했어요.",
+    "그런 지원은 한 사람이 떠날 때 같이 사라질 수 있으니까요.",
+    "여러분 일에도 한 사람이 빠지면 멈추는 부분이 있나요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "젠슨 황이 엔비디아를 떠나자, 로봇 회사들은 투자부터 걱정한다\n\n엔비디아(NVIDIA) 이사회가 11월 12일 젠슨 황(Jensen Huang) 대표의 사임을 받아들였어요. 젠슨 황은 기조연설마다 로봇을 무대에 올리고, 로봇 회사에 투자도 해 온 사람이에요.\n\n엔비디아의 피지컬 AI 매출은 회사 전체 예상 매출의 6%쯤이에요. 버는 돈에 비해 로봇에 내준 자리가 훨씬 컸어요. 로봇 회사 사람들은 개발 도구는 남아도 기조연설 시간과 초기 투자는 줄어들 수 있다고 봐요.\n\n한 농업 로봇 회사 부사장은 창업자들에게 계획의 얼마가 비공식 지원에 기대는지 따져 보라고 했어요.\n\n여러분 일에도 한 사람이 빠지면 멈추는 부분이 있나요? 댓글로 알려 주세요.\n\n#로봇 #엔비디아 #젠슨황 #휴머노이드 #피지컬AI #로봇투자 #스타트업",
+ "caption_threads": "젠슨 황이 엔비디아를 떠나자, 로봇 회사들은 투자부터 걱정한다\n\n엔비디아(NVIDIA) 이사회가 11월 12일 젠슨 황(Jensen Huang) 대표의 사임을 받아들였어요. 엔비디아의 피지컬 AI 매출은 회사 전체 예상 매출의 6%쯤이에요. 그런데도 젠슨 황은 기조연설마다 로봇을 올리고 로봇 회사에 투자했어요. 로봇 회사 사람들은 그 무대와 초기 투자가 줄어들까 봐 걱정해요.\n\n여러분 일에도 한 사람이 빠지면 멈추는 부분이 있나요?",
+ "cover_candidates": [
+  {
+   "photo": "photos/cover_fe9d9aaf92.jpg",
+   "credit": "사진 Joseph Zadeh · CC BY-SA 4.0",
+   "query": "Jensen Huang keynote"
+  },
+  {
+   "photo": "photos/cover_ca9564c914.jpg",
+   "credit": "사진 Pronoia · CC0",
+   "query": "Jensen Huang keynote"
+  },
+  {
+   "photo": "photos/cover_fc7dd5b279.jpg",
+   "credit": "사진 Pronoia · CC0",
+   "query": "Jensen Huang keynote"
+  },
+  {
+   "photo": "photos/cover_66d83e707a.jpg",
+   "credit": "사진 Pronoia · CC0",
+   "query": "Jensen Huang keynote"
+  },
+  {
+   "photo": "photos/cover_0296d8d71a.jpg",
+   "credit": "사진 Pronoia · CC0",
+   "query": "Jensen Huang keynote"
+  }
+ ]
+}
