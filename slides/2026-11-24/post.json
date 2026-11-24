@@ -1,0 +1,175 @@
+{
+ "no": 32,
+ "source": {
+  "title": "How does Orchard AI fit into John Deere’s technology portfolio?",
+  "url": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "자영업·중소기업",
+  "hook": "왜",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "3억 500만 달러",
+   "quote": "acquired Blue River Technology for $305 million"
+  },
+  {
+   "ko": "2억 5천만 달러",
+   "quote": "acquired Bear Flag Robotics for $250 million"
+  },
+  {
+   "ko": "2022년 1월",
+   "quote": "In January 2022, John Deere unveiled its first fully autonomous tractor"
+  },
+  {
+   "ko": "2025년",
+   "quote": "a developer of autonomous sprayers, in 2025"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "트랙터 회사는 왜<br><em>과일 세는 카메라</em>를 샀을까",
+   "sub": [
+    "존디어(John Deere)가 나무마다 사진을 찍어 작황을 읽는 오차드 AI(Orchard AI)를 인수했어요"
+   ],
+   "size": "s",
+   "photo_query": "Orchard AI John Deere",
+   "photo_cover": "tractor driving between orchard rows",
+   "photo_scene": "apple orchard rows",
+   "photo": "photos/10452b455e.jpg",
+   "credit": "사진 John Deere"
+  },
+  {
+   "h1": "나무 <em>한 그루</em>에<br>사진이 수백 장이에요",
+   "size": "s",
+   "sub": [
+    "오차드 AI는 농장 차량에 AI 카메라를 달아요. 차가 지나가면서 나무, 덩굴, 작물을 하나하나 찍어요.",
+    "나무 한 그루에 사진 수백 장을 분석한대요. 밭 전체 평균 말고 나무마다 성적표가 나오는 셈이에요."
+   ],
+   "rows": [
+    [
+     "어디 회사",
+     "샌프란시스코"
+    ],
+    [
+     "누구에게",
+     "고부가 작물을 키우는 농가"
+    ],
+    [
+     "무엇으로",
+     "차량에 단 AI 카메라"
+    ]
+   ],
+   "photo_query": "",
+   "photo_scene": "orchard fruit trees rows",
+   "photo": "photos/f30b36dee0.jpg",
+   "credit": "참고 사진 KVDP · Public domain"
+  },
+  {
+   "h1": "과일 개수만<br>세는 게 <em>아니에요</em>",
+   "size": "s",
+   "sub": [
+    "사진에서 뽑는 정보가 이만큼이래요.",
+    "저는 수확량 예측이 가장 눈에 들어왔어요. 따기 전에 얼마나 열렸는지 아는 거니까요."
+   ],
+   "rows": [
+    [
+     "수확량",
+     "정확한 예측치"
+    ],
+    [
+     "과일",
+     "개수, 크기, 색"
+    ],
+    [
+     "나무",
+     "수관(잎과 가지) 크기"
+    ]
+   ],
+   "photo_query": "",
+   "photo_scene": "apple tree orchard harvest",
+   "photo": "photos/f1722f7ad7.jpg",
+   "credit": "참고 사진 Andy Li · CC0"
+  },
+  {
+   "h1": "숫자는 <em>화면</em>으로<br>농부에게 가요",
+   "size": "s",
+   "sub": [
+    "오차드 AI엔 프룻스코프(FruitScope)라는 소프트웨어가 있어요. 찍은 데이터를 눈으로 보여 줘요.",
+    "농가는 이 화면을 보고 농장 관리 결정을 내려요.",
+    "대표 찰리 우(Charlie Wu) 말로는 «농가가 더 수익 나게, 더 지속 가능하게 농사짓도록 작황 정보를 주려고 시작했어요.»"
+   ],
+   "photo_query": "",
+   "photo_scene": "orchard aerial view"
+  },
+  {
+   "h1": "<em>아는 것</em>과 <em>하는 것</em>을<br>잇겠대요",
+   "size": "s",
+   "sub": [
+    "존디어 팀 마퀴스(Tim Marquis) 이사 말로는 «작물 단위 정보를, 밭에서 일을 정밀하게 해내는 기술과 장비에 연결하는 인수예요.»",
+    "나무에 뭐가 필요한지 알고, 제때 움직이게 돕겠다는 거예요.",
+    "저는 여기가 핵심이라고 봤어요. 카메라가 본 것과 기계가 하는 일이 한 회사 안에 모이니까요.",
+    "농가가 이미 쓰는 기술에서 더 많은 값어치를 얻게 하겠대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "vineyard tractor working"
+  },
+  {
+   "h1": "<em>2017년</em>부터<br>로봇 회사를 사 모았어요",
+   "size": "s",
+   "sub": [
+    "오차드 AI가 처음이 아니에요. 2022년 1월엔 완전 자율주행 트랙터도 공개했어요.",
+    "블루리버는 잡초만 골라 제초제를 뿌리는 기술을, 베어플래그는 쓰던 트랙터에 자율주행을 얹는 기술을 만들었어요."
+   ],
+   "rows": [
+    [
+     "2017년",
+     "블루리버, 3억 500만 달러"
+    ],
+    [
+     "몇 년 뒤",
+     "베어플래그, 2억 5천만 달러"
+    ],
+    [
+     "2023년",
+     "스파크AI(SparkAI)"
+    ],
+    [
+     "2025년",
+     "거스(GUSS), 자율 방제기"
+    ]
+   ],
+   "photo_query": "John Deere autonomous tractor 8R",
+   "photo_scene": "tractor plowing field",
+   "photo": "photos/8ec03ee3b8.jpg",
+   "credit": "참고 사진 Petar Milošević · CC BY-SA 4.0"
+  },
+  {
+   "h1": "이번엔<br><em>과수원과 포도밭</em>이에요",
+   "size": "s",
+   "sub": [
+    "2025년에 인수한 거스 오토메이션(GUSS Automation)은 자율 방제기(약 뿌리는 기계)를 만들어요. 과수원과 포도밭이 전문이에요.",
+    "원문은 그 인수를 존디어가 고부가 작물에 관심을 둔다는 신호로 읽었어요.",
+    "이번 오차드 AI도 고부가 작물 농가를 상대하는 회사예요."
+   ],
+   "photo_query": "GUSS autonomous orchard sprayer",
+   "photo_scene": "vineyard rows",
+   "photo": "photos/2d5b395dc1.jpg",
+   "credit": "참고 사진 W.carter · CC0"
+  },
+  {
+   "h1": "우리 가게에선<br><em>뭘 하나하나</em><br>세어 보고 싶나요?",
+   "size": "s",
+   "sub": [
+    "저는 이 소식을 농기계 이야기보다 «평균 말고 하나하나 본다»는 이야기로 읽었어요.",
+    "과수원은 나무마다 봐요. 가게라면 메뉴마다, 선반 칸마다 따로 볼 수 있겠죠.",
+    "여러분 일터에서 하나하나 세어 보면 달라질 게 있다면 뭔가요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "트랙터 회사는 왜 과일 세는 카메라를 샀을까\n\n존디어(John Deere)가 오차드 AI(Orchard AI)를 인수했어요. 농장 차량에 AI 카메라를 달고 나무, 덩굴, 작물을 하나하나 찍는 회사예요. 나무 한 그루에 사진 수백 장을 분석해 수확량 예측, 과일 개수와 크기, 색까지 알려 준대요.\n\n존디어는 이 정보를 자기네 장비와 잇겠대요. 나무에 뭐가 필요한지 알고 제때 움직이게 돕는 거예요. 2025년엔 과수원과 포도밭용 자율 방제기를 만드는 거스 오토메이션(GUSS Automation)도 인수했어요.\n\n여러분 일터에서 하나하나 세어 보면 달라질 게 있다면 뭔가요? 댓글로 알려 주세요.\n\n#로봇 #농업로봇 #스마트팜 #존디어 #과수원 #농업AI #자동화 #자영업",
+ "caption_threads": "트랙터 회사는 왜 과일 세는 카메라를 샀을까\n\n존디어(John Deere)가 오차드 AI(Orchard AI)를 인수했어요. 농장 차량에 단 AI 카메라로 나무 한 그루에 사진 수백 장을 분석하는 회사예요. 밭 전체 평균 말고 나무마다 수확량과 과일 크기, 색을 알려 줘요. 존디어는 이 정보를 자기네 장비와 잇겠대요.\n\n여러분 일터에서 하나하나 세어 보면 달라질 게 있다면 뭔가요?"
+}
