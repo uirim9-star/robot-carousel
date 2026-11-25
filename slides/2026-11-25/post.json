@@ -1,0 +1,169 @@
+{
+ "no": 33,
+ "source": {
+  "title": "SoftBank acquires Marc Raibert’s Robotics and AI Institute",
+  "url": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "투자·상장",
+  "hook": "원인→결과",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "4억 달러",
+   "quote": "more than $400 million in initial funding from Hyundai"
+  },
+  {
+   "ko": "11억 달러",
+   "quote": "valued the robotics company at $1.1 billion"
+  },
+  {
+   "ko": "10년",
+   "quote": "nearly decade-long investment in Boston Dynamics"
+  },
+  {
+   "ko": "8곳",
+   "quote": "1X Technologies, Agile Robots, AutoStore, BALYO, Berkshire Grey, Brain Corp, Skild AI, and Symbotic"
+  },
+  {
+   "ko": "53억 7,500만 달러",
+   "quote": "planned $5.375 billion acquisition of ABB Robotics"
+  },
+  {
+   "ko": "24명",
+   "quote": "24 open positions"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "소프트뱅크, 로봇 회사는 팔고<br>그 <em>창업자의 연구소</em>를<br>사들였다",
+   "sub": [
+    "보스턴 다이내믹스 창업자가 세운 연구소(RAI)를 현대차그룹에서 인수했어요"
+   ],
+   "size": "s",
+   "photo_query": "Boston Dynamics Spot robot",
+   "photo_cover": "quadruped robot walking outdoors",
+   "photo_scene": "robotics research laboratory",
+   "photo": "photos/cover_0afc43bacb.jpg",
+   "credit": "사진 Jonte · CC BY-SA 4.0"
+  },
+  {
+   "h1": "현대차가 <em>4억 달러</em> 넘게 댄<br>연구소예요",
+   "size": "s",
+   "sub": [
+    "RAI는 보스턴 다이내믹스(Boston Dynamics) 창업자 마크 레이버트(Marc Raibert)가 2022년에 세웠어요.",
+    "처음 세울 때 현대차가 4억 달러 넘게 댔어요.",
+    "그 연구소가 이제 소프트뱅크 것이 됐어요. 소프트뱅크는 매체의 질문에 논평을 거절했어요."
+   ],
+   "rows": [
+    [
+     "세운 해",
+     "2022년"
+    ],
+    [
+     "있는 곳",
+     "미국 매사추세츠 케임브리지"
+    ],
+    [
+     "처음 받은 돈",
+     "4억 달러 넘게"
+    ],
+    [
+     "연구하는 것",
+     "이동, 조작, 인식, 지능"
+    ]
+   ],
+   "photo_query": "Robotics and AI Institute robot",
+   "photo_scene": "robot arm research laboratory",
+   "photo": "photos/f107278e09.jpg",
+   "credit": "사진 Rama · CC BY-SA 3.0 fr"
+  },
+  {
+   "h1": "회사는 현대차가,<br><em>창업자</em>는 소프트뱅크가<br>가졌어요",
+   "size": "s",
+   "sub": [
+    "소프트뱅크는 2017년에 알파벳(Alphabet)에서 보스턴 다이내믹스를 샀어요.",
+    "2021년엔 경영권을 현대차에 팔았어요. 그때 매긴 회사 가치가 11억 달러였어요.",
+    "최근엔 남은 지분 9.65%까지 현대차그룹에 넘겼어요. 거의 10년 된 투자가 끝났어요.",
+    "그리고 이번 인수로 소프트뱅크는 레이버트와 다시 만났어요."
+   ],
+   "photo_query": "Boston Dynamics BigDog robot",
+   "photo_scene": "Boston Dynamics robot demonstration",
+   "photo": "photos/e260477424.jpg",
+   "credit": "사진 Tactical Technology Office, Defense Adva · Public domain"
+  },
+  {
+   "h1": "소프트뱅크엔 로봇 회사가<br>이미 <em>8곳</em> 있어요",
+   "size": "s",
+   "sub": [
+    "1X, 애자일 로봇(Agile Robots), 오토스토어(AutoStore), 심보틱(Symbotic) 같은 회사를 사거나 투자했어요.",
+    "매체는 연구소와 스킬드 AI(Skild AI), 애자일 로봇이 함께 일할 여지가 있다고 봐요.",
+    "소프트뱅크가 연구 방향을 바꿀지, 연구소를 따로 운영하게 둘지는 아직 몰라요.",
+    "53억 7,500만 달러짜리 ABB 로봇 사업 인수는 중국 규제 당국이 막아서 앞날이 불투명해요."
+   ],
+   "photo_query": "AutoStore warehouse robots grid",
+   "photo_scene": "automated warehouse robots",
+   "photo": "photos/431abcdbe6.jpg",
+   "credit": "참고 사진 Lance Cheung · Public domain"
+  },
+  {
+   "h1": "연구소는 지금<br><em>24명</em>을 뽑고 있어요",
+   "size": "s",
+   "sub": [
+    "주인이 바뀌는 중에도 채용은 늘리고 있어요. 인턴 자리도 들어 있어요.",
+    "일하는 곳은 미국 케임브리지와 스위스 취리히예요.",
+    "분야는 로봇 학습, 조작, 시뮬레이션, 내비게이션, 하드웨어 설계예요.",
+    "저는 이 대목을 로봇을 공부하는 분들이 눈여겨볼 소식으로 봤어요."
+   ],
+   "photo_query": "legged robot research laboratory",
+   "photo_scene": "robot electronics workbench",
+   "photo": "photos/4213d0b164.jpg",
+   "credit": "참고 사진 Henrysz · CC BY 4.0"
+  },
+  {
+   "h1": "주인이 바뀐 연구소,<br><em>연구</em>도 바뀔까요?",
+   "size": "s",
+   "sub": [
+    "회사를 판 뒤에 그 창업자의 연구소를 다시 산 셈이에요.",
+    "여러분이 이 연구소에 들어간다면 어떤 로봇 기술을 연구하고 싶으세요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "소프트뱅크, 로봇 회사는 팔고 그 창업자의 연구소를 사들였다\n\n소프트뱅크(SoftBank)가 현대차그룹에서 로봇 AI 연구소(RAI)를 인수했어요. 보스턴 다이내믹스(Boston Dynamics) 창업자 마크 레이버트(Marc Raibert)가 2022년에 세운 곳이에요. 처음 세울 때 현대차가 4억 달러 넘게 댔어요.\n\n소프트뱅크는 2021년에 보스턴 다이내믹스 경영권을 현대차에 팔았어요. 최근엔 남은 지분 9.65%까지 넘겼어요. 회사는 현대차가 갖고, 창업자의 연구소는 소프트뱅크가 가졌어요.\n\n연구소는 지금 24명을 뽑고 있어요. 인턴 자리도 있고, 일하는 곳은 미국 케임브리지와 스위스 취리히예요.\n\n여러분이 이 연구소에 들어간다면 어떤 로봇 기술을 연구하고 싶으세요? 댓글로 알려 주세요.\n\n#로봇 #소프트뱅크 #현대차 #보스턴다이내믹스 #로봇연구 #피지컬AI #로봇채용",
+ "caption_threads": "소프트뱅크, 로봇 회사는 팔고 그 창업자의 연구소를 사들였다\n\n소프트뱅크(SoftBank)가 현대차그룹에서 로봇 AI 연구소(RAI)를 인수했어요. 보스턴 다이내믹스 창업자 마크 레이버트가 2022년에 세웠고, 현대차가 처음에 4억 달러 넘게 댄 곳이에요. 회사는 현대차가 갖고, 창업자의 연구소는 소프트뱅크가 가졌어요. 연구소는 지금 인턴을 포함해 24명을 뽑고 있어요.\n\n여러분이 이 연구소에 들어간다면 어떤 로봇 기술을 연구하고 싶으세요?",
+ "cover_candidates": [
+  {
+   "photo": "photos/cover_fb8d131ddf.jpg",
+   "credit": "사진 Web Summit · CC BY 2.0",
+   "query": "Boston Dynamics Spot robot"
+  },
+  {
+   "photo": "photos/cover_0afc43bacb.jpg",
+   "credit": "사진 Jonte · CC BY-SA 4.0",
+   "query": "Boston Dynamics Spot robot"
+  },
+  {
+   "photo": "photos/cover_0bfa6f4aa1.jpg",
+   "credit": "사진 Tore Danielsson (WMSE) · CC BY-SA 4.0",
+   "query": "Boston Dynamics Spot robot"
+  },
+  {
+   "photo": "photos/cover_8e340f9db3.jpg",
+   "credit": "사진 Tore Danielsson (WMSE) · CC BY-SA 4.0",
+   "query": "Boston Dynamics Spot robot"
+  },
+  {
+   "photo": "photos/cover_996a0b03e8.jpg",
+   "credit": "사진 Saggittarius A · CC BY-SA 4.0",
+   "query": "Boston Dynamics Spot robot"
+  },
+  {
+   "photo": "photos/cover_063c5a5af6.jpg",
+   "credit": "사진 ArticCynda · CC BY-SA 4.0",
+   "query": "Boston Dynamics Spot robot"
+  }
+ ]
+}
