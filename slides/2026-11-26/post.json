@@ -1,0 +1,220 @@
+{
+ "no": 34,
+ "source": {
+  "title": "NVIDIA reinstates Jensen Huang after 11-day absence",
+  "url": "https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "기타",
+  "hook": "왜",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "11일",
+   "quote": "Just 11 days after his resignation"
+  },
+  {
+   "ko": "11월 17일",
+   "quote": "During the company’s earnings call on Nov. 17"
+  },
+  {
+   "ko": "6일",
+   "quote": "Just six days later, the board unanimously voted to restore Huang"
+  },
+  {
+   "ko": "11월 16일",
+   "quote": "Trump publicly supported Huang’s potential return on Nov. 16"
+  },
+  {
+   "ko": "11월 22일",
+   "quote": "On Sunday, Nov. 22, Trump again urged NVIDIA’s board to bring Huang back"
+  },
+  {
+   "ko": "20만 건",
+   "quote": "petition attracted more than 200,000 signatures"
+  },
+  {
+   "ko": "30년",
+   "quote": "an executive who had led the company for more than three decades"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "복귀는 없다던 이사회는<br>왜 <em>6일 만에</em><br>말을 바꿨을까",
+   "sub": [
+    "엔비디아(NVIDIA) 이사회가 사임 11일 만에 젠슨 황(Jensen Huang)을 대표로 다시 앉혔어요"
+   ],
+   "size": "s",
+   "photo_query": "Jensen Huang NVIDIA keynote",
+   "photo_cover": "keynote speaker on stage with robot",
+   "photo_scene": "technology keynote stage",
+   "photo": "photos/cover_fc7dd5b279.jpg",
+   "credit": "사진 Pronoia · CC0"
+  },
+  {
+   "h1": "11월 17일엔 <em>안 된다</em>,<br>6일 뒤엔 <em>만장일치</em>",
+   "size": "s",
+   "sub": [
+    "하비 존스(Harvey Jones) 이사회 의장은 11월 17일 실적 발표 자리에서 젠슨 황을 다시 부를 뜻이 없다고 했어요.",
+    "딱 6일 뒤, 같은 이사회가 만장일치로 젠슨 황을 다시 불렀어요. 사임부터 세면 11일 만이에요."
+   ],
+   "rows": [
+    [
+     "사임 배경",
+     "개인 비위 의혹, 중국 관련 안보 우려"
+    ],
+    [
+     "돌아온 자리",
+     "대표 겸 이사, 즉시"
+    ],
+    [
+     "임시 대표 크레스",
+     "재무책임자로 계속"
+    ]
+   ],
+   "photo_query": "NVIDIA headquarters Santa Clara",
+   "photo_scene": "corporate boardroom table",
+   "photo": "photos/6dc63301d5.jpg",
+   "credit": "사진 Coolcaesar · CC BY-SA 4.0"
+  },
+  {
+   "h1": "청원 서명이<br><em>20만 건</em>을 넘었어요",
+   "size": "s",
+   "sub": [
+    "«Stand With Jensen(젠슨과 함께)» 청원에 서명이 20만 건 넘게 모였어요.",
+    "전현직 엔비디아 직원과 투자자, 일론 머스크(Elon Musk), 에픽게임즈 팀 스위니(Tim Sweeney) 대표도 힘을 보탰어요.",
+    "트럼프 대통령은 11월 16일 복귀에 반대하지 않겠다고 했어요. 11월 22일엔 이사회에 젠슨 황을 다시 부르라고 촉구했고요.",
+    "그사이 엔비디아 시가총액은 크게 빠졌어요. 30년 넘게 회사를 이끈 사람을 누가 대신하느냐는 물음도 나왔어요."
+   ],
+   "photo_query": "",
+   "photo_scene": ""
+  },
+  {
+   "h1": "왜 바꿨는지는<br><em>아직 몰라요</em>",
+   "size": "s",
+   "sub": [
+    "엔비디아 말로는 이사회가 젠슨 황의 솔직함과 회사를 이끌 능력에 만족했대요.",
+    "미국 정부 고위 관계자들과 상의한 뒤, 복귀가 국가안보에 위험하지 않다고 판단했대요.",
+    "그런데 어느 관계자와 상의했는지, 어떤 정보를 받았는지는 공개하지 않았어요.",
+    "청원과 여론이 결정에 영향을 줬는지도 말하지 않았어요. 저는 이 빈칸이 이번 소식에서 가장 크다고 봤어요."
+   ],
+   "photo_query": "",
+   "photo_scene": "United States Capitol",
+   "photo": "photos/a9a6250201.jpg",
+   "credit": "참고 사진 Martin Falbisoner · CC BY-SA 3.0"
+  },
+  {
+   "h1": "돌아왔지만<br><em>조사</em>는 계속돼요",
+   "size": "s",
+   "sub": [
+    "독립 이사회 위원회가 젠슨 황이 외국 정보 공작의 표적이 됐다는 보도를 계속 조사해요.",
+    "위원회는 외부 변호사를 따로 뒀고, 젠슨 황은 조사에 전부 협조하기로 했어요.",
+    "조사가 언제 끝나는지는 회사가 말하지 않았어요. 엔비디아는 최근 위원회도 하나 새로 만들었어요."
+   ],
+   "rows": [
+    [
+     "새 위원회",
+     "국가안보와 수출통제 담당"
+    ],
+    [
+     "구성",
+     "전원 독립 이사"
+    ],
+    [
+     "맡는 일",
+     "무역 규정 준수, 안보 위험 감독"
+    ]
+   ],
+   "photo_query": "NVIDIA GPU chip",
+   "photo_scene": "semiconductor chip circuit board",
+   "photo": "photos/26c67f98cd.jpg",
+   "credit": "사진 Henry Mühlpfordt · CC BY-SA 3.0"
+  },
+  {
+   "h1": "로봇 업계는<br><em>응원군</em>을 되찾았어요",
+   "size": "s",
+   "sub": [
+    "젠슨 황은 여러 해 동안 로봇과 피지컬 AI(로봇처럼 몸을 가진 AI)를 장기 기회로 알려 왔어요.",
+    "기조연설에 로봇을 꾸준히 세웠고, 휴머노이드 회사를 포함한 로봇 개발사에 투자도 했어요."
+   ],
+   "rows": [
+    [
+     "시뮬레이션",
+     "Isaac Sim, Isaac Lab"
+    ],
+    [
+     "로봇 두뇌 모델",
+     "GR00T"
+    ],
+    [
+     "로봇용 컴퓨터",
+     "Jetson"
+    ]
+   ],
+   "photo_query": "NVIDIA Jetson robot",
+   "photo_scene": "humanoid robot exhibition",
+   "photo": "photos/2a8715d736.jpg",
+   "credit": "사진 Ubahnverleih · CC0"
+  },
+  {
+   "h1": "«어서 일하러<br><em>돌아가고 싶어요</em>»",
+   "size": "s",
+   "sub": [
+    "젠슨 황이 복귀 소감 끝에 붙인 말이에요.",
+    "소감에서는 «가장 큰 겸손과 새로워진 각오로 이 책임을 맡겠어요»라고 했어요. 이사회와 직원, 주주, 가족에게 고맙다는 말도 했고요.",
+    "존스 의장 말로는 «젠슨이 엔비디아를 이끌 적임자이고, 복귀가 주주와 직원, 협력사, 고객에게 가장 이로워요.»",
+    "존스는 의장 자리에 그대로 남아요."
+   ],
+   "photo_query": "NVIDIA GTC keynote stage",
+   "photo_scene": "conference stage",
+   "photo": "photos/2158b29f3f.jpg",
+   "credit": "참고 사진 Scann (WDU) · CC BY-SA 4.0"
+  },
+  {
+   "h1": "한 번 내린 결정,<br><em>6일 만에</em><br>바꿔 본 적 있나요?",
+   "size": "s",
+   "sub": [
+    "지난 글에서 젠슨 황 없는 로봇 업계 이야기를 다뤘어요. 그 전제가 11일 만에 바뀌었어요.",
+    "복귀는 정해졌지만 조사는 남았어요. 이사회가 왜 마음을 바꿨는지도 빈칸이에요.",
+    "여러분은 일터에서 이미 내린 결정을 며칠 만에 바꿔 본 적 있나요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "복귀는 없다던 이사회는 왜 6일 만에 말을 바꿨을까\n\n엔비디아(NVIDIA) 이사회가 젠슨 황(Jensen Huang)을 대표로 다시 앉혔어요. 사임 11일 만이에요. 이사회 의장은 11월 17일 실적 발표 자리에서 다시 부를 뜻이 없다고 했는데, 6일 뒤 같은 이사회가 만장일치로 복귀를 정했어요.\n\n그사이 «Stand With Jensen» 청원에는 서명이 20만 건 넘게 모였어요. 트럼프 대통령도 복귀를 촉구했고요. 다만 이사회가 왜 마음을 바꿨는지는 아직 몰라요. 엔비디아는 어느 정부 관계자와 상의했는지, 여론이 영향을 줬는지 말하지 않았어요.\n\n조사도 끝나지 않았어요. 독립 이사회 위원회가 젠슨 황이 외국 정보 공작의 표적이 됐다는 보도를 계속 조사해요. 로봇 업계는 기조연설에 로봇을 꾸준히 세우던 응원군을 되찾았어요.\n\n여러분은 일터에서 이미 내린 결정을 며칠 만에 바꿔 본 적 있나요? 댓글로 알려 주세요.\n\n#로봇 #엔비디아 #젠슨황 #피지컬AI #휴머노이드 #로봇산업 #반도체",
+ "caption_threads": "복귀는 없다던 이사회는 왜 6일 만에 말을 바꿨을까\n\n엔비디아(NVIDIA) 이사회가 사임 11일 만에 젠슨 황(Jensen Huang)을 대표로 다시 앉혔어요. 이사회 의장은 11월 17일에 다시 부를 뜻이 없다고 했는데, 6일 뒤 만장일치로 복귀를 정했어요. 청원 서명은 20만 건을 넘었어요. 그런데 왜 마음을 바꿨는지는 회사가 말하지 않았어요. 조사도 계속돼요.\n\n여러분은 이미 내린 결정을 며칠 만에 바꿔 본 적 있나요?",
+ "cover_candidates": [
+  {
+   "photo": "photos/cover_fe9d9aaf92.jpg",
+   "credit": "사진 Joseph Zadeh · CC BY-SA 4.0",
+   "query": "Jensen Huang NVIDIA keynote"
+  },
+  {
+   "photo": "photos/cover_ca9564c914.jpg",
+   "credit": "사진 Pronoia · CC0",
+   "query": "Jensen Huang NVIDIA keynote"
+  },
+  {
+   "photo": "photos/cover_fc7dd5b279.jpg",
+   "credit": "사진 Pronoia · CC0",
+   "query": "Jensen Huang NVIDIA keynote"
+  },
+  {
+   "photo": "photos/cover_66d83e707a.jpg",
+   "credit": "사진 Pronoia · CC0",
+   "query": "Jensen Huang NVIDIA keynote"
+  },
+  {
+   "photo": "photos/cover_0296d8d71a.jpg",
+   "credit": "사진 Pronoia · CC0",
+   "query": "Jensen Huang NVIDIA keynote"
+  },
+  {
+   "photo": "photos/cover_76d30548bf.jpg",
+   "credit": "사진 Pronoia · CC0",
+   "query": "Jensen Huang NVIDIA keynote"
+  }
+ ]
+}
