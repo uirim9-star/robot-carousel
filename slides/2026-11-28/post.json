@@ -1,0 +1,186 @@
+{
+ "no": 35,
+ "source": {
+  "title": "GXO doubling down on robotics in 2027",
+  "url": "https://www.therobotreport.com/gxo-doubling-down-on-robotics-in-2027/",
+  "outlet": "The Robot Report"
+ },
+ "meta": {
+  "topic": "공장·물류 도입",
+  "hook": "왜",
+  "photo_cover": true
+ },
+ "facts": [
+  {
+   "ko": "2027년",
+   "quote": "accelerate deployments of adaptive technologies across the U.S. in 2027"
+  },
+  {
+   "ko": "12개월",
+   "quote": "continue over the next 12 months"
+  },
+  {
+   "ko": "1,000대",
+   "quote": "up to 1,000 Apollo humanoids over the next four years"
+  },
+  {
+   "ko": "4년",
+   "quote": "up to 1,000 Apollo humanoids over the next four years"
+  },
+  {
+   "ko": "2024년",
+   "quote": "when the company started working with GXO in 2024"
+  },
+  {
+   "ko": "96%",
+   "quote": "the model could perform 96% efficient for those tasks"
+  },
+  {
+   "ko": "2023년",
+   "quote": "GXO first deployed Digit in late 2023"
+  },
+  {
+   "ko": "10만 개",
+   "quote": "Digit has moved more than 100,000 totes"
+  },
+  {
+   "ko": "8월 2분기",
+   "quote": "In the company’s second-quarter earnings call in August"
+  },
+  {
+   "ko": "2025년",
+   "quote": "In 2025, the company deployed Dexory’s automatic inventory robot"
+  },
+  {
+   "ko": "70%",
+   "quote": "save over 70% of labor time"
+  }
+ ],
+ "cards": [
+  {
+   "h1": "휴머노이드로 아직<br>본전 못 찾은 회사는 왜<br><em>로봇을 더</em> 늘릴까",
+   "sub": [
+    "물류 회사 GXO가 2027년 미국 현장에 로봇과 자동화 장비를 차례로 늘린대요"
+   ],
+   "size": "s",
+   "photo_query": "Agility Robotics Digit",
+   "photo_cover": "humanoid robot moving totes warehouse",
+   "photo_scene": "logistics warehouse",
+   "photo": "photos/e430eb7472.jpg",
+   "credit": "사진 Apptronik, Exotec, Dexory, and Agility R"
+  },
+  {
+   "h1": "본전은 <em>아직</em>인데<br>계획은 <em>더 크게</em>",
+   "size": "s",
+   "sub": [
+    "GXO 대표 패트릭 켈러허(Patrick Kelleher)는 8월 2분기 실적 발표에서 휴머노이드가 아직 투자금을 못 돌려줬다고 인정했어요.",
+    "그런데 2027년부터 12개월 동안 주요 현장에 자동화를 차례로 늘린대요.",
+    "돈이 아직 안 된다면서 판은 더 키우고 있어요."
+   ],
+   "rows": [
+    [
+     "시작",
+     "2027년, 우선 현장부터"
+    ],
+    [
+     "기대하는 것",
+     "효율, 인력 배치, 서비스 수준"
+    ],
+    [
+     "어느 회사 로봇",
+     "공개 안 함"
+    ]
+   ],
+   "photo_query": "",
+   "photo_scene": "distribution center forklift",
+   "photo": "photos/a36e4dc77a.jpg",
+   "credit": "참고 사진 Department of Homeland Security. Federal · Public domain"
+  },
+  {
+   "h1": "휴머노이드 <em>1,000대</em>,<br>4년에 걸쳐 넣어요",
+   "size": "s",
+   "sub": [
+    "이달 초 GXO는 앱트로닉(Apptronik)과 손을 더 잡았어요. 휴머노이드 아폴로(Apollo)를 4년 동안 최대 1,000대까지 넣는 게 목표래요.",
+    "2024년부터 여러 일을 시켜 보고 고른 건 키팅(작업에 쓸 물건을 한 묶음으로 모아 담기)이었어요.",
+    "앞으로는 피킹, 상자 옮기기, 포장, 분류까지 실제 현장에서 시험해요."
+   ],
+   "photo_query": "",
+   "photo_scene": "warehouse order picking shelves",
+   "photo": "photos/0169fc568b.jpg",
+   "credit": "참고 사진 Adamhallgmbh · CC BY-SA 3.0 de"
+  },
+  {
+   "h1": "사람 기준으로<br><em>96%</em>까지 왔대요",
+   "size": "s",
+   "sub": [
+    "앱트로닉 대표 제프 카르데나스(Jeff Cardenas) 말로는 사람이 하는 수준을 기준점으로 잡고 쟀더니, 그 일에서 96% 효율이 나왔대요.",
+    "사람 수준에 거의 닿았어요. 그래도 아직 시험 단계예요.",
+    "카르데나스는 지금을 «KPI(성과 지표)를 증명하는 단계»라고 했어요. 그다음 현장 인수 시험을 넘어야 몇 대에서 1,000대로 간대요."
+   ],
+   "photo_query": "",
+   "photo_scene": "cardboard boxes conveyor packing",
+   "photo": "photos/90a078172d.jpg",
+   "credit": "참고 사진 U.S. Department of Agriculture · CC0"
+  },
+  {
+   "h1": "디짓은 이미<br>토트 <em>10만 개</em>를 옮겼어요",
+   "size": "s",
+   "sub": [
+    "애질리티 로보틱스(Agility Robotics)의 휴머노이드 디짓(Digit)은 2023년 말 조지아주 GXO 창고에 처음 들어갔어요.",
+    "그 뒤로 같은 창고에서 토트(부품 상자) 10만 개 넘게 날랐어요. 실제로 돌아가는 창고에서 같은 일을 계속 해냈어요.",
+    "올가을엔 노스캐롤라이나와 테네시 현장에도 넣기로 했어요."
+   ],
+   "rows": [
+    [
+     "시험 중",
+     "리플렉스 로보틱스 로봇"
+    ],
+    [
+     "늘릴지",
+     "아직 말이 없음"
+    ]
+   ],
+   "photo_query": "Agility Robotics Digit robot",
+   "photo_scene": "plastic totes warehouse shelves",
+   "photo": "photos/431abcdbe6.jpg",
+   "credit": "참고 사진 Lance Cheung · Public domain"
+  },
+  {
+   "h1": "창고 안엔<br><em>휴머노이드만</em> 있지 않아요",
+   "size": "s",
+   "sub": [
+    "패션 브랜드 게스(Guess) 물류센터엔 엑소텍(Exotec) 스카이포드(Skypod)가 있어요. 물건을 넣고 꺼내 주는 자동 창고예요.",
+    "폴란드 맥주 회사 그루파 지비에츠(Grupa Żywiec)에선 트레일러 짐 싣고 내리기를 지게차 대신 기계가 해요.",
+    "저는 GXO가 한 가지 로봇에 걸지 않고 여러 기계를 같이 쓰고 있다고 봤어요."
+   ],
+   "photo_query": "Exotec Skypod",
+   "photo_scene": "automated storage and retrieval system",
+   "photo": "photos/64573bc45a.jpg",
+   "credit": "참고 사진 QmcBeQ3G7DZCmY84uPgT · CC BY 4.0"
+  },
+  {
+   "h1": "재고 세는 시간은<br>로봇이 <em>70%</em> 줄여 준대요",
+   "size": "s",
+   "sub": [
+    "2025년 네덜란드 GXO 현장엔 덱소리(Dexory) 재고 로봇이 들어갔어요. 사람이 하던 재고 세기와 점검을 대신해요.",
+    "회사 말로는 고객사가 그 일에 쓰는 시간을 70% 넘게 아낄 수 있대요.",
+    "미국과 다른 유럽 지역으로도 넓힐 계획이었어요."
+   ],
+   "photo_query": "Dexory inventory robot",
+   "photo_scene": "warehouse pallet racking inventory",
+   "photo": "photos/dbb23378db.jpg",
+   "credit": "참고 사진 nSeika · CC BY 2.0"
+  },
+  {
+   "h1": "돈이 될지 모르는 로봇,<br><em>먼저 써 보시겠어요</em>?",
+   "size": "s",
+   "sub": [
+    "GXO는 휴머노이드로 아직 본전을 못 찾았어요. 그래도 실제 창고에서 숫자를 쌓으며 다음 단계를 준비해요.",
+    "여러분 일터라면, 아직 돈이 될지 모르는 로봇을 먼저 들여 시험해 보시겠어요?",
+    "출처 The Robot Report"
+   ]
+  }
+ ],
+ "caption_ig": "휴머노이드로 아직 본전 못 찾은 회사는 왜 로봇을 더 늘릴까\n\n물류 회사 GXO가 2027년부터 12개월 동안 미국 주요 현장에 로봇과 자동화 장비를 차례로 늘린대요. 그런데 이 회사 대표는 8월 실적 발표에서 휴머노이드가 아직 투자금을 못 돌려줬다고 인정했어요.\n\n그래도 숫자는 쌓이고 있어요. 애질리티 로보틱스의 디짓은 조지아주 창고에서 토트(부품 상자) 10만 개 넘게 옮겼어요. 앱트로닉의 아폴로는 사람 기준으로 96% 효율이 나왔대요. GXO와 앱트로닉은 4년 동안 아폴로를 최대 1,000대까지 넣는 게 목표예요.\n\n휴머노이드 말고도 자동 창고, 트레일러 짐 싣는 기계, 재고 세는 로봇이 이미 GXO 현장에서 일해요.\n\n여러분 일터라면, 아직 돈이 될지 모르는 로봇을 먼저 들여 시험해 보시겠어요? 댓글로 알려 주세요.\n\n#로봇 #휴머노이드 #물류로봇 #물류창고 #자동화 #피지컬AI #GXO",
+ "caption_threads": "휴머노이드로 아직 본전 못 찾은 회사는 왜 로봇을 더 늘릴까\n\n물류 회사 GXO 대표는 8월에 휴머노이드가 아직 투자금을 못 돌려줬다고 인정했어요. 그런데 2027년부터 12개월 동안 미국 현장에 자동화를 차례로 늘린대요. 디짓은 이미 토트(부품 상자) 10만 개 넘게 옮겼고, 아폴로는 사람 기준 96% 효율이 나왔대요. 본전보다 숫자를 먼저 쌓고 있어요.\n\n여러분 일터라면, 돈이 될지 모르는 로봇을 먼저 써 보시겠어요?"
+}
